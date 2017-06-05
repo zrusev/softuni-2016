@@ -1,0 +1,88 @@
+using System.Linq;
+
+namespace Problem_5.Rubik_s_Matrix
+{
+    using System;
+    using System.Collections.Generic;
+    public class Rubik_s_Matrix
+    {
+        public static void Main()
+        {
+            var dimentions = Console.ReadLine().Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse).ToArray();
+
+            int[,] matrix = new int[dimentions[0], dimentions[1]];
+
+            var counter = 1;
+            for (int row = 0; row < matrix.GetLength(0); row++)
+            {
+                for (int col = 0; col < matrix.GetLength(1); col++)
+                {
+                    matrix[row, col] = counter;
+                    counter++;
+                }
+            }
+
+            var n = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < n; i++)
+            {
+
+                var commands = Console.ReadLine().Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries);
+                var rolls = int.Parse(commands[2]);
+                var rowColl = int.Parse(commands[0]);
+                int[] tempArray;
+
+                switch (commands[1])
+                {
+                    case "up":
+                        break;
+                    case "down":
+                        break;
+                    case "left":
+                        while (rolls > 0)
+                        {
+                            tempArray = matrix.Cast<int>().Skip(3).Take(3).ToArray();
+
+                            int temp = 0;
+                            for (int k = 0; k < rolls; k++)
+                            {
+                                temp = tempArray[0];
+                                for (int j = 0; j < dimentions[1] - 1; j++)
+                                {
+                                    tempArray[j] = tempArray[j + 1];
+                                }
+                                tempArray[dimentions[1] - 1] = temp;
+
+                            }
+                            rolls--;
+                        }
+                        break;
+                    case "right":
+                        while (rolls > 0)
+                        {
+                            tempArray = matrix.Cast<int>().Skip(3).Take(3).ToArray();
+
+                            int temp = 0;
+                            for (int k = 0; k < rolls; k++)
+                            {
+                                temp = tempArray[dimentions[1] - 1];
+                                for (int j = dimentions[1] - 1; j > 0; j--)
+                                {
+                                    tempArray[j] = tempArray[j - 1];
+                                }
+                                tempArray[0] = temp;
+
+                            }
+                            rolls--;
+                        }
+                        break;
+                }
+
+
+
+            }
+
+        }
+    }
+}

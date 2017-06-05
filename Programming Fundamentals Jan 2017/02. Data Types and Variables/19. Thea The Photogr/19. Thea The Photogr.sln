@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Thea The Photogr", "19. Thea The Photogr\19. Thea The Photogr.csproj", "{C3123464-D74F-4D4D-8298-76CE72B919D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3123464-D74F-4D4D-8298-76CE72B919D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3123464-D74F-4D4D-8298-76CE72B919D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3123464-D74F-4D4D-8298-76CE72B919D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3123464-D74F-4D4D-8298-76CE72B919D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
