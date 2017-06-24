@@ -1,0 +1,75 @@
+///////////////////Fill Matrix plus One/////////////////////////////////////////////////////////////////
+
+///CrossFire Problem/////////////////////////////////////////////  
+
+	var rows = dimensions[0];
+    var cols = dimensions[1];
+    var matrix = FillMatrix(rows, cols);
+
+
+private static List<List<int>> FillMatrix(int rows, int cols)
+        {
+            var matrix = new List<List<int>>();
+            var counter = 1;
+            for (int rowIndex = 0; rowIndex < rows; rowIndex++)
+            {
+                matrix.Add(new List<int>());
+                for (int colIndex = 0; colIndex < cols; colIndex++)
+                {
+                    matrix[rowIndex].Add(counter);
+                    counter++;
+                }
+            }
+            return matrix;
+        }
+////////////////CHECK IF IT'S IN MATRIX//////////////////////////
+                    if (IsInMatrix(rowIndex, colImpact, matrix))
+                    {
+                        matrix[rowIndex][colImpact] = -1;
+                    }
+
+					private static bool IsInMatrix(int currentRow, int currentCol, List<List<int>> matrix)
+        {
+            if (currentRow >= 0 && currentRow < matrix.Count && currentCol >= 0 && currentCol < matrix[currentRow].Count )
+            {
+                return true;
+            }
+
+            return false;
+        }
+//////////////PRINT LIST MATRIX//////////////////////////////////
+        private static void PrintMatrix(List<List<int>> matrix)
+        {
+            for (int rowIndex = 0; rowIndex < matrix.Count; rowIndex++)
+            {
+                Console.WriteLine(string.Join(" ", matrix[rowIndex]));
+            }
+        }
+		
+		
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+            char[] alphabet = "abcdefghijklmnopqrstuvwxyz".ToCharArray();
+
+            var dimentions = Console.ReadLine().Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse).ToArray();
+
+            var matrix = new string[dimentions[0]][];
+
+            for (int row = 0; row < matrix.Length; row++)
+            {
+                var list = new List<string>();
+                for (int col = 0; col < dimentions[1]; col++)
+                {
+
+                    list.Add(string.Concat(alphabet[row], alphabet[row + col], alphabet[row]));
+                }
+
+                matrix[row] = list.ToArray();
+            }
+
+            foreach (var row in matrix)
+            {
+                Console.WriteLine(string.Join(" ", row));
+            }
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+			
