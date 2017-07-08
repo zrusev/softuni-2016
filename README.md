@@ -1,2 +1,2 @@
-# SoftwareUniversity2016
-Exercises and Projects
+SoftUni_2016
+Courses, Exercises and Projects
