@@ -1,21 +1,24 @@
-<div type="HEADER">
+<div id="calibre_link-0" class="calibre">
 
-\
+**Exercises: Polymorphism** {#calibre_link-1 .block_}
+===========================
+
+[This document defines the exercises for ]{.text_}[["C\# OOP Basics"
+course @ Software
+University]{.text_1}](https://softuni.bg/trainings/1636/c-sharp-oop-basics-june-2017){.calibre2}[.
+Please submit your solutions (source code) of all below described
+problems in
+]{.text_}[Judge](https://judge.softuni.bg/Contests/241/Polymorphism-Exercise){.text_1}[.]{.text_}
+
+<div class="calibre3">
+
+<div class="block_2">
+
+Problem 1. **Vehicles**
 
 </div>
 
-[Exercises]{lang="bg-BG"}: Polymorphism {#exercises-polymorphism .western align="CENTER"}
-=======================================
-
-This document defines the exercises for [["C\# OOP Basics" course @
-Software
-University](https://softuni.bg/trainings/1636/c-sharp-oop-basics-june-2017)]{lang="zxx"}.
-Please submit your solutions (source code) of all below described
-problems in
-[[Judge](https://judge.softuni.bg/Contests/241/Polymorphism-Exercise)]{lang="zxx"}.
-
-1.  Vehicles {#vehicles .western align="JUSTIFY"}
-    --------
+</div>
 
 Write a program that models 2 vehicles (**Car** and **Truck**) and will
 be able to simulate **driving** and **refueling** them. **Car** and
@@ -29,97 +32,103 @@ gets only **95%** of given **fuel**. The **car** has no problems when
 refueling and adds **all given fuel to its tank.** If a vehicle cannot
 travel the given distance its fuel **does not change.**
 
-[**Input**]{lang="bg-BG"}
+Input
 
--   [[[On the
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[first
-    line]{lang="en-US"}**]{lang="bg-BG"}[[[ - information about the car
-    in format
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[{Car
-    {fuel quantity} {liters per km}}]{lang="en-US"}**]{lang="bg-BG"}
-
--   [[[On the
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[second
-    line]{lang="en-US"}**]{lang="bg-BG"}[[[ – info about the truck in
-    format
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[{Truck
-    {fuel quantity} {liters per km}}]{lang="en-US"}**]{lang="bg-BG"}
-
--   [[[On the third line -
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[number
-    of commands N]{lang="en-US"}**]{lang="bg-BG"}[[[ that will be given
-    on the next
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[N]{lang="en-US"}**]{lang="bg-BG"}[[[
-    lines]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}
-
--   [[[On the next
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[N
-    ]{lang="en-US"}**]{lang="bg-BG"}[[[lines – commands in
-    format]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}
+-   [On the ]{.text_2}[first line]{.text_3}[ - information about the car
+    in format ]{.text_2}[{Car {fuel quantity} {liters per km}}]{.text_4}
+-   [On the ]{.text_2}[second line]{.text_3}[ – info about the truck in
+    format ]{.text_2}[{Truck {fuel quantity} {liters per km}}]{.text_4}
+-   On the third line - **number of commands N** that will be given on
+    the next **N** lines
+-   On the next **N** lines – commands in format
 
 <!-- -->
 
--   [**[Drive Car {distance}]{lang="en-US"}**]{lang="bg-BG"}
+-   **Drive Car {distance}**
+-   **Drive Truck {distance}**
+-   **Refuel Car {liters}**
+-   **Refuel Truck {liters}**
 
--   [**[Drive Truck {distance}]{lang="en-US"}**]{lang="bg-BG"}
+Output
 
--   [**[Refuel Car {liters}]{lang="en-US"}**]{lang="bg-BG"}
+After each **Drive command** print whether the Car/Truck was able to
+travel the given distance in the formats below. If it’s successful:
 
--   [**[Refuel Truck {liters}]{lang="en-US"}**]{lang="bg-BG"}
+Car/Truck travelled {distance} km
 
-[**Output**]{lang="bg-BG"}
+Or if it is not:
 
-[[[After each
-]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[Drive
-command]{lang="en-US"}**]{lang="bg-BG"}[[[ print whether the Car/Truck
-was able to travel the given distance in the formats below. If it’s
-successful:]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}
+Car/Truck needs refueling
 
-[**[Car/Truck travelled {distance} km]{lang="en-US"}**]{lang="bg-BG"}
+Finally print the **remaining fuel** for both car and truck rounded to
+**2 digits after the floating point** in format:
 
-[[[Or if it is
-not:]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}
+<div class="frame_">
 
-[**[Car/Truck needs refueling]{lang="en-US"}**]{lang="bg-BG"}
+Car: {liters}
 
-[[[Finally print the
-]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[remaining
-fuel]{lang="en-US"}**]{lang="bg-BG"}[[[ for both car and truck rounded
-to ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[2
-digits after the floating point]{lang="en-US"}**]{lang="bg-BG"}[[[ in
-format:]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}
+Truck: {liters}
 
-[**[Car: {liters}]{lang="en-US"}**]{lang="bg-BG"}
+</div>
 
-[**[Truck: {liters}]{lang="en-US"}**]{lang="bg-BG"}
+### Examples {#calibre_link-2 .block_16}
 
-### Examples {#examples .western}
++-----------------------------------+-----------------------------------+
+| Input                             | Output                            |
++-----------------------------------+-----------------------------------+
+| Car 15 0.3                        | Car travelled 9 km                |
+|                                   |                                   |
+| Truck 100 0.9                     | Car needs refueling               |
+|                                   |                                   |
+| 4                                 | Truck travelled 10 km             |
+|                                   |                                   |
+| Drive Car 9                       | Car: 54.20                        |
+|                                   |                                   |
+| Drive Car 30                      | Truck: 75.00                      |
+|                                   |                                   |
+| Refuel Car 50                     |                                   |
+|                                   |                                   |
+| Drive Truck 10                    |                                   |
++-----------------------------------+-----------------------------------+
+| Car 30.4 0.4                      | Car needs refueling               |
+|                                   |                                   |
+| Truck 99.34 0.9                   | Car travelled 13.5 km             |
+|                                   |                                   |
+| 5                                 | Truck needs refueling             |
+|                                   |                                   |
+| Drive Car 500                     | Car: 113.05                       |
+|                                   |                                   |
+| Drive Car 13.5                    | Truck: 109.13                     |
+|                                   |                                   |
+| Refuel Truck 10.300               |                                   |
+|                                   |                                   |
+| Drive Truck 56.2                  |                                   |
+|                                   |                                   |
+| Refuel Car 100.2                  |                                   |
++-----------------------------------+-----------------------------------+
 
-++
-|  |
-++
-|  |
-++
-|  |
-++
+ 
 
-\
-\
+<div class="calibre3">
 
-2.  Vehicles Extension {#vehicles-extension .western align="JUSTIFY"}
-    ------------------
+<div class="block_2">
 
-[]{#OLE_LINK2}[]{#OLE_LINK1} Use your solution of the previous task for
-starting point and add more functionality. Add new vehicle – **Bus**.
-Now every vehicle has **tank capacity** and fuel quantity **cannot
-fall** **below 0** (If fuel quantity become less than 0 **print** on the
-console **“Fuel must be a positive number”**).
+Problem 2. **Vehicles Extension**
 
-[]{#OLE_LINK5}[]{#OLE_LINK4}[]{#OLE_LINK3} The **car** and the **bus**
-**cannot be filled up** with **more** fuel **than their tank capacity**.
-If you **try to put more fuel** in the tank than the **available
-space,** print on the console **“Cannot fit fuel in tank”** and **do not
-add any fuel** in vehicles tank.
+</div>
+
+</div>
+
+Use your solution of the previous task for starting point and add more
+functionality. Add new vehicle – **Bus**. Now every vehicle has **tank
+capacity** and fuel quantity **cannot fall** **below 0** (If fuel
+quantity become less than 0 **print** on the console **“Fuel must be a
+positive number”**).
+
+The **car** and the **bus** **cannot be filled up** with **more** fuel
+**than their tank capacity**. If you **try to put more fuel** in the
+tank than the **available space,** print on the console **“Cannot fit
+fuel in tank”** and **do not add any fuel** in vehicles tank.
 
 Add **new command** for the bus. The **bus** can **drive** **with or
 without people**. If the bus is driving **with people**, the
@@ -128,99 +137,104 @@ kilometer is **increased with 1.4 liters**. If there are **no people in
 the bus** when driving the air-conditioner is **turned off** and **does
 not increase** the fuel consumption.
 
-### Input {#input .western}
+### Input {#calibre_link-5 .block_16}
 
 -   On the first three lines you will receive information about the
     vehicles in format:
 
-**Vehicle {initial fuel quantity} {liters per km} {tank capacity}**
+Vehicle {initial fuel quantity} {liters per km} {tank capacity}
 
--   [[[On fourth line -
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[number
-    of commands N]{lang="en-US"}**]{lang="bg-BG"}[[[ that will be given
-    on the next
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[N]{lang="en-US"}**]{lang="bg-BG"}[[[
-    lines]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}
+-   On fourth line - **number of commands N** that will be given on the
+    next **N** lines
+-   On the next **N** lines – commands in format
 
--   [[[On the next
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[N
-    ]{lang="en-US"}**]{lang="bg-BG"}[[[lines – commands in
-    format]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}
+<!-- -->
 
-    -   [**[Drive Car {distance}]{lang="en-US"}**]{lang="bg-BG"}
+-   **Drive Car {distance}**
+-   **Drive Truck {distance}**
+-   **Drive Bus {distance}**
+-   **DriveEmpty Bus {distance}**
+-   **Refuel Car {liters}**
+-   **Refuel Truck {liters}**
+-   **Refuel Bus {liters}**
 
-    -   [**[Drive Truck {distance}]{lang="en-US"}**]{lang="bg-BG"}
+### Output {#calibre_link-6 .block_16}
 
-    -   [**[Drive Bus {distance}]{lang="en-US"}**]{lang="bg-BG"}
+-   After each **Drive command** print whether the Car/Truck was able to
+    travel given distance in format if it’s successful:
 
-    -   [**[DriveEmpty Bus {distance}]{lang="en-US"}**]{lang="bg-BG"}
+Car/Truck/Bus travelled {distance} km
 
-    -   [**[Refuel Car {liters}]{lang="en-US"}**]{lang="bg-BG"}
+-   Or if it is not:
 
-    -   [**[Refuel Truck {liters}]{lang="en-US"}**]{lang="bg-BG"}
+Car/Truck/Bus needs refueling
 
-    -   [**[Refuel Bus {liters}]{lang="en-US"}**]{lang="bg-BG"}
+-   [If given fuel is]{.text_5}[ ]{.text_6}[≤ 0 ]{.text_7}[print
+    ]{.text_6}[“Fuel must be a positive number”.]{.text_7}
+-   If given fuel cannot fit in car or bus tank print **“Cannot fit in
+    tank”**
+-   Finally print the **remaining fuel** for both car and truck rounded
+    **2 digits after floating point** in format:
 
-### Output {#output .western}
+<div class="frame_1">
 
--   [[[After each
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[Drive
-    command]{lang="en-US"}**]{lang="bg-BG"}[[[ print whether the
-    Car/Truck was able to travel given distance in format if it’s
-    successful:]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}
+Car: {liters}
 
-[**[Car/Truck/Bus travelled {distance}
-km]{lang="en-US"}**]{lang="bg-BG"}
+Truck: {liters}
 
--   [[[Or if it is
-    not:]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}
+Bus: {liters}
 
-[**[Car/Truck/Bus needs refueling]{lang="en-US"}**]{lang="bg-BG"}
+</div>
 
--   [[[If given fuel
-    is]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"} **≤
-    0** print **“Fuel must be a positive number”.**
+ 
 
--   [[[If given fuel cannot fit in car or bus tank print
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[“Cannot
-    fit in tank”]{lang="en-US"}**]{lang="bg-BG"}
+### Example {#calibre_link-7 .block_16}
 
--   [[[Finally print the
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[remaining
-    fuel]{lang="en-US"}**]{lang="bg-BG"}[[[ for both car and truck
-    rounded
-    ]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}[**[2
-    digits after floating point]{lang="en-US"}**]{lang="bg-BG"}[[[ in
-    format:]{style="font-weight: normal"}]{lang="en-US"}]{lang="bg-BG"}
++-----------------------------------+-----------------------------------+
+| Input                             | Output                            |
++-----------------------------------+-----------------------------------+
+| Car 30 0.04 70                    | Fuel must be a positive number    |
+|                                   |                                   |
+| Truck 100 0.5 300                 | Fuel must be a positive number    |
+|                                   |                                   |
+| Bus 40 0.3 150                    | Cannot fit fuel in tank           |
+|                                   |                                   |
+| 8                                 | Bus travelled 10 km               |
+|                                   |                                   |
+| Refuel Car -10                    | Cannot fit fuel in tank           |
+|                                   |                                   |
+| Refuel Truck 0                    | Bus needs refueling               |
+|                                   |                                   |
+| Refuel Car 10                     | Car: 40.00                        |
+|                                   |                                   |
+| Refuel Car 300                    | Truck: 1050.00                    |
+|                                   |                                   |
+| Drive Bus 10                      | Bus: 23.00                        |
+|                                   |                                   |
+| Refuel Bus 1000                   |                                   |
+|                                   |                                   |
+| DriveEmpty Bus 100                |                                   |
+|                                   |                                   |
+| Refuel Truck 1000                 |                                   |
++-----------------------------------+-----------------------------------+
 
-[**[Car: {liters}]{lang="en-US"}**]{lang="bg-BG"}
+ 
 
-[**[Truck: {liters}]{lang="en-US"}**]{lang="bg-BG"}
+<div class="calibre3">
 
-[**[Bus: {liters}]{lang="en-US"}**]{lang="bg-BG"}
+<div class="block_2">
 
-\
-\
+Problem 3. **Wild farm**
 
-### Example {#example .western}
+</div>
 
-++
-|  |
-++
-|  |
-++
-
-[]{#_GoBack}\
-\
-
-3.  Wild farm {#wild-farm .western align="JUSTIFY"}
-    ---------
+</div>
 
 Your task is to create a class hierarchy like in the picture below. All
 the classes **except** Vegetable, Meat, Mouse, Tiger, Cat & Zebra
 **should be abstract**. Override method **ToString()**.
 
-![](Polymorphism-Exercises_html_918d0546.png){width="695" height="464"}
+![Image](images/000000.png){.calibre7}
 
 Input should be read from the console. Every **odd** line will contain
 information about the Animal in following format:
@@ -232,143 +246,91 @@ On the **even** lines you will receive information about the food that
 you should give to the Animal. The line will consist of **FoodType** and
 **quantity** separated by a whitespace.
 
-**{FoodType} {Quantiy}**
+{FoodType} {Quantiy}
 
 You should build the logic to determine if the animal is going to eat
 the provided food. The **Mouse** and **Zebra** should check if the food
 is a **Vegetable**. If it is they will eat it - otherwise you should
 print a message in the format:
 
-[]{#OLE_LINK7}[]{#OLE_LINK6} **{AnimalType in plural} are not eating
-that type of food!**
+{AnimalType in plural} are not eating that type of food!
 
-\
+ 
 
 **Cats** eat **any** kind of food, but **Tigers** accept **only Meat**.
 If **Vegetable** is provided to a **Tiger** message like the one above
 should be printed on the console.
 
-\
+ 
 
-Override **ToString()** method to print the information about the animal
-in format:
+[Override ]{.text_8}[ToString()]{.text_9}[ method to print the
+information about the animal in format:]{.text_8}
 
-\
+ 
 
-**{AnimalType}\[{AnimalName}, {CatBreed}, {AnimalWeight},
-{AnimalLivingRegion}, {FoodEaten}\]**
+{AnimalType}\[{AnimalName}, {CatBreed}, {AnimalWeight},
+{AnimalLivingRegion}, {FoodEaten}\]
 
-After you read information about the Animal and Food then invoke the
-**MakeSound()** method of the current animal and then feed it. At the
-end print the whole object and proceed reading information about the
-next animal/food. The input will continue until you receive “**End**”
-for animal information.
+[After you read information about the Animal and Food then invoke the
+]{.text_10}[MakeSound()]{.text_4}[ method of the current animal and then
+feed it. At the end print the whole object and proceed reading
+information about the next animal/food. The input will continue until
+you receive “]{.text_10}[End]{.text_11}[” for animal
+information.]{.text_10}
 
 Sounds produced by the animals:
 
--   []{#OLE_LINK13}[]{#OLE_LINK12} **Mouse – “SQUEEEAAAK!”**
-
+-   **Mouse – “SQUEEEAAAK!”**
 -   **Zebra – “Zs”**
+-   **Cat – “Meowwww”**
+-   **Tiger – “ROAAR!!!”**
 
--   []{#OLE_LINK9}[]{#OLE_LINK8} **Cat – “Meowwww”**
-
--   []{#OLE_LINK11}[]{#OLE_LINK10} **Tiger – “ROAAR!!!”**
-
-### Input {#input-1 .western}
+### Input {#calibre_link-13 .block_16}
 
 You will receive lines on the Console until the command “End” is
 received. On every odd line you will be provided with information about
 an animal. On every even line you will receive the food which is given
 to the animal.
 
-### Output {#output-1 .western}
+### Output {#calibre_link-14 .block_16}
 
 For each animal you have read, print two lines on the Console:
 
 -   On the first line: the sound produced by the animal
-
 -   On the second line: all the information about the animal in the
     format described above
 
-### Example {#example-1 .western}
+### Example {#calibre_link-15 .block_16}
 
-  --------------------------- ------------------------------------------
-  Input                       Output
++-----------------------------------+-----------------------------------+
+| Input                             | Output                            |
++-----------------------------------+-----------------------------------+
+| Cat Gray 1.1 Home Persian         | Meowwww                           |
+|                                   |                                   |
+| Vegetable 4                       | Cat\[Gray, Persian, 1.1, Home,    |
+|                                   | 4\]                               |
+| End                               |                                   |
++-----------------------------------+-----------------------------------+
+| Tiger Typcho 167.7 Asia           | ROAAR!!!                          |
+|                                   |                                   |
+| Vegetable 1                       | Tigers are not eating that type   |
+|                                   | of food!                          |
+| End                               |                                   |
+|                                   | Tiger\[Typcho, 167.7, Asia, 0\]   |
++-----------------------------------+-----------------------------------+
+| Zebra Doncho 500 Africa           | Zs                                |
+|                                   |                                   |
+| Vegetable 150                     | Zebra\[Doncho, 500, Africa, 150\] |
+|                                   |                                   |
+| End                               |                                   |
++-----------------------------------+-----------------------------------+
+| Mouse Jerry 0.5 Anywhere          | SQUEEEAAAK!                       |
+|                                   |                                   |
+| Vegetable 0                       | Mouse\[Jerry, 0.5, Anywhere, 0\]  |
+|                                   |                                   |
+| End                               |                                   |
++-----------------------------------+-----------------------------------+
 
-  Cat Gray 1.1 Home Persian   Meowwww
-                              
-  Vegetable 4                 Cat\[Gray, Persian, 1.1, Home, 4\]
-                              
-  End                         
-
-  Tiger Typcho 167.7 Asia     ROAAR!!!
-                              
-  Vegetable 1                 Tigers are not eating that type of food!
-                              
-  End                         Tiger\[Typcho, 167.7, Asia, 0\]
-
-  Zebra Doncho 500 Africa     Zs
-                              
-  Vegetable 150               Zebra\[Doncho, 500, Africa, 150\]
-                              
-  End                         
-
-  Mouse Jerry 0.5 Anywhere    SQUEEEAAAK!
-                              
-  Vegetable 0                 Mouse\[Jerry, 0.5, Anywhere, 0\]
-                              
-  End                         
-  --------------------------- ------------------------------------------
-
-\
-\
-
-<div type="FOOTER">
-
-![](Polymorphism-Exercises_html_8aaa23de.gif) [ ]{dir="LTR"
-style="float: left; width: 0.62in; height: 0.22in; border: none; padding-top: 0in; padding-bottom: 0in; padding-left: 0.02in; padding-right: 0in; background: #ffffff"}
-
-Follow us:
-
-[ ]{dir="LTR"
-style="float: left; width: 0.98in; height: 0.22in; border: none; padding: 0in; background: #ffffff"}
-Page 4 of 4
-
-[ ]{dir="LTR"
-style="float: left; width: 5.5in; height: 0.56in; border: none; padding-top: 0.05in; padding-bottom: 0.02in; padding-left: 0.02in; padding-right: 0.02in; background: #ffffff"}
-© Software University Foundation ([softuni.org](http://softuni.org/)).
-This work is licensed under the
-[CC-BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/)
-license.
-
-![Software
-University](Polymorphism-Exercises_html_8d4adb0.png){width="21"
-height="21"} ![Software University
-Foundation](Polymorphism-Exercises_html_9b2444bf.png){width="21"
-height="21"} ![Software University @
-Facebook](Polymorphism-Exercises_html_182676f0.png){width="21"
-height="21"} ![Software University @
-Twitter](Polymorphism-Exercises_html_e434ea96.png){width="21"
-height="21"} ![Software University @
-YouTube](Polymorphism-Exercises_html_420dff10.png){width="21"
-height="21"} ![Software University @
-Google+](Polymorphism-Exercises_html_b594ea43.png){width="21"
-height="21"} ![Software University @
-LinkedIn](Polymorphism-Exercises_html_90c3a09f.png){width="21"
-height="21"} ![Software University @
-SlideShare](Polymorphism-Exercises_html_dea8ce74.png){width="21"
-height="21"} ![Software University @
-GitHub](Polymorphism-Exercises_html_a11d9f7b.png){width="21"
-height="21"} ![Software University: Email
-Us](Polymorphism-Exercises_html_35cb98ce.png){width="21" height="21"}
-
-[ ]{dir="LTR"
-style="float: left; width: 1.71in; height: 0.56in; border: none; padding: 0.02in; background: #ffffff"}
-![Software University Foundation -
-logo](Polymorphism-Exercises_html_8db8252d.jpg){width="143" height="46"}
-
-\
-
-\
+ 
 
 </div>
