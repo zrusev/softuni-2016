@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. BarrackWars - A New Fac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. BarrackWars - The Commands", "04. BarrackWars - The Commands\04. BarrackWars - The Commands.csproj", "{861E36F6-BBB2-4E3D-A265-CFAC6AF5E9B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. BarrackWars - Return", "05. BarrackWars - Return\05. BarrackWars - Return.csproj", "{55E6CEF3-3E78-4D5A-AEEC-8F31CBB2B5A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{861E36F6-BBB2-4E3D-A265-CFAC6AF5E9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{861E36F6-BBB2-4E3D-A265-CFAC6AF5E9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{861E36F6-BBB2-4E3D-A265-CFAC6AF5E9B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E6CEF3-3E78-4D5A-AEEC-8F31CBB2B5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E6CEF3-3E78-4D5A-AEEC-8F31CBB2B5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E6CEF3-3E78-4D5A-AEEC-8F31CBB2B5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E6CEF3-3E78-4D5A-AEEC-8F31CBB2B5A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
