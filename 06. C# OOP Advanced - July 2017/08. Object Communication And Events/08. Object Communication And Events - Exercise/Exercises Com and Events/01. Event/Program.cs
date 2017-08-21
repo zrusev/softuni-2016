@@ -1,7 +1,6 @@
 ﻿namespace _01.Event
 {
     using System;
-
     public class Program
     {
         public static void Main()
