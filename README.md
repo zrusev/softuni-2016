@@ -1,6 +1,11 @@
-| [01. Programming Basics - Sep 2016](https://github.com/zrusev/SoftUni_2016/tree/master/01.%20Programming%20Basics%20-%20Sep%202016)             |                                                                                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [02. Programming Fundamentals - Jan 2017](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017) | [02. Data Types and Variables](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/02.%20Data%20Types%20and%20Variables) |
+[01. Programming Basics - Sep
+2016](https://github.com/zrusev/SoftUni_2016/tree/master/01.%20Programming%20Basics%20-%20Sep%202016)
+
+[02. Programming Fundamentals - Jan
+2017](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017)
+
+-   [02. Data Types and
+    Variables](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/02.%20Data%20Types%20and%20Variables)
 
 -   [03. Methods.
     Debugging](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/03.%20Methods.%20Debugging)
@@ -36,11 +41,13 @@
     IV](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Exam%20Preparation%20IV)
 
 -   [Programming Fundamentals Exam - 26 February
-    20](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Programming%20Fundamentals%20Exam%20-%2026%20February%202017)
+    20](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Programming%20Fundamentals%20Exam%20-%2026%20February%202017)17
 
-| [04. C\# Advanced - May 2017](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017) | [Stacks and Queues](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/01.%20Stacks%20and%20Queues) |
-|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+[04. C\# Advanced - May
+2017](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017)
 
+-   [Stacks and
+    Queues](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/01.%20Stacks%20and%20Queues)
 
 -   [Sets and
     Dictionaries](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/02.%20Sets%20and%20Dictionaries)
@@ -66,9 +73,11 @@
 -   [10. Exam
     Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/10.%20Exam%20Preparation)
 
-| [05. C\# OOP Basics - June 2017](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017) | [Defining Classes](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/01.%20Defining%20Classes) |
-|----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+[05. C\# OOP Basics - June
+2017](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017)
 
+-   [Defining
+    Classes](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/01.%20Defining%20Classes)
 
 -   [Encapsulation](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/02.%20Encapsulation)
 
@@ -82,9 +91,11 @@
 -   [06. Exam
     Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/06.%20Exam%20Preparation)
 
-| [06. C\# OOP Advanced - July 2017](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017) | [Interfaces And Abstraction](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/01.%20Interfaces%20And%20Abstraction) |
-|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[06. C\# OOP Advanced - July
+2017](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017)
 
+-   [01. Interfaces And
+    Abstraction](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/01.%20Interfaces%20And%20Abstraction)
 
 -   [02.
     Generics](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/02.%20Generics)
