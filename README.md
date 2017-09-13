@@ -1,20 +1,14 @@
-| [01. Programming Basics - Sep 2016](https://github.com/zrusev/SoftUni_2016/tree/master/01.%20Programming%20Basics%20-%20Sep%202016)             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                                                                                                                                 |
-| [02. Programming Fundamentals - Jan 2017](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017) |
-|                                                                                                                                                 |
-| [03. Software Technologies - Feb 2017](https://github.com/zrusev/SoftUni_2016/tree/master/03.%20Software%20Technologies%20-%20Feb%202017)       |
-|                                                                                                                                                 |
-| [04. C\# Advanced - May 2017](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017)                        |
-|                                                                                                                                                 |
-| [05. C\# OOP Basics - June 2017](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017)                |
-|                                                                                                                                                 |
-| [06. C\# OOP Advanced - July 2017](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017)            |
-|                                                                                                                                                 |
-|                                                                                                                                                 |
+TABLE OF CONTENTS:
 
--   [02. Data Types and
-    Variables](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/02.%20Data%20Types%20and%20Variables)
+[01. Programming Basics - Sep
+2016](https://github.com/zrusev/SoftUni_2016/tree/master/01.%20Programming%20Basics%20-%20Sep%202016)
+
+[02. Programming Fundamentals - Jan
+2017](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017)
+
+| [02. Data Types and Variables](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/02.%20Data%20Types%20and%20Variables) |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 
 -   [03. Methods.
     Debugging](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/03.%20Methods.%20Debugging)
@@ -52,8 +46,12 @@
 -   [Programming Fundamentals Exam - 26 February
     20](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Programming%20Fundamentals%20Exam%20-%2026%20February%202017)
 
--   [HTML5 and CSS
-    Basic](https://github.com/zrusev/SoftUni_2016/tree/master/03.%20Software%20Technologies%20-%20Feb%202017/01.%20HTML5%20and%20CSS%20Basic/01.%20HTML5%20and%20CSS%20Basic)
+[03. Software Technologies - Feb
+2017](https://github.com/zrusev/SoftUni_2016/tree/master/03.%20Software%20Technologies%20-%20Feb%202017)
+
+| [HTML5 and CSS Basic](https://github.com/zrusev/SoftUni_2016/tree/master/03.%20Software%20Technologies%20-%20Feb%202017/01.%20HTML5%20and%20CSS%20Basic/01.%20HTML5%20and%20CSS%20Basic) |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 
 -   [HTML5 and CSS - Blog
     Design](https://github.com/zrusev/SoftUni_2016/tree/master/03.%20Software%20Technologies%20-%20Feb%202017/02.%20HTML5%20and%20CSS%20-%20Blog%20Design/Blog%20System%20Design)
@@ -61,8 +59,12 @@
 -   [03. PHP Syntax, Basic Web (Forms,
     Sessions…)](https://github.com/zrusev/SoftUni_2016/tree/master/03.%20Software%20Technologies%20-%20Feb%202017/03.%20PHP%20Syntax%2C%20Basic%20Web%20(Forms%2C%20Sessions%E2%80%A6))
 
--   [Stacks and
-    Queues](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/01.%20Stacks%20and%20Queues)
+[04. C\# Advanced - May
+2017](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017)
+
+| [Stacks and Queues](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/01.%20Stacks%20and%20Queues) |
+|--------------------------------------------------------------------------------------------------------------------------------------------|
+
 
 -   [Sets and
     Dictionaries](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/02.%20Sets%20and%20Dictionaries)
@@ -88,8 +90,12 @@
 -   [10. Exam
     Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/10.%20Exam%20Preparation)
 
--   [Defining
-    Classes](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/01.%20Defining%20Classes)
+[05. C\# OOP Basics - June
+2017](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017)
+
+| [Defining Classes](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/01.%20Defining%20Classes) |
+|---------------------------------------------------------------------------------------------------------------------------------------------|
+
 
 -   [Encapsulation](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/02.%20Encapsulation)
 
@@ -103,8 +109,12 @@
 -   [06. Exam
     Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/06.%20Exam%20Preparation)
 
--   [Interfaces And
-    Abstraction](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/01.%20Interfaces%20And%20Abstraction)
+[06. C\# OOP Advanced - July
+2017](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017)
+
+| [Interfaces And Abstraction](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/01.%20Interfaces%20And%20Abstraction) |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 
 -   [02.
     Generics](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/02.%20Generics)
@@ -132,7 +142,3 @@
 
 -   [CSharp OOP Advanced Exam - 20 August
     2017](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/CSharp%20OOP%20Advanced%20Exam%20-%2020%20August%202017)
-
-| Software University Ltd. Sofia, Bulgaria Izgrev, 15-17 Tintyava Street, floor 1 | STUDENT: ZLATKO RUSEV STUDENT ID: 300067072 |
-|---------------------------------------------------------------------------------|---------------------------------------------|
-
