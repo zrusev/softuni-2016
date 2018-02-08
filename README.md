@@ -70,8 +70,8 @@
 -   [Exam
     Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/09.%20Exam%20Preparation)
 
--   [10. Exam
-    Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/10.%20Exam%20Preparation)
+-   [Exam
+    Preparation (2)](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/10.%20Exam%20Preparation)
 
 [05. C\# OOP Basics - June
 2017](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017)
@@ -88,8 +88,8 @@
 -   [Exam
     Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/05.%20Exam%20Preparation)
 
--   [06. Exam
-    Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/06.%20Exam%20Preparation)
+-   [Exam
+    Preparation (2)](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/06.%20Exam%20Preparation)
 
 [06. C\# OOP Advanced - July
 2017](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017)
