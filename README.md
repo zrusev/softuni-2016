@@ -126,6 +126,9 @@
 
 -   [CSharp OOP Advanced Exam - 20 August
     2017](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/CSharp%20OOP%20Advanced%20Exam%20-%2020%20August%202017)
-		
+
+-   [CSharp OOP Advanced Exam - 22 April
+    2018](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/CSharp%20OOP%20Advanced%20Exam%20-%2022%20Apr%202018)
+	
 -   [Workshop
 	](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/Workshop)
