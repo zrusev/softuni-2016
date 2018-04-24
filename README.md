@@ -52,32 +52,32 @@
 
 -   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/04.%20C%23%20Advanced%20-%20May%202017/C%23%20Advanced-January-2018-Certificate.url)
 
--   [Stacks and
+-   [01. Stacks and
     Queues](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/01.%20Stacks%20and%20Queues)
 
--   [Sets and
+-   [02. Sets and
     Dictionaries](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/02.%20Sets%20and%20Dictionaries)
 
--   [Matrices](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/03.%20Matrices)
+-   [03. Matrices](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/03.%20Matrices)
 
--   [Streams](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/04.%20Streams/04.%20Streams%20-%20Exercise)
+-   [04. Streams](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/04.%20Streams/04.%20Streams%20-%20Exercise)
 
--   [Manual Sring
+-   [05. Manual Sring
     Processing](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/05.%20Manual%20Sring%20Processing)
 
--   [Regular
+-   [06. Regular
     Expressions](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/06.%20Regular%20Expressions)
 
--   [Functional-Programming](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/07.%20Functional-Programming)
+-   [07. Functional-Programming](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/07.%20Functional-Programming)
 
--   [Built-in query methods -
+-   [08. Built-in query methods -
     Linq](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/08.%20Built-in%20query%20methods%20-%20Linq)
 
--   [Exam
+-   [09. Exam
     Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/09.%20Exam%20Preparation)
 
--   [Exam
-    Preparation (2)](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/10.%20Exam%20Preparation)
+-   [10. Exam
+    Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/10.%20Exam%20Preparation)
 	
 -   [CSharp Adv Exam Retake - 3 Sept 
 	2017](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/CSharp%20Adv%20Exam%20Retake%20-%203%20Sept%202017)
