@@ -50,6 +50,8 @@
 [04. C\# Advanced - May
 2017](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017)
 
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/04.%20C%23%20Advanced%20-%20May%202017/C%23%20Advanced-January-2018-Certificate.url)
+
 -   [Stacks and
     Queues](https://github.com/zrusev/SoftUni_2016/tree/master/04.%20C%23%20Advanced%20-%20May%202017/01.%20Stacks%20and%20Queues)
 
@@ -100,6 +102,8 @@
 
 [06. C\# OOP Advanced - July
 2017](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017)
+
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/C%23%20OOP%20Advanced-July-2018-Certificate.url)
 
 -   [01. Interfaces And
     Abstraction](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/01.%20Interfaces%20And%20Abstraction)
