@@ -1,8 +1,12 @@
 [01. Programming Basics - Sep
 2016](https://github.com/zrusev/SoftUni_2016/tree/master/01.%20Programming%20Basics%20-%20Sep%202016)
 
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/01.%20Programming%20Basics%20-%20Sep%202016/Programming-Basics-September-2016-Certificate.url)
+
 [02. Programming Fundamentals - Jan
 2017](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017)
+
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Programming-Fundamentals-January-2017-Certificate.url)
 
 -   [02. Data Types and
     Variables](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/02.%20Data%20Types%20and%20Variables)
