@@ -99,6 +99,9 @@
 
 -   [06. Exam
     Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/06.%20Exam%20Preparation)
+	
+-   [CSharp OOP Basics Exam Retake - 26 April 
+	2018](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/CSharp%20OOP%20Basics%20Exam%20Retake%20-%2026%20April%202018)
 
 [06. C\# OOP Advanced - July
 2017](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017)
