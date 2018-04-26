@@ -85,6 +85,8 @@
 [05. C\# OOP Basics - June
 2017](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017)
 
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/C%23%20OOP%20Basic-February-2018-Certificate.url)
+
 -   [01. Defining
     Classes](https://github.com/zrusev/SoftUni_2016/tree/master/05.%20C%23%20OOP%20Basics%20-%20June%202017/01.%20Defining%20Classes)
 
