@@ -145,3 +145,9 @@
 	
 -   [Workshop
 	](https://github.com/zrusev/SoftUni_2016/tree/master/06.%20C%23%20OOP%20Advanced%20-%20July%202017/Workshop)
+
+	[07. C\# Web Basics - May
+2018](https://github.com/zrusev/SoftUni_2016/tree/master/07.%20C%23%20Web%20Basics%20-%20May%202018)
+
+-   [CSharp Web Development Basics - 01 July 
+	2018](https://github.com/zrusev/SoftUni_2016/tree/master/07.%20C%23%20Web%20Basics%20-%20May%202018/C%23%20Web%20Development%20Basics%20-%2001%20July%202018)
