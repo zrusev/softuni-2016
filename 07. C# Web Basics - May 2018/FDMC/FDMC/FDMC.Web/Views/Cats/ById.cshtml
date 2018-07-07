@@ -1,0 +1,26 @@
+﻿@model CatAddingModel
+@{
+    ViewData["Title"] = "All Cats";
+}
+
+<h1>Fluffy Duffy Munchkin Cats</h1>
+<hr />
+
+<div class="container-fluid">
+    <div class="col-lg-4">
+        <div class="row">
+            <h4>@Model.Name</h4>
+        </div>
+        <div class="row">
+            <img src="@Model.Url" class="img-responsive" alt="Cat of breed: @Model.Breed" style="width:300px;">
+        </div>
+        <div class="row">
+            <label asp-for="Age"></label>
+            : @Model.Age
+        </div>
+        <div class="row">
+            <label asp-for="Breed"></label>
+            : @Model.Breed
+        </div>
+    </div>
+</div>

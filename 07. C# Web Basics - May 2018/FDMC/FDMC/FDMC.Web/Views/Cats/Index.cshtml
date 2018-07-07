@@ -1,0 +1,23 @@
+﻿@model AllCatsModel
+@{
+    ViewData["Title"] = "All Cats";
+}
+
+<h1>Fluffy Duffy Munchkin Cats</h1>
+<hr />
+
+<div class="container-fluid">
+    <div class="col-lg-6">
+        <ul class="list-group">
+            @foreach (var cat in Model.All)
+            {
+            <li>
+                <a class="list-group-item-text" href="@Url.Action("ById", "Cats", new { id = @cat.Id })">@cat.Name</a>
+            </li>
+            }
+        </ul>
+    </div>
+    <div class="col-lg-6" style="display:table-cell; vertical-align:middle; text-align:center">
+        <a href="http://thecatapi.com"><img src="http://thecatapi.com/api/images/get?format=src&type=gif" style="width:300px;height:200px;"></a>
+    </div>
+</div>
