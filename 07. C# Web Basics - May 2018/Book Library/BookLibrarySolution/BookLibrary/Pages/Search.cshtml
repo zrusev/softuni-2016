@@ -1,0 +1,46 @@
+﻿@page
+@model BookLibrary.Web.Pages.SearchModel
+@{
+    ViewData["Title"] = "Search";
+}
+@{int termIndex = 0;
+  int searchLength = Model.SearchWord.Length;
+ }
+
+<div class="container-fluid">
+    <div class="row">
+        <h1>Search Results: "@Model.SearchWord"</h1>
+    </div>
+    <div class="row">
+        <ul class="fa-ul">
+            @foreach (var book in Model.Library)
+            {
+                <li>
+                    <i class="fa-li fa fa-check-square"></i>
+                    <a>
+                        @if (book.Title.Contains(Model.SearchWord, StringComparison.CurrentCultureIgnoreCase))
+                        {
+                            termIndex = book.Title.IndexOf(Model.SearchWord, StringComparison.CurrentCultureIgnoreCase);
+
+                            @book.Title.Substring(0, termIndex)
+                            <mark>@book.Title.Substring(termIndex, searchLength)</mark>
+                            @book.Title.Substring(termIndex + searchLength, book.Title.Length - (termIndex + searchLength))
+
+                            @Html.Raw(" (book)")
+                        }
+                        else
+                        {
+                            termIndex = book.Authors.Name.IndexOf(Model.SearchWord, StringComparison.CurrentCultureIgnoreCase);
+
+                            @book.Authors.Name.Substring(0, termIndex)
+                            <mark>@book.Authors.Name.Substring(termIndex, searchLength)</mark>
+                            @book.Authors.Name.Substring(termIndex + searchLength, book.Authors.Name.Length - (termIndex + searchLength))
+
+                            @Html.Raw(" (author)")
+                        }
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

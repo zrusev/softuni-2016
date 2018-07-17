@@ -1,0 +1,38 @@
+﻿@page "{id}"
+@model BookLibrary.Web.Pages.Books.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+@if (Model.Book != null)
+{
+    <div class="container-fluid">
+        <div class="row" style="margin-top:10px;">
+            <div class="col-lg-4">
+                @if (Model.EmptyUrl)
+                {
+                    <img src="~/icons/313px-Wikipedia-books-missing-cover.svg.png" width="200" height="250">
+                }
+                else
+                {
+                    <img src="@Model.Book.CoverImage" width="200" height="250">
+                }
+            </div>
+            <div class="col-lg-8">
+                <div class="row">
+                    <h1>@Model.Book.Title</h1>
+                </div>
+                <div class="row">
+                    <h5>by @Model.Book.Authors.Name</h5>
+                </div>
+                <div class="row">
+                    <h5>@Model.Book.ShortDescription</h5>
+                </div>
+                <div class="row">
+                    <small>Status: Unknown</small>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

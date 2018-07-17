@@ -1,0 +1,44 @@
+﻿@page
+@model AddModel
+@{
+    ViewData["Title"] = "Add Book";
+}
+
+<form method="post">
+    <h2>Add Book</h2>
+    <hr />
+    <div class="form-group row">
+        <label asp-for="Book.Title" class="col-lg-2 titles"></label>
+        <div class="col-lg-10">
+            <input asp-for="Book.Title" class="form-control" placeholder="Enter title">
+            <span asp-validation-for="Book.Title" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Book.ShortDescription" class="col-lg-2 titles"></label>
+        <div class="col-lg-10">
+            <textarea asp-for="Book.ShortDescription" class="form-control" placeholder="Enter description"></textarea>
+            <span asp-validation-for="Book.ShortDescription" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Book.Authors" class="col-lg-2 titles"></label>
+        <div class="col-lg-10">
+            <input asp-for="Book.Authors.Name" class="form-control" placeholder="Enter autor(s)" />
+            <span asp-validation-for="Book.Authors.Name" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label asp-for="Book.CoverImage" class="col-lg-2 titles"></label>
+        <div class="col-lg-10">
+            <input asp-for="Book.CoverImage" class="form-control" placeholder="Enter url">
+            <span asp-validation-for="Book.CoverImage" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-lg-offset-2 col-lg-10">
+            <button type="submit" class="btn btn-success">Add Book</button>
+            <button type="button" onclick="location.href='/Index'" class="btn btn-default">Cancel</button>
+        </div>
+    </div>
+</form>

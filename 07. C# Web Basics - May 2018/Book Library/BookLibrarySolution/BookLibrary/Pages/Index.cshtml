@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "My Library";
+}
+
+@if (Model.ShowMessage)
+{
+    <div class="alert alert-info alert-dismissable" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>
+        @Model.Message
+    </div>
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<button type="button" onclick="location.href='/Books/Add'" class="btn btn-success" style="margin-bottom:10px;">Add New Book</button>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Title</th>
+            <th scope="col">Author</th>
+            <th scope="col">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model.Library)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Authors.Name</td>
+                <td>Empty</td>
+            </tr>
+        }
+    </tbody>
+</table>
