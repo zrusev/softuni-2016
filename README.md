@@ -151,3 +151,12 @@
 
 -   [CSharp Web Development Basics - 01 July 
 	2018](https://github.com/zrusev/SoftUni_2016/tree/master/07.%20C%23%20Web%20Basics%20-%20May%202018/C%23%20Web%20Development%20Basics%20-%2001%20July%202018)
+
+[08. JS Fundamentals - Sep 
+2018](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018)
+
+-   [01. Syntax
+	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/01.%20Syntax)
+
+-   [02. Operations And Logic Flow
+	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/02.%20Operations%20And%20Logic%20Flow)
