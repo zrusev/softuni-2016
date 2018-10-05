@@ -160,3 +160,6 @@
 
 -   [02. Operations And Logic Flow
 	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/02.%20Operations%20And%20Logic%20Flow)
+	
+-   [03. Functions
+	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/03.%20Functions)	
