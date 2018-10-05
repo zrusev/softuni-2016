@@ -1,0 +1,24 @@
+﻿@page "{id}"
+@model BookLibrary.Web.Pages.Books.AuthorsModel
+@{
+    ViewData["Title"] = "Authors";
+}
+
+@if (Model.Author != null)
+{
+    <div class="container-fluid">
+        <div class="row">
+            <h1>@Model.Author.Name</h1>
+        </div>
+        <div class="row">
+            <ul class="fa-ul">
+                @foreach (var book in Model.Author.Books)
+                {
+                    <li><i class="fa-li fa fa-check-square"></i><a asp-page="/Books/Details/@book.Id">@book.Title</a> (Status)</li>
+                }
+            </ul>
+        </div>
+    </div>
+}
+
+
