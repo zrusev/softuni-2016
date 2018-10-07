@@ -163,3 +163,6 @@
 	
 -   [03. Functions
 	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/03.%20Functions)	
+
+-   [04. Arrays and Matrices
+	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/04.%20Arrays%20and%20Matrices)	
