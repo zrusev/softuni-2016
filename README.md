@@ -166,3 +166,9 @@
 
 -   [04. Arrays and Matrices
 	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/04.%20Arrays%20and%20Matrices)	
+
+-   [05. Strings and Regular Expressions
+	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/05.%20Strings%20and%20Regular%20Expressions)		
+
+-   [06. Objects, Associative Arrays
+	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/06.%20Objects%2C%20Associative%20Arrays)		
