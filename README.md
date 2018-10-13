@@ -172,3 +172,6 @@
 
 -   [06. Objects, Associative Arrays
 	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/06.%20Objects%2C%20Associative%20Arrays)		
+	
+-   [JS Fundamentals Retake Exam - 5 Sep 
+	2018](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/JS%20Fundamentals%20Retake%20Exam%20-%205%20Sep%202018)		
