@@ -178,3 +178,6 @@
 	
 -   [JS Fundamentals Exam - 11 Feb
 	2018](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/JS%20Fundamentals%20Exam%20-%2011%20Feb%202018)	
+	
+-   [JS Fundamentals Exam - 14 Oct 
+	2018](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/JS%20Fundamentals%20Exam%20-%2014%20Oct%202018)	
