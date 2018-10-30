@@ -168,7 +168,7 @@
 [09. JS Fundamentals - Sep 
 2018](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018)
 
--   [Certificate](https://softuni.bg/certificates/details/58282/7c938fe6)
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/09.%20JS%20Fundamentals%20-%20Sep%202018/JS-Fundamentals-Sep-2018-Certificate.url)
 
 -   [01. Syntax
 	](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018/01.%20Syntax)
