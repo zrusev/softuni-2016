@@ -149,35 +149,53 @@
 [07. C\# Web Basics - May
 2018](https://github.com/zrusev/SoftUni_2016/tree/master/07.%20C%23%20Web%20Basics%20-%20May%202018)
 
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/07.%20C%23%20Web%20Basics%20-%20May%202018/C%23-Web-Basics-May-2018-Certificate.url)
+
+-   [Book Library](https://github.com/zrusev/SoftUni_2016/tree/master/07.%20C%23%20Web%20Basics%20-%20May%202018/Book%20Library)
+
 -   [CSharp Web Development Basics - 01 July 
 	2018](https://github.com/zrusev/SoftUni_2016/tree/master/07.%20C%23%20Web%20Basics%20-%20May%202018/C%23%20Web%20Development%20Basics%20-%2001%20July%202018)
 
-[08. JS Fundamentals - Sep 
-2018](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018)
+-   [FDMC](https://github.com/zrusev/SoftUni_2016/tree/master/07.%20C%23%20Web%20Basics%20-%20May%202018/FDMC)
+	
+[08. C# MVC Frameworks - July 
+2018] (https://github.com/zrusev/SoftUni_2016/tree/master/08.%20C%23%20MVC%20Frameworks%20-%20July%202018)
+
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/08.%20C%23%20MVC%20Frameworks%20-%20July%202018/C%23-MVC-Frameworks-July-2018-Certificate.url)
+
+-   [Defence Project](https://github.com/zrusev/SoftUni_2016/blob/master/08.%20C%23%20MVC%20Frameworks%20-%20July%202018/Defence%20Project.url)
+	
+[09. JS Fundamentals - Sep 
+2018](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018)
 
 -   [01. Syntax
-	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/01.%20Syntax)
+	](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018/01.%20Syntax)
 
 -   [02. Operations And Logic Flow
-	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/02.%20Operations%20And%20Logic%20Flow)
+	](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018/02.%20Operations%20And%20Logic%20Flow)
 	
 -   [03. Functions
-	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/03.%20Functions)	
+	](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018/03.%20Functions)	
 
 -   [04. Arrays and Matrices
-	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/04.%20Arrays%20and%20Matrices)	
+	](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018/04.%20Arrays%20and%20Matrices)	
 
 -   [05. Strings and Regular Expressions
-	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/05.%20Strings%20and%20Regular%20Expressions)		
+	](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018/05.%20Strings%20and%20Regular%20Expressions)		
 
 -   [06. Objects, Associative Arrays
-	](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/06.%20Objects%2C%20Associative%20Arrays)		
+	](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018/06.%20Objects%2C%20Associative%20Arrays)		
 	
 -   [JS Fundamentals Retake Exam - 5 Sep 
-	2018](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/JS%20Fundamentals%20Retake%20Exam%20-%205%20Sep%202018)		
+	2018](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018/JS%20Fundamentals%20Retake%20Exam%20-%205%20Sep%202018)		
 	
 -   [JS Fundamentals Exam - 11 Feb
-	2018](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/JS%20Fundamentals%20Exam%20-%2011%20Feb%202018)	
+	2018](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018/JS%20Fundamentals%20Exam%20-%2011%20Feb%202018)	
 	
 -   [JS Fundamentals Exam - 14 Oct 
-	2018](https://github.com/zrusev/SoftUni_2016/tree/master/08.%20JS%20Fundamentals%20-%20Sep%202018/JS%20Fundamentals%20Exam%20-%2014%20Oct%202018)	
+	2018](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018/JS%20Fundamentals%20Exam%20-%2014%20Oct%202018)	
+	
+[10. JS Advanced - Oct 
+2018](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018)
+
+- [03. jQuery Library] (https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/03.%20jQuery%20Library)	
