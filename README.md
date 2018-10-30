@@ -158,7 +158,7 @@
 
 -   [FDMC](https://github.com/zrusev/SoftUni_2016/tree/master/07.%20C%23%20Web%20Basics%20-%20May%202018/FDMC)
 	
-[08. C# MVC Frameworks - July 
+[08. C\# MVC Frameworks - July 
 2018] (https://github.com/zrusev/SoftUni_2016/tree/master/08.%20C%23%20MVC%20Frameworks%20-%20July%202018)
 
 -   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/08.%20C%23%20MVC%20Frameworks%20-%20July%202018/C%23-MVC-Frameworks-July-2018-Certificate.url)
@@ -167,6 +167,8 @@
 	
 [09. JS Fundamentals - Sep 
 2018](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018)
+
+-   [Certificate](https://softuni.bg/certificates/details/58282/7c938fe6)
 
 -   [01. Syntax
 	](https://github.com/zrusev/SoftUni_2016/tree/master/09.%20JS%20Fundamentals%20-%20Sep%202018/01.%20Syntax)
@@ -198,4 +200,5 @@
 [10. JS Advanced - Oct 
 2018](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018)
 
-- [03. jQuery Library] (https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/03.%20jQuery%20Library)	
+- 	[03. jQuery Library
+	] (https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/03.%20jQuery%20Library)	
