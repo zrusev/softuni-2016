@@ -202,3 +202,13 @@
 
 -   [03. jQuery Library
 	](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/03.%20jQuery%20Library)
+
+-   [04. Advanced Functions
+	](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/04.%20Advanced%20Functions)
+
+-   [05. Object Composition
+	](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/05.%20Object%20Composition)
+	
+-   [06. Unit Testing
+	](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/06.%20Unit%20Testing)
+	
