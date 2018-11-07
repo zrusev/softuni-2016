@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Shared Object</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <table class="table">
+      <thead>
+        <tr>
+          <td><input type="text" id="name"></td>
+          <td><input type="text" id="income"></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><button type='submit' id='changeName'>Change Name</button></td>
+          <td><button type='submit' id='changeIncome'>Change Income</button></td>
+        </tr>
+        <tr>
+          <td><button type='submit' id='updateName'>Update Name</button></td>
+          <td><button type='submit' id='updateIncome'>Update Income</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+<script type="text/javascript" src="05_Shared_Object.js">
+  window.onload = function () {
+    document.getElementById('changeName').addEventListener('click', function (e) {
+      e.preventDefault();
+      sharedObject.changeName($('#name').val());
+    });
+
+    document.getElementById('updateName').addEventListener('click', function (e) {
+      e.preventDefault();
+      sharedObject.updateName();
+    });
+
+    document.getElementById('changeIncome').addEventListener('click', function (e) {
+      e.preventDefault();
+      sharedObject.changeIncome(+$('#income').val());
+    });
+
+    document.getElementById('updateIncome').addEventListener('click', function (e) {
+      e.preventDefault();
+      sharedObject.updateIncome();
+    });
+  }
+</script>
+
+</html>
