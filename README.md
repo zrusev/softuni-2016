@@ -213,4 +213,7 @@
 	](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/06.%20Unit%20Testing)
 
 -   [07. Classes
-	](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/07.%20Classes)		
+	](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/07.%20Classes)
+	
+-   [08. Prototype chain
+	](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/08.%20Prototype%20chain)
