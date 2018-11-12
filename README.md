@@ -200,6 +200,9 @@
 [10. JS Advanced - Oct 
 2018](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018)
 
+-   [02. DOM Manipulations
+	](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/02.%20DOM%20Manipulations)
+	
 -   [03. jQuery Library
 	](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/03.%20jQuery%20Library)
 
