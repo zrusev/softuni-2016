@@ -223,3 +223,6 @@
 	
 -   [JS Adv Exam - 15 July 
 	2018](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/JS%20Adv%20Exam%20-%2015%20July%202018)
+	
+-   [JS Adv Retake Exam - 30 Aug 
+	2018](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/JS%20Adv%20Retake%20Exam%20-%2030%20Aug%202018)
