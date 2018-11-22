@@ -200,7 +200,7 @@
 [10. JS Advanced - Oct 
 2018](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018)
 
--   [Certificate](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/JS-Fundamentals-Sep-2018-Certificate.url)
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/10.%20JS%20Advanced%20-%20Oct%202018/JS%20Advanced-Oct%202018-Certificate.url)
 
 -   [02. DOM Manipulations
 	](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/02.%20DOM%20Manipulations)
