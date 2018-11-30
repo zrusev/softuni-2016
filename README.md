@@ -231,3 +231,12 @@
 	
 -   [JS Adv Exam - 18 Nov 
 	2018](https://github.com/zrusev/SoftUni_2016/tree/master/10.%20JS%20Advanced%20-%20Oct%202018/JS%20Adv%20Exam%20-%2018%20Nov%202018)
+	
+[11. JS Applications - Nov 
+2018](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018)
+
+-   [02. Rest and HTTP Requests
+	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/02.%20Rest%20and%20HTTP%20Requests)
+	
+-   [03. Asynchronous Programming
+	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/03.%20Asynchronous%20Programming)
