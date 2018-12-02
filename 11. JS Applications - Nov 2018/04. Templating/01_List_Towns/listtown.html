@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>List Town</title>
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="towns.js"></script>
+</head>
+
+<body>
+    <input id="towns" type="text" />
+    <button id="btnLoadTowns">Load</button>
+    <div id="root"></div>
+</body>
+<script>
+    $(() => attachEvents())
+</script>
+<script type="text/x-handlebars-template" id="towns-template">
+    <ul>
+        {{#each items}}
+            <li>{{name}}</li>
+        {{/each}}
+    </ul>
+</script>
+
+</html>
