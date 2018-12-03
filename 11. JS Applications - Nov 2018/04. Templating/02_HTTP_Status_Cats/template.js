@@ -4,17 +4,18 @@ $(() => {
 
     function renderCatTemplate() {
         let source = $('#cat-template').html();
-        let template = Handlebars.compile(source);
 
-        Handlebars.registerHelper('json', function () {
-            return showAndHideInfo();
-        });
+        let template = Handlebars.compile(source);
 
         let cats = {
             "items": window.cats
         }
 
         $('#allCats').html(template(cats));
+
+        $('button').toArray().forEach((btn) => {
+            $(btn).click(showAndHideInfo);
+        });
     }
 
     function showAndHideInfo() {

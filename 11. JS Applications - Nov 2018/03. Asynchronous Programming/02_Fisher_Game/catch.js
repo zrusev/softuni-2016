@@ -103,7 +103,7 @@ function attachEvents() {
     return $.ajax({
       type: "POST",
       url: serviceUrl,
-      data: data,
+      data: JSON.stringify(data),
       dataType: 'JSON',
       beforeSend: function (xhr) {
         xhr.setRequestHeader('Authorization', make_base_auth(userName, userPass));
