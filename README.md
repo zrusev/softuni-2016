@@ -240,3 +240,9 @@
 	
 -   [03. Asynchronous Programming
 	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/03.%20Asynchronous%20Programming)
+
+-   [04. Templating
+	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/04.%20Templating)
+	
+-   [05. Routing and Architecture
+	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/05.%20Routing%20and%20Architecture)
