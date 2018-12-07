@@ -4,6 +4,10 @@ let teamsService = (() => {
         return requester.get('appdata', 'teams', 'kinvey');
     }
 
+    function loadUsers(){
+        return requester.get('user', '', 'kinvey');
+    }
+
     function loadTeamDetails(teamId) {
         return requester.get('appdata', 'teams/' + teamId, 'kinvey');
     }
@@ -27,7 +31,6 @@ let teamsService = (() => {
         return requester.post('appdata', 'teams', 'kinvey', teamData);
     }
 
-
     function joinTeam(teamId) {
         let userData = {
             username: sessionStorage.getItem('username'),
@@ -48,6 +51,7 @@ let teamsService = (() => {
 
     return {
         loadTeams,
+        loadUsers,
         loadTeamDetails,
         edit,
         createTeam,

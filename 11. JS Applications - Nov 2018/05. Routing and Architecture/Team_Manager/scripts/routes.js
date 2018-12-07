@@ -27,7 +27,7 @@ let routes = (() => {
     });
   }
 
-  function loginRoute(ctx) {
+  function loginRoute() {
     this.loadPartials({
       header: './templates/common/header.hbs',
       footer: './templates/common/footer.hbs',
@@ -38,12 +38,20 @@ let routes = (() => {
   }
 
   function loginRoutePost(ctx) {
-    if (ctx.loggedIn !== "undefined" && ctx.loggedIn !== null) {
+    ctxHandler(ctx);
+
+    if (!ctx.loggedIn) {
       let userN = this.params.username;
       let userP = this.params.password;
 
-      if (userN === '' || userP === '') {
-        auth.showError('Fields cannot be blank!')
+      if (userN === '') {
+        auth.showError('Username cannot be blank!')
+        this.redirect('#/login');
+        return;
+      }
+
+      if (userP === '') {
+        auth.showError('Password cannot be blank!')
         this.redirect('#/login');
         return;
       }
@@ -99,6 +107,12 @@ let routes = (() => {
       return;
     }
 
+    if (userP === '' || userP2 === '') {
+      auth.showError('Password field cannot be blank!')
+      this.redirect('#/register');
+      return;
+    }
+
     if (userP !== userP2) {
       auth.showError('Passwords missmatch!')
       this.redirect('#/register');
@@ -117,57 +131,73 @@ let routes = (() => {
   function catalogRoute(ctx) {
     ctxHandler(ctx);
 
-    ctx.hasNoTeam = ctx.teamId === "undefined";
+    if (ctx.loggedIn) {
+      ctx.hasNoTeam = ctx.teamId === "undefined";
 
-    teamsService.loadTeams()
-      .then((res) => {
-        ctx.teams = res.reverse();
+      teamsService.loadTeams()
+        .then((res) => {
+          ctx.teams = res.reverse();
 
-        this.loadPartials({
-          header: './templates/common/header.hbs',
-          footer: './templates/common/footer.hbs',
-          team: './templates/catalog/team.hbs'
-        }).then(function () {
-          this.partial('./templates/catalog/teamCatalog.hbs');
-        });
-      })
-      .catch((err) => auth.handleError(err));
+          this.loadPartials({
+            header: './templates/common/header.hbs',
+            footer: './templates/common/footer.hbs',
+            team: './templates/catalog/team.hbs'
+          }).then(function () {
+            this.partial('./templates/catalog/teamCatalog.hbs');
+          });
+        })
+        .catch((err) => auth.handleError(err));
+    } else {
+      auth.showError('You need to log in first!');
+      this.redirect('#/login');
+    }
   }
 
   function catalogRouteById(ctx) {
     ctxHandler(ctx);
 
-    teamsService.loadTeamDetails(this.params.id.substring(1))
-      .then((res) => {
-        ctx.name = res.name;
-        ctx.comment = res.comment;
-        ctx.isAuthor = sessionStorage.getItem('userId') === res._acl.creator;
-        ctx.isOnTeam = ctx.teamId !== "undefined";
+    if (ctx.loggedIn) {
+      teamsService.loadUsers()
+        .then((res) => {
+          let allUsers = res;
 
-        ctx.teamId = res._id;
+          teamsService.loadTeamDetails(this.params.id.substring(1))
+            .then((res) => {
+              ctx.name = res.name;
+              ctx.comment = res.comment;
+              ctx.isAuthor = sessionStorage.getItem('userId') === res._acl.creator;
+              ctx.isOnTeam = ctx.teamId !== "undefined";
 
-        ctx.members = []; //to be implemented on server site; call not defined
+              ctx.teamId = res._id;
 
-        this.loadPartials({
-          header: './templates/common/header.hbs',
-          footer: './templates/common/footer.hbs',
-          teamMember: './templates/catalog/teamMember.hbs',
-          teamControls: './templates/catalog/teamControls.hbs'
-        }).then(function () {
-          this.partial('./templates/catalog/details.hbs');
-        });
-      })
-      .catch((err) => auth.showError(err));
+              ctx.members = allUsers.filter((key) => key.teamId === ctx.teamId);
+
+              this.loadPartials({
+                header: './templates/common/header.hbs',
+                footer: './templates/common/footer.hbs',
+                teamMember: './templates/catalog/teamMember.hbs',
+                teamControls: './templates/catalog/teamControls.hbs'
+              }).then(function () {
+                this.partial('./templates/catalog/details.hbs');
+              });
+            })
+            .catch((err) => auth.showError(err));
+        })
+        .catch((err) => auth.showError(err));
+    } else {
+      auth.showError('You need to log in first!');
+      this.redirect('#/login');
+    }
   }
 
   function joinRouteById(ctx) {
     ctxHandler(ctx);
 
-    teamsService.joinTeam(this.params.teamId)
+    teamsService.joinTeam(this.params.teamId.substring(1))
       .then((res) => {
-        sessionStorage.setItem('teamId', res.teamId);
-        this.redirect(`#/catalog`);
+        sessionStorage.setItem('teamId', res.teamId.substring(1));
         auth.showInfo('Team joined successfully!');
+        this.redirect(`#/catalog`);
       })
       .catch((err) => auth.showError(err));
   }
@@ -209,8 +239,14 @@ let routes = (() => {
     let tName = this.params.name;
     let tComment = this.params.comment;
 
-    if (tName === '' || tComment === '') {
-      auth.showError('Fields cannot be blank!')
+    if (tName === '') {
+      auth.showError('Team name cannot be blank!')
+      this.redirect('#/create');
+      return;
+    }
+
+    if (tComment === '') {
+      auth.showError('Description cannot be blank!')
       this.redirect('#/create');
       return;
     }
