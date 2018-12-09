@@ -246,3 +246,7 @@
 	
 -   [05. Routing and Architecture
 	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/05.%20Routing%20and%20Architecture)
+
+-   [06. SPA with AJAX REST Kinvey
+	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/06.%20SPA%20with%20AJAX%20REST%20Kinvey)
+	
