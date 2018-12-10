@@ -20,8 +20,8 @@ const advertiser = (function () {
 
             let editButton = $(content).find('.add-box').find('.edit');
             let deleteButton = $(content).find('.add-box').find('.delete');
-            editButton.click(openEditAdd);
-            deleteButton.click(deleteAd);
+            editButton.click(openEditAdd); //to be completed
+            deleteButton.click(deleteAd); //to be completed
 
         } catch (error) {
             drawer.showError(error);

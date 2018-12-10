@@ -5,8 +5,8 @@ const startUp = (function startApp() {
 
     async function loadTemplates() {
         const [adsCatalogTemplate, adBoxTemplate] = await Promise.all([
-                $.get('../templates/ads-catalog.html'),
-                $.get('../templates/ad-box-partial.html')
+                $.get('../templates/ads%2Dcatalog.html'),
+                $.get('../templates/ad%2Dbox%2Dpartial.html')
         ]);
 
         templates['catalog'] = Handlebars.compile(adsCatalogTemplate);
