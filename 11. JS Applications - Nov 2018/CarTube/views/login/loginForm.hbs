@@ -1,0 +1,26 @@
+<form action="#/login" method="post" id="needs-validation" novalidate>
+  <div class="container">
+    <h1>Login</h1>
+    <p>Please enter your credentials.</p>
+    <hr>
+
+    <p>Username</p>
+    <input placeholder="Enter Username" class="form-control" pattern="^[a-zA-Z]{3,}$" name="username" type="text" required>
+    <div class="invalid-feedback">
+      A username should be at least 3 characters long and should contain only english alphabet letters!
+    </div>
+
+    <p>Password</p>
+    <input type="password" placeholder="Enter Password" class="form-control" pattern="^[a-zA-Z0-9]{6,}$" name="password" required>
+    <div class="invalid-feedback">
+      A user‘s password should be at least 6 characters long and should contain only english alphabet letters and digits
+    </div>
+
+    <button type="submit" class="registerbtn">Login</button>
+  </div>
+
+  <div class="container signin">
+    <p>Dont have an account?
+      <a href="#/register">Sign up</a>.</p>
+  </div>
+</form>
