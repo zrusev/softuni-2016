@@ -3,7 +3,8 @@ const userController = (() => {
     contextService.loadCommon(this)
       .then(function () {
         this.loadPartials({
-          registerForm: './views/register/registerForm.hbs'
+          registerForm: './views/register/registerForm.hbs',
+          validatorForm: './views/common/validatorForm.hbs'
         });
       })
       .then(function () {
@@ -70,7 +71,7 @@ const userController = (() => {
       .then(function () {
         this.loadPartials({
           loginForm: './views/login/loginForm.hbs',
-          validator: './views/common/formValidator.hbs'
+          validatorForm: './views/common/validatorForm.hbs'
         });
       })
       .then(function () {

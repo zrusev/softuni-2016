@@ -1,0 +1,37 @@
+<form action="#/register" method="post" class="needs-validation" novalidate>
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <p>Username</p>
+    <input type="text" placeholder="Enter Username" name="username" class="form-control" pattern="^[a-zA-Z]{3,}$"
+      required>
+    <div class="invalid-feedback">
+      A username should be at least 3 characters long and should contain only english alphabet letters!
+    </div>
+
+    <p>Password</p>
+    <input type="password" placeholder="Enter Password" name="password" class="form-control" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
+      required>
+    <div class="invalid-feedback">
+      A user‘s password should be at least 6 characters long and should contain only english alphabet letters and
+      digits
+    </div>
+
+    <p>Repeat Password</p>
+    <input type="password" placeholder="Repeat Password" name="repeatPass" class="form-control" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
+      required>
+    <hr>
+    <div class="invalid-feedback">
+      A user‘s password should be at least 6 characters long and should contain only english alphabet letters and
+      digits
+    </div>
+
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  <div class="container signin">
+    <p>Already have an account?
+      <a href="#/login">Sign in</a>.</p>
+  </div>
+</form>

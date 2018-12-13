@@ -1,8 +1,6 @@
-<script id="validator" type="text/javascript">
+<script type="text/javascript">
 (function () {
-    'use strict';
-    window.addEventListener('load', function () {
-      var form = document.getElementById('needs-validation');
+      var form = document.getElementsByClassName('needs-validation')[0];
       form.addEventListener('submit', function (event) {
         if (form.checkValidity() === false) {
           event.preventDefault();
@@ -10,6 +8,5 @@
         }
         form.classList.add('was-validated');
       }, false);
-    }, false);
   })();  
 </script>
