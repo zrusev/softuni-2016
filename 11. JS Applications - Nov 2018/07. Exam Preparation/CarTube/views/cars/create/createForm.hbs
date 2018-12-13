@@ -1,0 +1,58 @@
+<form action="#/create" method="post" class="needs-validation" novalidate>
+  <div class="container">
+    <h1>Create Car Listing</h1>
+    <p>Please fill in this form to create an listing.</p>
+    <hr>
+
+    <p>Title</p>
+    <input type="text" placeholder="Enter Title" name="title" class="form-control" maxlength="33" required>
+    <div class="invalid-feedback">
+      The title length must not exceed 33 characters!
+    </div>
+
+    <p>Description</p>
+    <input type="text" placeholder="Enter Description" name="description" class="form-control" minlength="30" maxlength="450" required>
+    <div class="invalid-feedback">
+      The description length must not exceed 450 characters and should be at least 30!
+    </div>
+
+    <p>Car Brand</p>
+    <input type="text" placeholder="Enter Car Brand" name="brand" class="form-control" maxlength="11" required>
+    <div class="invalid-feedback">
+      The brand length must not exceed 11 characters!
+    </div>
+
+    <p>Car Model</p>
+    <input type="text" placeholder="Enter Car Model" name="model" class="form-control" maxlength="11" required>
+    <div class="invalid-feedback">
+      The fuelType length must not exceed 11 characters!
+    </div>
+
+    <p>Car Year</p>
+    <input type="number" placeholder="Enter Car Year" name="year" class="form-control" maxlength="9999" required>
+    <div class="invalid-feedback">
+      The year must be only 4 chars long!
+    </div>
+
+    <p>Car Image</p>
+    <input type="text" placeholder="Enter Car Image" name="imageUrl" class="form-control" pattern="^http.*$" required>
+    <div class="invalid-feedback">
+      Link url should always start with “http”.
+    </div>
+
+    <p>Car Fuel Type</p>
+    <input type="text" placeholder="Enter Car Fuel Type" name="fuelType" class="form-control" maxlength="11" required>
+    <div class="invalid-feedback">
+      The fuelType length must not exceed 11 characters!
+    </div>
+
+    <p>Car Price</p>
+    <input type="number" placeholder="Enter Car Price" name="price" class="form-control" max="1000000" required>
+    <div class="invalid-feedback">
+      The maximum price is 1000000$!
+    </div>
+
+    <hr>
+    <button type="submit" class="registerbtn">Create Listing</button>
+  </div>
+</form>

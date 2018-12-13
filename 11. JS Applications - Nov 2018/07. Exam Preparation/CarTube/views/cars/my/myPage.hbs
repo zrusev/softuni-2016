@@ -1,0 +1,15 @@
+{{> header }}
+
+<div class="my-listings">
+  <h1>My car listings</h1>
+  {{#each cars }}
+  {{> car }}
+  {{/each}}
+
+  {{#if noCarsFound }}
+  <p class="no-cars"> No cars in database.</p>
+  {{/if}}
+
+</div>
+
+{{> footer }}

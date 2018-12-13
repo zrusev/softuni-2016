@@ -1,4 +1,4 @@
-const userController = (() => {
+const usersController = (() => {
   function getRegister() {
     contextService.loadCommon(this)
       .then(function () {
