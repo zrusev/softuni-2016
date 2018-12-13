@@ -1,8 +1,8 @@
 let requester = (() => {
-    const appKey = 'kid_BJcZftNP-';
-    const appSecret = '55297dee18e3431aa460d74048b4bdf5';
     const baseUrl = 'https://baas.kinvey.com/';
-
+	const appKey = '';
+    const appSecret = '';
+    
     // Creates the authentication header
     function makeAuth(type) {
         return type === 'basic' ?

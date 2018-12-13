@@ -250,3 +250,5 @@
 -   [06. SPA with AJAX REST Kinvey
 	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/06.%20SPA%20with%20AJAX%20REST%20Kinvey)
 	
+-   [07. Exam Preparation
+	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/07.%20Exam%20Preparation)	
