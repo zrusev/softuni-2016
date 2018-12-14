@@ -2,6 +2,14 @@ const carsController = (function () {
   function getAll() {
     contextService.ctxHandler(this);
 
+    //security check
+    if (!this.loggedIn) {
+      let action = this.path.split('/#/')[1];
+      this.redirect(`#/login?ReturnUrl=%2F${action}%2F`);
+      drawerService.showInfo('You need to login first!');
+      return;
+    }
+
     carModel.all(this)
       .then((res) => {
         if (res.length === 0) {
@@ -32,6 +40,14 @@ const carsController = (function () {
   function getCreate() {
     contextService.ctxHandler(this);
 
+    //security check
+    if (!this.loggedIn) {
+      let action = this.path.split('/#/')[1];
+      this.redirect(`#/login?ReturnUrl=%2F${action}%2F`);
+      drawerService.showInfo('You need to login first!');
+      return;
+    }
+
     contextService.loadCommon(this)
       .then(function () {
         this.loadPartials({
@@ -46,6 +62,7 @@ const carsController = (function () {
 
   function postCreate() {
     // boostrap form validation on user's side
+    // TBA on server's side
 
     let car = {
       seller: sessionStorage.getItem('username'),
@@ -69,6 +86,8 @@ const carsController = (function () {
 
   function getEdit() {
     contextService.ctxHandler(this);
+
+    // security check on post
 
     carModel.details(this.params.id.substring(1))
       .then((res) => {
@@ -107,6 +126,7 @@ const carsController = (function () {
         }
 
         // boostrap form validation on user's side
+        // TBA on server's side
 
         try {
           let car = {
@@ -159,6 +179,14 @@ const carsController = (function () {
   function getMyListing() {
     contextService.ctxHandler(this);
 
+    //security check
+    if (!this.loggedIn) {
+      let action = this.path.split('/#/')[1];
+      this.redirect(`#/login?ReturnUrl=%2F${action}%2F`);
+      drawerService.showInfo('You need to login first!');
+      return;
+    }
+
     carModel.my(sessionStorage.getItem('username'))
       .then((res) => {
         if (res.length === 0) {
@@ -182,6 +210,14 @@ const carsController = (function () {
 
   async function getDetails() {
     contextService.ctxHandler(this);
+
+    //security check
+    if (!this.loggedIn) {
+      let action = this.path.split('/#/')[1];
+      this.redirect(`#/login?ReturnUrl=%2F${action}%2F`);
+      drawerService.showInfo('You need to login first!');
+      return;
+    }
 
     let car = await carModel.details(this.params.id.substring(1));
 

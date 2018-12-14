@@ -13,57 +13,65 @@ const usersController = (() => {
   }
 
   function postRegister() {
-    let userN = this.params.username;
-    let userP = this.params.password;
-    let userP2 = this.params.repeatPass;
+    contextService.ctxHandler(this);
 
-    if (userN === '') {
-      drawerService.showError('Username cannot be blank!')
-      return;
+    //security check
+    if (!this.loggedIn) {
+      let userN = this.params.username;
+      let userP = this.params.password;
+      let userP2 = this.params.repeatPass;
+
+      if (userN === '') {
+        drawerService.showError('Username cannot be blank!')
+        return;
+      }
+
+      if (userP === '' || userP2 === '') {
+        drawerService.showError('Password field cannot be blank!')
+        return;
+      }
+
+      if (userN.length < 3) {
+        drawerService.showError('Username should should be at least 3 characters long!')
+        return;
+      }
+
+      if (!/^[a-zA-Z]*$/g.test(userN)) {
+        drawerService.showError('Username should contain only english alphabet letters!')
+        return;
+      }
+
+      if (userP.length < 6) {
+        drawerService.showError('Password should be at least 6 characters long !')
+        return;
+      }
+
+      if (userP.search(/\d/) == -1) {
+        drawerService.showError('Password should contain at least one digit!')
+        return;
+      }
+
+      if (userP.search(/[a-zA-Z]/) == -1) {
+        drawerService.showError('Password should contain at least one letter!')
+        return;
+      }
+
+      if (userP !== userP2) {
+        drawerService.showError('Passwords missmatch!')
+        return;
+      }
+
+      userModel.postRegister(userN, userP, userP2)
+        .then((res) => {
+          authService.saveSession(res);
+          this.redirect('#/');
+          drawerService.showInfo(`${userN}, you have registered successfully!`);
+        })
+        .catch((err) => drawerService.handleError(err));
+    } else {
+      this.redirect('#/');
+      drawerService.showError('Please log out and register again!');
     }
-
-    if (userP === '' || userP2 === '') {
-      drawerService.showError('Password field cannot be blank!')
-      return;
-    }
-
-    if (userN.length < 3) {
-      drawerService.showError('Username should should be at least 3 characters long!')
-      return;
-    }
-
-    if (!/^[a-zA-Z]*$/g.test(userN)) {
-      drawerService.showError('Username should contain only english alphabet letters!')
-      return;
-    }
-
-    if (userP.length < 6) {
-      drawerService.showError('Password should be at least 6 characters long !')
-      return;
-    }
-
-    if (userP.search(/\d/) == -1) {
-      drawerService.showError('Password should contain at least one digit!')
-      return;
-    }
-
-    if (userP.search(/[a-zA-Z]/) == -1) {
-      drawerService.showError('Password should contain at least one letter!')
-      return;
-    }
-
-    if (userP !== userP2) {
-      drawerService.showError('Passwords missmatch!')
-      return;
-    }
-
-    userModel.postRegister(userN, userP, userP2)
-      .then((res) => {
-        authService.saveSession(res);
-        this.redirect('#/');
-        drawerService.showInfo(`${userN}, you have registered successfully!`);
-      })
-      .catch((err) => drawerService.handleError(err));
   }
 
   function getLogin() {
@@ -82,6 +90,7 @@ const usersController = (() => {
   function postLogin() {
     contextService.ctxHandler(this);
 
+    //security check
     if (!this.loggedIn) {
       let userN = this.params.username;
       let userP = this.params.password;
@@ -124,7 +133,11 @@ const usersController = (() => {
       userModel.postLogin(userN, userP)
         .then((res) => {
           authService.saveSession(res);
-          this.redirect('#/');
+          let url = this.target.baseURI.indexOf("?ReturnUrl=") === -1 ?
+            '' :
+            this.target.baseURI.split('%2F')[1];
+
+          this.redirect('#/' + url);
           drawerService.showInfo('Successfully logged in!');
         })
         .catch((err) => drawerService.handleError(err));
@@ -135,6 +148,14 @@ const usersController = (() => {
   }
 
   function getLogout() {
+    contextService.ctxHandler(this);
+
+    //security check
+    if (!this.loggedIn) {
+      drawerService.showError('You have already logged out!');
+      return;
+    }
+
     authService.logout()
       .then(() => {
         sessionStorage.clear();
