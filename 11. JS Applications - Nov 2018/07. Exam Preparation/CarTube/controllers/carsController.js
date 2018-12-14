@@ -115,7 +115,7 @@ const carsController = (function () {
       .catch((err) => drawerService.handleError(err));
   }
 
-  function postEdit() {
+  function putEdit() {
     carModel.details(this.params.id.substring(1))
       .then((res) => {
         // security check
@@ -250,7 +250,7 @@ const carsController = (function () {
     getCreate,
     postCreate,
     getEdit,
-    postEdit,
+    putEdit,
     postDelete,
     getMyListing,
     getDetails

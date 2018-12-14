@@ -133,10 +133,9 @@ const usersController = (() => {
       userModel.postLogin(userN, userP)
         .then((res) => {
           authService.saveSession(res);
-          let url = this.target.baseURI.indexOf("?ReturnUrl=") === -1 ?
-            '' :
-            this.target.baseURI.split('%2F')[1];
-
+          let url = this.target.baseURI.indexOf("?ReturnUrl=") === -1 
+            ? '' 
+            : this.target.baseURI.split('%2F')[1];
           this.redirect('#/' + url);
           drawerService.showInfo('Successfully logged in!');
         })

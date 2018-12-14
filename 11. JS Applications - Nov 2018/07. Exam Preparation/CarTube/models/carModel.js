@@ -7,7 +7,7 @@ const carModel = (function () {
     return requesterService.post('appdata', 'cars', 'kinvey', car);
   }
 
-  function details(id) {
+  function details(id) { 
     return requesterService.get('appdata', 'cars/' + id, 'kinvey');
   }
 

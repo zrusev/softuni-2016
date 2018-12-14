@@ -24,7 +24,7 @@ $(() => {
 
       this.get('#/edit:id', carsController.getEdit);
 
-      this.post('#/edit:id', carsController.postEdit);
+      this.put('#/edit:id', carsController.putEdit);
 
       this.get('#/delete:id', carsController.postDelete);
 
