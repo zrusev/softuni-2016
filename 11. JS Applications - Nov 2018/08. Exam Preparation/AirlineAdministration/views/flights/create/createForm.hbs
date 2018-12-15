@@ -1,0 +1,54 @@
+<form id="formAddFlight" action="#/create" method="post" class="needs-validation" novalidate>
+  <div class="col-sm-2 offset-sm-5">
+    <label>Destination:</label>
+    <input type="text" name="destination" placeholder="Destination" class="form-control" required>
+    <div class="invalid-feedback">
+      The field is required.
+    </div>
+
+    <label>Origin:</label>
+    <input type="text" name="origin" placeholder="Origin" class="form-control" required>
+    <div class="invalid-feedback">
+      The field is required.
+    </div>
+
+    <label>Departure Date:</label>
+    <input type="date" name="departureDate" class="form-control" required>
+    <div class="invalid-feedback">
+      The field is required.
+    </div>
+
+    <label>Departure Time:</label>
+    <input type="time" name="departureTime" class="form-control" required>
+    <div class="invalid-feedback">
+      The field is required.
+    </div>
+
+    <label>Number of Seats:</label>
+    <input type="number" name="seats" placeholder="0" class="form-control" min="0" required>
+    <div class="invalid-feedback">
+      Number of seats should be positive number.
+    </div>
+
+    <label>Cost per seat:</label>
+    <input type="number" step="2" name="cost" placeholder="0.00" class="form-control" pattern="/^\+?(\d+(\.(\d+)?)?|\.\d+)$/"
+      required>
+    <div class="invalid-feedback">
+      Cost per seat should be positive number.
+    </div>
+
+    <label>Image:</label>
+    <input type="text" name="img" class="form-control" required>
+    <div class="invalid-feedback">
+      The field is required.
+    </div>
+
+    <label>Is Public:</label>
+    <input type="checkbox" name="public" class="form-control">
+    <div class="invalid-feedback">
+      The field is required.
+    </div>
+
+    <input type="submit" class="create" value="Create">
+  </div>
+</form>

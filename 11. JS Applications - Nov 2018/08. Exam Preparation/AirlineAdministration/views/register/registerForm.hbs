@@ -1,0 +1,23 @@
+<form id="formRegister" action="#/register" method="post" class="needs-validation" novalidate>
+  <div class="col-sm-2 offset-sm-5">
+    <label>Username:</label>
+    <input type="text" name="username" placeholder="Username" class="form-control" pattern="^[a-zA-Z]{5,}$" required>
+    <div class="invalid-feedback">
+      A username should be at least 5 characters long and should contain only english alphabet letters!
+    </div>
+
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="Password" class="form-control" required>
+    <div class="invalid-feedback">
+      Field is required
+    </div>
+
+    <label>Repeat Password:</label>
+    <input type="password" name="repeatPass" placeholder="Repeat Password" class="form-control" required>
+    <div class="invalid-feedback">
+      Field is required
+    </div>
+  </div>
+
+  <input type="submit" class="register" value="Register">
+</form>

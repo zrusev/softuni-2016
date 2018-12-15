@@ -1,0 +1,18 @@
+<form id="formLogin" action="#/login" method="post" class="needs-validation" novalidate>
+  <div class="col-sm-2 offset-sm-5">
+    <label>Username:</label>
+    <input type="text" name="username" placeholder="Enter your username" class="form-control" pattern="^[a-zA-Z]{5,}$"
+      required>
+    <div class="invalid-feedback">
+      A username should be at least 5 characters long and should contain only english alphabet letters!
+    </div>
+
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="Enter your Password" class="form-control" required>
+    <div class="invalid-feedback">
+      Field is required
+    </div>
+  </div>
+
+  <input type="submit" class="login" value="Login">
+</form>
