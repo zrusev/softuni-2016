@@ -4,19 +4,23 @@
     <p>Please enter your credentials.</p>
     <hr>
 
-    <p>Username</p>
-    <input placeholder="Enter Username" name="username" type="text" class="form-control" pattern="^[a-zA-Z]{3,}$"
-      required>
-    <div class="invalid-feedback">
-      A username should be at least 3 characters long and should contain only english alphabet letters!
+    <div class="col-sm-6 offset-sm-3">
+      <p>Username</p>
+      <input placeholder="Enter Username" name="username" type="text" class="form-control" pattern="^[a-zA-Z]{3,}$"
+        required>
+      <div class="invalid-feedback">
+        A username should be at least 3 characters long and should contain only english alphabet letters!
+      </div>
     </div>
 
-    <p>Password</p>
-    <input type="password" placeholder="Enter Password" name="password" class="form-control" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
-      required>
-    <div class="invalid-feedback">
-      A user‘s password should be at least 6 characters long and should contain only english alphabet letters and
-      digits
+    <div class="col-sm-6 offset-sm-3">
+      <p>Password</p>
+      <input type="password" placeholder="Enter Password" name="password" class="form-control" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$"
+        required>
+      <div class="invalid-feedback">
+        A user‘s password should be at least 6 characters long and should contain only english alphabet letters and
+        digits
+      </div>
     </div>
 
     <button type="submit" class="registerbtn">Login</button>

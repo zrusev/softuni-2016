@@ -4,54 +4,71 @@
     <p>Please fill in this form to create an listing.</p>
     <hr>
 
-    <p>Title</p>
-    <input type="text" placeholder="Enter Title" name="title" class="form-control" maxlength="33" required>
-    <div class="invalid-feedback">
-      The title length must not exceed 33 characters!
+    <div class="col-sm-6 offset-sm-3">
+      <p>Title</p>
+      <input type="text" placeholder="Enter Title" name="title" class="form-control" maxlength="33" required>
+      <div class="invalid-feedback">
+        The title length must not exceed 33 characters!
+      </div>
     </div>
 
-    <p>Description</p>
-    <input type="text" placeholder="Enter Description" name="description" class="form-control" minlength="30" maxlength="450" required>
-    <div class="invalid-feedback">
-      The description length must not exceed 450 characters and should be at least 30!
+    <div class="col-sm-6 offset-sm-3">
+      <p>Description</p>
+      <input type="text" placeholder="Enter Description" name="description" class="form-control" minlength="30"
+        maxlength="450" required>
+      <div class="invalid-feedback">
+        The description length must not exceed 450 characters and should be at least 30!
+      </div>
     </div>
 
-    <p>Car Brand</p>
-    <input type="text" placeholder="Enter Car Brand" name="brand" class="form-control" maxlength="11" required>
-    <div class="invalid-feedback">
-      The brand length must not exceed 11 characters!
+    <div class="col-sm-6 offset-sm-3">
+      <p>Car Brand</p>
+      <input type="text" placeholder="Enter Car Brand" name="brand" class="form-control" maxlength="11" required>
+      <div class="invalid-feedback">
+        The brand length must not exceed 11 characters!
+      </div>
     </div>
 
-    <p>Car Model</p>
-    <input type="text" placeholder="Enter Car Model" name="model" class="form-control" maxlength="11" required>
-    <div class="invalid-feedback">
-      The fuelType length must not exceed 11 characters!
+    <div class="col-sm-6 offset-sm-3">
+      <p>Car Model</p>
+      <input type="text" placeholder="Enter Car Model" name="model" class="form-control" maxlength="11" required>
+      <div class="invalid-feedback">
+        The fuelType length must not exceed 11 characters!
+      </div>
     </div>
 
-    <p>Car Year</p>
-    <input type="number" placeholder="Enter Car Year" name="year" class="form-control" maxlength="9999" required>
-    <div class="invalid-feedback">
-      The year must be only 4 chars long!
+    <div class="col-sm-6 offset-sm-3">
+      <p>Car Year</p>
+      <input type="number" placeholder="Enter Car Year" name="year" class="form-control" maxlength="9999" required>
+      <div class="invalid-feedback">
+        The year must be only 4 chars long!
+      </div>
     </div>
 
-    <p>Car Image</p>
-    <input type="text" placeholder="Enter Car Image" name="imageUrl" class="form-control" pattern="^http.*$" required>
-    <div class="invalid-feedback">
-      Link url should always start with “http”.
+    <div class="col-sm-6 offset-sm-3">
+      <p>Car Image</p>
+      <input type="text" placeholder="Enter Car Image" name="imageUrl" class="form-control" pattern="^http.*$" required>
+      <div class="invalid-feedback">
+        Link url should always start with “http”.
+      </div>
     </div>
 
-    <p>Car Fuel Type</p>
-    <input type="text" placeholder="Enter Car Fuel Type" name="fuelType" class="form-control" maxlength="11" required>
-    <div class="invalid-feedback">
-      The fuelType length must not exceed 11 characters!
+    <div class="col-sm-6 offset-sm-3">
+      <p>Car Fuel Type</p>
+      <input type="text" placeholder="Enter Car Fuel Type" name="fuelType" class="form-control" maxlength="11" required>
+      <div class="invalid-feedback">
+        The fuelType length must not exceed 11 characters!
+      </div>
     </div>
 
-    <p>Car Price</p>
-    <input type="number" placeholder="Enter Car Price" name="price" class="form-control" max="1000000" required>
-    <div class="invalid-feedback">
-      The maximum price is 1000000$!
+    <div class="col-sm-6 offset-sm-3">
+      <p>Car Price</p>
+      <input type="number" placeholder="Enter Car Price" name="price" class="form-control" max="1000000" required>
+      <div class="invalid-feedback">
+        The maximum price is 1000000$!
+      </div>
     </div>
-
+    
     <hr>
     <button type="submit" class="registerbtn">Create Listing</button>
   </div>

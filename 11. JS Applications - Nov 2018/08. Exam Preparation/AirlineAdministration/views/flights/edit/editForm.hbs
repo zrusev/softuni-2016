@@ -1,47 +1,62 @@
 <form id="formEditFlight" action="#/edit:{{{ flight._id }}}" method="put" class="needs-validation" novalidate>
   <div class="col-sm-2 offset-sm-5">
     <label>Destination:</label>
-    <input type="text" name="destination" placeholder="Destination" value="{{ flight.destination }}" class="form-control" required>
+    <input type="text" name="destination" placeholder="Destination" value="{{ flight.destination }}" class="form-control"
+      required>
     <div class="invalid-feedback">
       The field is required.
     </div>
+  </div>
 
+  <div class="col-sm-2 offset-sm-5">
     <label>Origin:</label>
     <input type="text" name="origin" placeholder="Origin" value="{{ flight.origin }}" class="form-control" required>
     <div class="invalid-feedback">
       The field is required.
     </div>
+  </div>
 
+  <div class="col-sm-2 offset-sm-5">
     <label>Departure Date:</label>
     <input type="date" id="tt" name="departureDate" value="{{ flight.departure }}" class="form-control" required>
     <div class="invalid-feedback">
       The field is required.
     </div>
+  </div>
 
+  <div class="col-sm-2 offset-sm-5">
     <label>Departure Time:</label>
     <input type="time" name="departureTime" value="{{ flight.departureTime }}" class="form-control" required>
     <div class="invalid-feedback">
       The field is required.
     </div>
+  </div>
 
+  <div class="col-sm-2 offset-sm-5">
     <label>Number of Seats:</label>
     <input type="number" name="seats" value="{{ flight.seats }}" class="form-control" min="0" required>
     <div class="invalid-feedback">
       Number of seats should be positive number.
     </div>
+  </div>
 
+  <div class="col-sm-2 offset-sm-5">
     <label>Cost per seat:</label>
-    <input type="number" step="2" name="cost" value="{{ flight.cost }}" class="form-control" pattern="/^\+?(\d+(\.(\d+)?)?|\.\d+)$/" required>
+    <input type="number" step="2" name="cost" value="{{ flight.cost }}" class="form-control" min="0" required>
     <div class="invalid-feedback">
       Cost per seat should be positive number.
     </div>
+  </div>
 
+  <div class="col-sm-2 offset-sm-5">
     <label>Image:</label>
     <input type="text" name="img" value="{{ flight.image }}" class="form-control" required>
     <div class="invalid-feedback">
       The field is required.
     </div>
+  </div>
 
+  <div class="col-sm-2 offset-sm-5">
     <label>Is Public:</label>
     <input type="checkbox" name="public" {{ checkedIf flight.isPublished }} class="form-control" required>
     <div class="invalid-feedback">
