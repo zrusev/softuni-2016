@@ -1,6 +1,10 @@
 const flightModel = (function () {
-  function all() {
-    return requesterService.get('appdata', 'flights?query={"isPublished":"true"}', 'kinvey');
+  function all(isLoggedIn) {
+    if (isLoggedIn) {    
+      return requesterService.get('appdata', 'flights?query={"isPublished":true}', 'kinvey');
+    } else {
+      return requesterService.get('appdata', 'flights?query={"isPublished":true}', 'basic');
+    }
   }
 
   function create(flight) {

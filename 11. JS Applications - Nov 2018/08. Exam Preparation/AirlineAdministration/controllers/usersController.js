@@ -113,7 +113,7 @@ const usersController = (() => {
     authService.logout()
       .then(() => {
         sessionStorage.clear();
-        this.redirect('#/login');
+        this.redirect('#/');
         drawerService.showInfo('Successfully logged out!');
       })
       .catch((err) => drawerService.handleError(err));

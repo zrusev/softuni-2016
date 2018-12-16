@@ -2,9 +2,8 @@ const flightsController = (function () {
   function getAll() {
     contextService.ctxHandler(this);
 
-    flightModel.all(this)
+    flightModel.all(this.loggedIn)
       .then((res) => {
-
         this.flights = res;
 
         contextService.loadCommon(this)
