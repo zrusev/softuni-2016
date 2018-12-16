@@ -3,7 +3,7 @@ const flightModel = (function () {
     if (isLoggedIn) {    
       return requesterService.get('appdata', 'flights?query={"isPublished":true}', 'kinvey');
     } else {
-      return requesterService.get('appdata', 'flights?query={"isPublished":true}', 'basic');
+      return requesterService.get('appdata', 'flights?query={"isPublished":true}', 'master');
     }
   }
 
