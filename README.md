@@ -255,3 +255,6 @@
 
 -   [08. Exam Preparation
 	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/08.%20Exam%20Preparation)		
+	
+-   [JS Applications Exam - 16 Dec 2018
+	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/JS%20Applications%20Exam%20-%2016%20Dec%202018)
