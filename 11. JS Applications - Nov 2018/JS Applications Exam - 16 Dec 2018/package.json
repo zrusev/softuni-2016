@@ -1,0 +1,17 @@
+{
+  "name": "petsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZR",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "handlebars": "^4.0.12",
+    "jquery": "^3.3.1",
+    "sammy": "^0.7.6"
+  }
+}

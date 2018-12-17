@@ -1,0 +1,15 @@
+<form action="#/edit:{{ pet._id }}" method="put">
+  <h3>{{ pet.name }}</h3>
+  <input type="text" name="name" hidden value="{{ pet.name }}" />
+
+  <p>Pet counter: <i class="fas fa-heart"></i> {{ pet.likes }}</p>
+  <input type="text" name="likes" hidden value="{{ pet.likes }}" />
+
+  <p class="img"><img src="{{{ pet.imageURL }}}"></p>
+  <input type="text" name="imageURL" hidden value="{{ pet.imageURL }}" />
+
+  <input type="text" name="category" hidden value="{{ pet.category }}" />
+
+  <textarea type="text" name="description" required>{{ pet.description }}</textarea>
+  <button class="button"> Save</button>
+</form>
