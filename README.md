@@ -235,6 +235,8 @@
 [11. JS Applications - Nov 
 2018](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018)
 
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/11.%20JS%20Applications%20-%20Nov%202018/JS%20Applications-Nov%202018-Certificate.url)
+
 -   [02. Rest and HTTP Requests
 	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/02.%20Rest%20and%20HTTP%20Requests)
 	
@@ -258,3 +260,15 @@
 	
 -   [JS Applications Exam - 16 Dec 2018
 	](https://github.com/zrusev/SoftUni_2016/tree/master/11.%20JS%20Applications%20-%20Nov%202018/JS%20Applications%20Exam%20-%2016%20Dec%202018)
+	
+[12. ExpressJS Fundamentals - Jan
+2019](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019)
+
+-   [01. Introduction to HTTP and Node.js
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/01.%20Introduction%20to%20HTTP%20and%20Node.js)
+	
+[15. Databases Basics - MS SQL Server - Jan 
+2019](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019)
+
+-   [01. Data Definition and Datatypes
+	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/01.%20Data%20Definition%20and%20Datatypes)
