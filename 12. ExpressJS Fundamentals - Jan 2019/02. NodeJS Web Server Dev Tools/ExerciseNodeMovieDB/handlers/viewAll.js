@@ -26,10 +26,10 @@ module.exports = (req, res) => {
             });
 
             let allMoviesHtml = '';
-            for (const movie of movies) {
-                let movieHtml = '<div class="movie">';
-                movieHtml += `<img class="moviePoster" src="${movie.moviePoster}" />`;
-                movieHtml += '</div>';
+            for (let i = 0; i < movies.length; i++) {
+                let movieHtml = `<div class="movie"><a href="/movies/details/${i + 1}">`;
+                movieHtml += `<img class="moviePoster" src="${movies[i].moviePoster}" />`;
+                movieHtml += '</a></div>';
                 allMoviesHtml += movieHtml;
             }
 

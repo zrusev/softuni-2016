@@ -2,13 +2,15 @@ const homeHandler = require('./home');
 const faviconHandler = require('./favicon');
 const staticFilesHandler = require('./static-files');
 const viewAllHandler = require('./viewAll');
-const addMovieGet = require('./addMovieGet');
-const addMoviePost = require('./addMoviePost');
+const addMovieGetHandler = require('./addMovieGet');
+const addMoviePostHandler = require('./addMoviePost');
+const detailsHandler = require('./details');
 
 module.exports = [ homeHandler, 
                    faviconHandler,
                    staticFilesHandler,
                    viewAllHandler,
-                   addMovieGet,
-                   addMoviePost
+                   addMovieGetHandler,
+                   addMoviePostHandler,
+                   detailsHandler
                  ];

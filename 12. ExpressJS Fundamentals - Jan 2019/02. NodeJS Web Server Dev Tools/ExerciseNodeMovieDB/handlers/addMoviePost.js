@@ -47,7 +47,7 @@ module.exports = (req, res) => {
 
               } else {
                 movies.push(movie);
-                // ToDo: write all movies to file
+                // ToDo: write all movies to file if needed
                 res.writeHead(302, { 'Location': '/viewAllMovies' });
                 res.end();
               }
