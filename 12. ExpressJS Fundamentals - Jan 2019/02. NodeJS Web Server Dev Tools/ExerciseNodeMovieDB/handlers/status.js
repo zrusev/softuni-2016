@@ -4,9 +4,9 @@ const path = require('path');
 const movies = require('../config/dataBase');
 
 module.exports = (req, res) => {
-    req.pathName = req.pathname || url.parse(req.url).pathname;
+    req.pathname = req.pathname || url.parse(req.url).pathname;
 
-    if (req.pathName === '/' && req.method === 'GET') {
+    if (req.pathname === '/' && req.method === 'GET') {
         let filePath = path.normalize(path.join(__dirname, '../views/status.html'));
 
         fs.readFile(filePath, (err, data) => {
@@ -25,7 +25,7 @@ module.exports = (req, res) => {
                 'Content-Type': 'text/html'
             });
 
-            data = data.replace('{{replaceMe}}', 'Total number of movies: ' + movies.length);
+            data = data.toString().replace('{{replaceMe}}', 'Total number of movies: ' + movies.length);
 
             res.write(data);
             res.end();
