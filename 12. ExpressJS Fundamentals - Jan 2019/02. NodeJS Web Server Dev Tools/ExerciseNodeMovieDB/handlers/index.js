@@ -5,6 +5,7 @@ const viewAllHandler = require('./viewAll');
 const addMovieGetHandler = require('./addMovieGet');
 const addMoviePostHandler = require('./addMoviePost');
 const detailsHandler = require('./details');
+const statusHandler = require('./details');
 
 module.exports = [ homeHandler, 
                    faviconHandler,
@@ -12,5 +13,6 @@ module.exports = [ homeHandler,
                    viewAllHandler,
                    addMovieGetHandler,
                    addMoviePostHandler,
-                   detailsHandler
+                   detailsHandler,
+                   statusHandler
                  ];
