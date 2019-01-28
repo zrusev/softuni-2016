@@ -22,7 +22,7 @@ function searchTags(req, res) {
 
     const postedAfter = fields.afterDate === '' ? new Date(1900, 1, 1) : fields.afterDate;
     const postedBefore = fields.beforeDate === '' ? new Date(2020, 1, 1) : fields.beforeDate;
-    const limitQuery = fields.limit === '' ? 20 : Number(fields.limit);
+    const limitQuery = fields.limit === '' ? 10 : Number(fields.limit);
 
     Image
       .find({
@@ -31,16 +31,25 @@ function searchTags(req, res) {
           '$lt': postedBefore
         }
       })
-      .limit(limitQuery)
+      //.limit(limitQuery)
       .populate('tags')
       .exec((err, results) => {
         if (err) {
           throw err;
         }
 
-        let filtered = results.filter((t) => t.tags.some((f) => tagsToSearch.includes(f.name)));
+        let filtered = [];
+        if (tagsToSearch.length > 0) {
+          filtered = results
+            .filter((t) => t.tags.some((f) => tagsToSearch.includes(f.name)))
+            .slice(0, limitQuery)
+            .sort((a,b) => b.creationDate - a.creationDate);          
+        } else {
+          filtered = results
+            .slice(0, limitQuery);
+        }
 
-        fs.readFile('./views/index.html', (err, data) => {
+        fs.readFile('./views/results.html', (err, data) => {
           if (err) {
             throw err;
           }

@@ -40,6 +40,25 @@ function addImage(req, res) {
   });
 }
 
+function deleteImg(req, res) {
+  let id = req.pathquery['id'];
+
+  Image.findByIdAndDelete({ _id: id }).then(() => {
+    console.log(`${id} deleted!`);
+    
+    res.writeHead(200, {
+        'Content-Type': 'text/html'
+    });
+  
+    res.writeHead(302, {
+      location: '/'
+    });
+    res.end();
+  }).catch((err) => {
+    throw err;
+  });
+}
+
 module.exports = (req, res) => {
   if (req.pathname === '/addImage' && req.method === 'POST') {
     addImage(req, res);
