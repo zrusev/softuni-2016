@@ -21,14 +21,26 @@ module.exports = mongoose => {
             }
         })
         .post('save', function (error, doc, next) {
+            const errObject = {
+                name: 'Name must be between 3 and 15 symbols!',
+                description: 'Description must be between 20 and 300 symbols!',
+                imageUrl: 'Image URL must start with "https://" and Image URL must end with ".jpg" or ".png"!'
+            }
+            
+            //Display multiple errors at once            
+            //let errors = [];
+            //
+            //for (const prop in error.errors) {
+            //    errors.push(errObject[prop]);
+            //}
+            //
+            //next(new Error(errors.join('\n')));
+            
+            //Display single error at a time
             const errType = Object.keys(error.errors)[0];
-
-            if (errType === 'name') {
-                next(new Error('Name must be between 3 and 15 symbols!'));
-            } else if(errType === 'description') {
-                next(new Error('Description must be between 20 and 300 symbols!'));    
-            } else if(errType === 'imageUrl') {
-                next(new Error('Image URL must start with "https://" and Image URL must end with ".jpg" or ".png"!'));    
+            
+            if (errObject.hasOwnProperty(errType)) {                
+                next(new Error(errObject[errType]));
             } else {
                 next();
             }
