@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ShopStop</title>
+
+    <link rel="stylesheet" type="text/css" href="/styles/site.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body>
+    {{> header}}
+    <main>
+        {{#if error}}
+        <h2 class="error-msg">{{error}}</h2>
+        {{else if success}}
+        <h2 class="success-msg">{{success}}</h2>
+        {{/if}}
+        {{{body}}}
+    </main>
+    {{> footer}}
+</body>
+
+</html>
