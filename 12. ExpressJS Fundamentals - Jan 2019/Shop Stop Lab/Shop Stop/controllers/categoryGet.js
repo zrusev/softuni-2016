@@ -17,6 +17,9 @@ module.exports.productByCategory = (req, res) => {
                 return;
             }
 
+            let products = category.products.filter(p => p.buyer === undefined);
+            category.products = products;
+
             res.render('category/products', {
                 category: category
             });

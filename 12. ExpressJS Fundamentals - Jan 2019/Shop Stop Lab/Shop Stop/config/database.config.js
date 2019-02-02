@@ -19,11 +19,12 @@ module.exports = (config) => {
         console.log('Connected!');
 
     });
-    
+
     database.on('error', (err) => {
         console.log(err);
     });
 
     require('../models/Product');
     require('../models/Category');
+    require('../models/User').seedAdminUser();
 }

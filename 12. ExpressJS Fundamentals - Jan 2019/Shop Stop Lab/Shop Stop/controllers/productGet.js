@@ -20,13 +20,23 @@ module.exports.editGet = (req, res) => {
                 return;
             }
 
-            Category.find({})
-                .then((categories) => {
-                    res.render('product/edit', {
-                        product: product,
-                        categories: categories
+            if (product.buyer) {
+                res.redirect(`/?error=${encodeURIComponent('Product has already been bought!')}`);
+                return;
+            }
+
+            if (product.creator.equals(req.user._id) || req.user.roles.indexOf('Admin') >= 0) {
+                Category.find()
+                    .then((categories) => {
+                        res.render('product/edit', {
+                            product: product,
+                            categories: categories
+                        });
                     });
-                });
+            } else {
+                res.redirect(`/?error=${encodeURIComponent("You don't have access to this resource!")}`);
+                return;
+            }
         });
 }
 
@@ -40,9 +50,19 @@ module.exports.deleteGet = (req, res) => {
                 return;
             }
 
-            res.render('product/delete', {
-                product: product
-            });
+            if (product.buyer) {
+                res.redirect(`/?error=${encodeURIComponent('Product has already been bought!')}`);
+                return;
+            }
+
+            if (product.creator.equals(req.user._id) || req.user.roles.indexOf('Admin') >= 0) {
+                res.render('product/delete', {
+                    product: product
+                });
+            } else {
+                res.redirect(`/?error=${encodeURIComponent("You don't have access to this resource!")}`);
+                return;
+            }
         });
 }
 

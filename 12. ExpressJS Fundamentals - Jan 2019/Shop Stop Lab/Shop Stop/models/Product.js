@@ -18,13 +18,19 @@ const productSchema = new mongoose.Schema({
     image: {
         type: Schema.Types.String
     },
+    creator: {
+        type: Schema.Types.ObjectId,
+        ref: 'User',
+        required: true 
+    },
+    buyer: {
+        type: Schema.Types.ObjectId,
+        ref: 'User'
+    },
     category: {
         type: Schema.Types.ObjectId, 
-        ref: 'Category'
-    },
-    isBought: {
-        type: Schema.Types.Boolean,
-        default: false
+        ref: 'Category',
+        required: true
     }
 });
 

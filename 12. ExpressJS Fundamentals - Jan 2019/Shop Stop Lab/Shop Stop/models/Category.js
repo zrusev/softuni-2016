@@ -7,6 +7,11 @@ const categorySchema = new mongoose.Schema({
         required: true,
         unique: true
     },
+    creator: {
+        type: Schema.Types.ObjectId, 
+        ref: 'User',
+        required: true
+    },
     products: [{
         type: Schema.Types.ObjectId, 
         ref: 'Product'

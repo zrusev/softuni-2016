@@ -1,9 +1,11 @@
 const Product = require('../models/Product');
 
-module.exports.index = (req, res) => {  
+module.exports.index = (req, res) => {
     let queryData = req.query;
 
-    Product.find({})
+    Product.find({
+            buyer: null
+        })
         .populate('category')
         .then((products) => {
             if (queryData.query) {
@@ -13,7 +15,7 @@ module.exports.index = (req, res) => {
             let data = {
                 products
             }
-        
+
             if (req.query.error) {
                 data.error = req.query.error;
             } else if (req.query.success) {

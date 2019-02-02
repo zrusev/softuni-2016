@@ -1,5 +1,6 @@
-const handlers = require('../handlers');
+const controllers = require('../controllers');
 const multer = require('multer');
+const auth = require('./auth');
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -16,16 +17,21 @@ let upload = multer({
 
 module.exports = (app) => {
     app
-        .get('/', handlers.home.index)
-        .get('/product/add', handlers.product.get.addGet)
-        .post('/product/add', upload.single('image'), handlers.product.post.addPost)
-        .get('/category/add', handlers.category.get.addGet)
-        .post('/category/add', handlers.category.post.addPost)
-        .get('/category/:category/products', handlers.category.get.productByCategory)
-        .get('/product/edit/:id', handlers.product.get.editGet)
-        .post('/product/edit/:id', upload.single('image'), handlers.product.post.editPost)
-        .get('/product/delete/:id', handlers.product.get.deleteGet)
-        .post('/product/delete/:id', handlers.product.post.deletePost)
-        .get('/product/buy/:id', handlers.product.get.buyGet)
-        .post('/product/buy/:id', handlers.product.post.buyPost);
+        .get('/', controllers.home.index)
+        .get('/product/add', auth.isAuthenticated, controllers.product.get.addGet)
+        .post('/product/add', auth.isAuthenticated, upload.single('image'), controllers.product.post.addPost)
+        .get('/category/add', auth.isInRole('Admin'), controllers.category.get.addGet)
+        .post('/category/add', auth.isInRole('Admin'), controllers.category.post.addPost)
+        .get('/category/:category/products', controllers.category.get.productByCategory)
+        .get('/product/edit/:id', auth.isAuthenticated, controllers.product.get.editGet)
+        .post('/product/edit/:id', auth.isAuthenticated, upload.single('image'), controllers.product.post.editPost)
+        .get('/product/delete/:id', auth.isAuthenticated, controllers.product.get.deleteGet)
+        .post('/product/delete/:id', auth.isAuthenticated, controllers.product.post.deletePost)
+        .get('/product/buy/:id', auth.isAuthenticated, controllers.product.get.buyGet)
+        .post('/product/buy/:id', auth.isAuthenticated, controllers.product.post.buyPost)
+        .get('/user/register', controllers.user.get.registerGet)
+        .post('/user/register', controllers.user.post.registerPost)
+        .get('/user/login', controllers.login.get.loginGet)
+        .post('/user/login', controllers.login.post.loginPost)
+        .post('/user/logout', controllers.logout.logout);
 }
