@@ -267,8 +267,36 @@
 -   [01. Introduction to HTTP and Node.js
 	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/01.%20Introduction%20to%20HTTP%20and%20Node.js)
 	
+-   [02. NodeJS Web Server Dev Tools
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/02.%20NodeJS%20Web%20Server%20Dev%20Tools)
+	
+-   [03. Persistence Files MongoDB
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/03.%20Persistence%20Files%20MongoDB)
+	
+-   [04. Intro ExpressJS View Engines
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/04.%20Intro%20ExpressJS%20View%20Engines)
+	
+-   [05. Session and Authentication
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/05.%20Session%20and%20Authentication)	
+	
+-   [Shop Stop Lab
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/Shop%20Stop%20Lab)	
+	
 [15. Databases Basics - MS SQL Server - Jan 
 2019](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019)
 
 -   [01. Data Definition and Datatypes
 	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/01.%20Data%20Definition%20and%20Datatypes)
+	
+-   [02. Basic CRUD
+	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/02.%20Basic%20CRUD)	
+
+-   [03. Built-in functions
+	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/03.%20Built-in%20functions)	
+	
+-   [04. Data Aggregation
+	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/04.%20Data%20Aggregation)	
+	
+-   [05. Table Relations
+	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/05.%20Table%20Relations)
+	
