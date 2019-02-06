@@ -279,6 +279,9 @@
 -   [05. Session and Authentication
 	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/05.%20Session%20and%20Authentication)	
 	
+-   [06. Architecture and Code Styling
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/06.%20Architecture%20and%20Code%20Styling)	
+	
 -   [Shop Stop Lab
 	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/Shop%20Stop%20Lab)	
 	
@@ -299,4 +302,8 @@
 	
 -   [05. Table Relations
 	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/05.%20Table%20Relations)
+
+-   [06. Subqueries-and-JOINs
+	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/06.%20Subqueries-and-JOINs)	
+	
 	
