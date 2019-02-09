@@ -282,6 +282,12 @@
 -   [06. Architecture and Code Styling
 	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/06.%20Architecture%20and%20Code%20Styling)	
 
+-   [07. Exam Preparation
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/07.%20Exam%20Preparation)	
+
+-   [08. Exam Preparation
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/08.%20Exam%20Preparation)	
+	
 -   [Express Server
 	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/Express%20Server)
 	
