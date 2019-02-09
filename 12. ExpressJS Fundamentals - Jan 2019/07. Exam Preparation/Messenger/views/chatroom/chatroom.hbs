@@ -1,0 +1,50 @@
+<h1>Chatroom with {{targetUserName}}</h1>
+    {{#if isTargetUserBlocked}}
+        <form method="POST" class="chat-form" action="/unblock/{{{targetUserId}}}">
+            <button class="btn btn-danger">Unblock</button>
+        </form>
+    {{else}}
+        <form method="POST" class="chat-form" action="/block/{{{targetUserName}}}">
+            <button class="btn btn-danger">Block</button>
+        </form>
+    {{/if}}
+<div class="chat-wrapper">
+    <div id="message-wrapper">
+        {{#each messages}}
+            {{#if right}}
+                {{#if img}}
+                    <div class="message-row">
+                        <img class="thread-message right" src="{{{content}}}">
+                    </div>
+                {{else}}
+                    <div class="message-row">
+                        <span class="thread-message right">{{content}}</span>
+                    </div>
+                {{/if}}
+            {{else}}
+                {{#if img}}
+                    <div class="message-row">
+                        <img class="thread-message left" src="{{{content}}}">
+                    </div>
+                {{else}}
+                    <div class="message-row">
+                        <span class="thread-message left">{{content}}</span>
+                    </div>
+                {{/if}}
+            {{/if}}
+        {{/each}}
+    </div>
+        {{#if isBlocked}}
+            <form class="chat-form">
+                <textarea rows="5" name="message" placeholder="message" disabled></textarea>        
+                <input value="{{{threadId}}}" name="threadId" hidden />
+                <button class="btn btn-primary send">Send</button>
+            </form>
+        {{else}}
+            <form class="chat-form" action="/thread/:{{{targetUserId}}}" method="POST">
+                <textarea rows="5" name="message" placeholder="message"></textarea>
+                <input value="{{{threadId}}}" name="threadId" hidden />
+                <button class="btn btn-primary send">Send</button>
+            </form>
+        {{/if}}
+</div>
