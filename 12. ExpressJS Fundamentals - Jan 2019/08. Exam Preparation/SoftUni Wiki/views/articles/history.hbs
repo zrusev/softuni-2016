@@ -1,0 +1,14 @@
+<section>
+    <h2>Astronomy</h2>
+    <div class="spacer">
+        <h3>Edit history</h3>
+        <ul>
+            {{#each edits}}
+            <li>
+                <a href="/all-articles/{{_id}}">{{dateFormat creationDate "dddd, MMMM Do YYYY, h:mm:ss a"}}</a> by
+                <span class="author">{{author.email}}</span>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</section>
