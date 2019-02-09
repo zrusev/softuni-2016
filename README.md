@@ -281,6 +281,12 @@
 	
 -   [06. Architecture and Code Styling
 	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/06.%20Architecture%20and%20Code%20Styling)	
+
+-   [Express Server
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/Express%20Server)
+	
+-   [REST API
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/REST%20API)
 	
 -   [Shop Stop Lab
 	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/Shop%20Stop%20Lab)	
