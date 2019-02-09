@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+.container {
+    padding-left: 25%
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu li {
+    display: inline-block
+}
+
+.menu li:after {
+    content: "\00a0";
+}
+
+/* .error {
+    color: red;
+} */
+
+span {
+    font-weight: bolder;
+    font-size: 17px;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+
+span.error {
+    animation: fadeOut 1s forwards;
+    animation-delay: 2s;
+    background: #EF5542;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: normal;
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    overflow: hidden;
+    display: block;
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
