@@ -4,8 +4,9 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const session = require('express-session');
 const passport = require('passport');
+const path = require('path');
 
-module.exports = app => {
+module.exports = (app, config) => {
     app.engine('.hbs', handlebars({
         defaultLayout: 'main',
         extname: '.hbs'
@@ -30,5 +31,5 @@ module.exports = app => {
 
     app.set('view engine', '.hbs');
 
-    app.use(express.static('./static'));
+    app.use(express.static(path.join(config.rootFolder, 'static')));
 };
