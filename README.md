@@ -287,6 +287,9 @@
 
 -   [08. Exam Preparation
 	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/08.%20Exam%20Preparation)	
+
+-   [Express JS Exam - 10 Feb 2019
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/Express%20JS%20Exam%20-%2010%20Feb%202019)
 	
 -   [Express Server
 	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/Express%20Server)
