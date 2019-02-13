@@ -1,0 +1,189 @@
+ --Problem_01 
+CREATE PROCEDURE dbo.USP_GETEMPLOYEESSALARYABOVE35000
+AS
+    SELECT [FIRSTNAME]
+           ,[LASTNAME]
+    FROM   [DBO].[EMPLOYEES]
+    WHERE  SALARY > 35000
+
+--Problem_02 
+CREATE PROCEDURE dbo.USP_GETEMPLOYEESSALARYABOVENUMBER @SALARY DECIMAL(18, 4)
+AS
+    SELECT [FIRSTNAME]
+           ,[LASTNAME]
+    FROM   [DBO].[EMPLOYEES]
+    WHERE  SALARY >= @SALARY
+
+--Problem_03 
+CREATE PROCEDURE USP_GETTOWNSSTARTINGWITH @STR VARCHAR(50)
+AS
+    SELECT [NAME]
+    FROM   [DBO].[TOWNS]
+    WHERE  Charindex(Lower(@STR), Lower([NAME]), 1) = 1
+
+--Problem_04 
+CREATE PROCEDURE USP_GETEMPLOYEESFROMTOWN @TOWN VARCHAR(50)
+AS
+    SELECT [FIRSTNAME]
+           ,[LASTNAME]
+    FROM   [DBO].[EMPLOYEES] E
+           INNER JOIN [DBO].[ADDRESSES]
+                   ON [DBO].[ADDRESSES].ADDRESSID = E.ADDRESSID
+           INNER JOIN [DBO].[TOWNS]
+                   ON [DBO].[TOWNS].TOWNID = [DBO].[ADDRESSES].TOWNID
+    WHERE  [DBO].[TOWNS].NAME = @TOWN
+
+--Problem_05 
+CREATE FUNCTION dbo.UFN_GETSALARYLEVEL(@SALARY DECIMAL(18, 4))
+returns VARCHAR(10)
+  BEGIN
+      RETURN
+        (SELECT CASE
+                  WHEN @SALARY < 30000 THEN 'Low'
+                  WHEN @SALARY >= 30000
+                       AND @SALARY <= 50000 THEN 'Average'
+                  WHEN @SALARY > 50000 THEN 'High'
+                END AS [Salary Level])
+  END
+
+--Problem_06 
+CREATE PROCEDURE dbo.USP_EMPLOYEESBYSALARYLEVEL @LEVEL VARCHAR(10)
+AS
+    SELECT [FIRSTNAME]
+           ,[LASTNAME]
+    FROM   [DBO].[EMPLOYEES]
+    WHERE  dbo.UFN_GETSALARYLEVEL(SALARY) = @LEVEL
+
+--Problem_07 
+CREATE FUNCTION dbo.UFN_ISWORDCOMPRISED(@SETOFLETTERS VARCHAR(50)
+                                        ,@WORD        VARCHAR(50))
+returns BIT
+  BEGIN
+      DECLARE @KEY AS INT
+
+      SET @KEY = 0
+
+      DECLARE @I INT
+
+      SET @I = 0
+
+      WHILE @I < Len(@WORD)
+        BEGIN
+            SELECT @I = @I + 1
+
+            SET @KEY = IIF(Charindex(Substring(@WORD, @I, 1), @SETOFLETTERS, 1)
+                           >
+                           0, 1
+                       ,
+                       0);
+
+            IF @KEY = 0
+              BEGIN
+                  BREAK;
+              END
+        END
+
+      RETURN Cast(@KEY AS BIT)
+  END
+
+--Problem_08 
+CREATE PROCEDURE USP_DELETEEMPLOYEESFROMDEPARTMENT(@DEPARTMENTID INT)
+AS
+  BEGIN
+      ALTER TABLE EMPLOYEESPROJECTS
+        NOCHECK CONSTRAINT ALL
+
+      ALTER TABLE DEPARTMENTS
+        NOCHECK CONSTRAINT ALL
+
+      ALTER TABLE EMPLOYEES
+        NOCHECK CONSTRAINT ALL
+
+      DELETE FROM EMPLOYEES
+      WHERE  DEPARTMENTID = @DEPARTMENTID
+
+      DELETE FROM DEPARTMENTS
+      WHERE  DEPARTMENTID = @DEPARTMENTID
+
+      ALTER TABLE EMPLOYEESPROJECTS
+        CHECK CONSTRAINT ALL
+
+      ALTER TABLE DEPARTMENTS
+        CHECK CONSTRAINT ALL
+
+      ALTER TABLE EMPLOYEES
+        CHECK CONSTRAINT ALL
+
+      SELECT Count(*)
+      FROM   EMPLOYEES AS E
+      WHERE  E.DEPARTMENTID = @DEPARTMENTID
+  END
+
+--Problem_09 
+CREATE PROCEDURE USP_GETHOLDERSFULLNAME
+AS
+    SELECT FIRSTNAME + ' ' + LASTNAME AS [Full Name]
+    FROM   dbo.ACCOUNTHOLDERS
+
+--Problem_10 
+CREATE PROCEDURE USP_GETHOLDERSWITHBALANCEHIGHERTHAN(@MONEY MONEY)
+AS
+    SELECT FIRSTNAME
+           ,LASTNAME
+    FROM   (SELECT ACCOUNTHOLDERID
+                   ,Sum(BALANCE) AS balance
+            FROM   [DBO].[ACCOUNTS]
+            GROUP  BY ACCOUNTHOLDERID) T
+           INNER JOIN [DBO].[ACCOUNTHOLDERS]
+                   ON [DBO].[ACCOUNTHOLDERS].ID = T.ACCOUNTHOLDERID
+    WHERE  T.BALANCE > @MONEY
+    ORDER  BY FIRSTNAME
+              ,LASTNAME
+
+--Problem_11
+CREATE FUNCTION UFN_CALCULATEFUTUREVALUE (@SUM                 DECIMAL
+                                          ,@YEARLYINTERESTRATE FLOAT
+                                          ,@NUMBEROFYEARS      INT)
+returns DECIMAL(18, 4)
+  BEGIN
+      RETURN @SUM * ( Power(( 1 + @YEARLYINTERESTRATE ), @NUMBEROFYEARS) )
+  END
+
+--Problem_12 
+CREATE FUNCTION UFN_CALCULATEFUTUREVALUE (@SUM                 DECIMAL
+                                          ,@YEARLYINTERESTRATE FLOAT
+                                          ,@NUMBEROFYEARS      INT)
+returns DECIMAL(18, 4)
+  BEGIN
+      RETURN @SUM * ( Power(( 1 + @YEARLYINTERESTRATE ), @NUMBEROFYEARS) )
+  END
+
+CREATE PROCEDURE USP_CALCULATEFUTUREVALUEFORACCOUNT(@ID                  INT
+                                                    ,@YEARLYINTERESTRATE FLOAT)
+AS
+    SELECT [DBO].[ACCOUNTS].[ID] AS [Account Id]
+           ,FIRSTNAME
+           ,LASTNAME
+           ,[BALANCE]            AS [Current Balance]
+           ,dbo.UFN_CALCULATEFUTUREVALUE([BALANCE], @YEARLYINTERESTRATE, 5)
+    FROM   [DBO].[ACCOUNTS]
+           INNER JOIN [DBO].[ACCOUNTHOLDERS]
+                   ON [DBO].[ACCOUNTHOLDERS].ID =
+                      [DBO].[ACCOUNTS].ACCOUNTHOLDERID
+    WHERE  [DBO].[ACCOUNTS].[ID] = 1
+
+--Problem_13
+CREATE FUNCTION UFN_CASHINUSERSGAMES(@GAMENAME NVARCHAR(max))
+returns TABLE
+AS
+    RETURN
+      (SELECT Sum(FQUERRY.CASH) AS SumCash
+       FROM   (SELECT UG.CASH                     AS Cash
+                      ,ROW_NUMBER()
+                         OVER (
+                           ORDER BY UG.CASH DESC) AS [Row Number]
+               FROM   USERSGAMES AS UG
+                      JOIN GAMES AS G
+                        ON G.ID = UG.GAMEID
+               WHERE  G.[NAME] = @GAMENAME) AS FQUERRY
+       WHERE  FQUERRY.[ROW NUMBER] % 2 = 1)  
