@@ -329,3 +329,6 @@
 
 -   [09. Exam Preparation
 	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/09.%20Exam%20Preparation)		
+	
+-   [10. Exam Preparation
+	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/10.%20Exam%20Preparation)	
