@@ -335,3 +335,6 @@
 
 -   [11. Exam Preparation
 	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/11.%20Exam%20Preparation)	
+	
+-   [12. ExpressJS Fundamentals - Jan 2019
+	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019)
