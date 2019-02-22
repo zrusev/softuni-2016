@@ -264,6 +264,8 @@
 [12. ExpressJS Fundamentals - Jan
 2019](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019)
 
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/ExpressJS%20Fundamentals-Jan%202019-Certificate.url)
+
 -   [01. Introduction to HTTP and Node.js
 	](https://github.com/zrusev/SoftUni_2016/tree/master/12.%20ExpressJS%20Fundamentals%20-%20Jan%202019/01.%20Introduction%20to%20HTTP%20and%20Node.js)
 	
@@ -306,8 +308,13 @@
 -   [01. Intro to React.js
 	](https://github.com/zrusev/SoftUni_2016/tree/master/13.%20ReactJS%20Fundamentals%20-%20Feb%202019/01.%20Intro%20to%20React.js)
 	
+-   [02. React Components
+	](https://github.com/zrusev/SoftUni_2016/tree/master/13.%20ReactJS%20Fundamentals%20-%20Feb%202019/02.%20React%20Components)	
+	
 [15. Databases Basics - MS SQL Server - Jan 
 2019](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019)
+
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/Databases%20Basics-MS%20SQL%20Server-Jan%202019-Certificate.url)
 
 -   [01. Data Definition and Datatypes
 	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/01.%20Data%20Definition%20and%20Datatypes)
