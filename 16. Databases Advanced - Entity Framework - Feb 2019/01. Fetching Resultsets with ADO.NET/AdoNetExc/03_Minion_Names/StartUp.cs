@@ -4,7 +4,7 @@
     using System;
     using System.Data.SqlClient;
 
-    public class Program
+    public class StartUp
     {
         public static void Main()
         {
