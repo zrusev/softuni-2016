@@ -351,3 +351,9 @@
 	
 -   [Databases MSSQL Server Exam - 17 Feb 2019
 	](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019/Databases%20MSSQL%20Server%20Exam%20-%2017%20Feb%202019)
+	
+[16. Databases Advanced - Entity Framework - Feb 
+2019](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019)
+
+-   [01. Fetching Resultsets with ADO.NET
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/01.%20Fetching%20Resultsets%20with%20ADO.NET)
