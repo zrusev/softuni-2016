@@ -310,6 +310,9 @@
 	
 -   [02. React Components
 	](https://github.com/zrusev/SoftUni_2016/tree/master/13.%20ReactJS%20Fundamentals%20-%20Feb%202019/02.%20React%20Components)	
+
+-   [03. Events and Forms
+	](https://github.com/zrusev/SoftUni_2016/tree/master/13.%20ReactJS%20Fundamentals%20-%20Feb%202019/03.%20Events%20and%20Forms)
 	
 [15. Databases Basics - MS SQL Server - Jan 
 2019](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019)
