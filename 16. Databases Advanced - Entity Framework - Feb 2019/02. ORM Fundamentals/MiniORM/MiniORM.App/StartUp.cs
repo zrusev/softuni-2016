@@ -14,7 +14,7 @@
 
             context.Employees.Add(new Employee
             {
-                FirstName = "Gosho",
+                FirstName = "Pesho",
                 LastName = "Inserted",
                 DepartmentId = context.Departments.First().Id,
                 IsEmployed = true
