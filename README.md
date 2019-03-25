@@ -305,7 +305,7 @@
 [13. ReactJS Fundamentals - Feb 
 2019](https://github.com/zrusev/SoftUni_2016/tree/master/13.%20ReactJS%20Fundamentals%20-%20Feb%202019)
 
--   [Certificate]()
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/13.%20ReactJS%20Fundamentals%20-%20Feb%202019/ReactJS%20Fundamentals-Feb%202019-Certificate.url)
 
 -   [01. Intro to React.js
 	](https://github.com/zrusev/SoftUni_2016/tree/master/13.%20ReactJS%20Fundamentals%20-%20Feb%202019/01.%20Intro%20to%20React.js)
