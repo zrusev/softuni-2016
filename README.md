@@ -305,6 +305,8 @@
 [13. ReactJS Fundamentals - Feb 
 2019](https://github.com/zrusev/SoftUni_2016/tree/master/13.%20ReactJS%20Fundamentals%20-%20Feb%202019)
 
+-   [Certificate]()
+
 -   [01. Intro to React.js
 	](https://github.com/zrusev/SoftUni_2016/tree/master/13.%20ReactJS%20Fundamentals%20-%20Feb%202019/01.%20Intro%20to%20React.js)
 	
@@ -369,3 +371,12 @@
 
 -   [01. Fetching Resultsets with ADO.NET
 	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/01.%20Fetching%20Resultsets%20with%20ADO.NET)
+	
+-   [02. ORM Fundamentals
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/02.%20ORM%20Fundamentals)
+	
+-   [03. Introduction to EF
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/03.%20Introduction%20to%20EF)
+
+-   [04. Code-First
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/04.%20Code-First)
