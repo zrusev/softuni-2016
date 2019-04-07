@@ -380,3 +380,27 @@
 
 -   [04. Code-First
 	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/04.%20Code-First)
+	
+-   [06. Advanced Relations
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/06.%20Advanced%20Relations)
+	
+-   [07. Advanced Quering
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/07.%20Advanced%20Quering)
+	
+-   [08. Automapper Implementation
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/08.%20Automapper%20Implementation)
+	
+-   [10. JSON Processing
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/10.%20JSON%20Processing)
+	
+-   [11. XML Processing
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/11.%20XML%20Processing)
+	
+-   [12. Exam Preparation
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/12.%20Exam%20Preparation)
+	
+-   [13. Exam Preparation
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/13.%20Exam%20Preparation)
+	
+-   [C# DB Advanced Exam - 07.04.2019
+	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/C%23%20DB%20Advanced%20Exam%20-%2007.04.2019)
