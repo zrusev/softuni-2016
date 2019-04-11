@@ -11,6 +11,7 @@ import { HttpClientModule  } from '@angular/common/http';
 import { MovieComponent } from './movie/movie.component';
 import { FooterComponent } from './footer/footer.component';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
+import { SingleMovieResolver } from './service/resolvers/single-movie.resolver';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { MovieDetailsComponent } from './movie-details/movie-details.component';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [MoviesService],
+  providers: [MoviesService, SingleMovieResolver],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

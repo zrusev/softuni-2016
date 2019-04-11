@@ -13,25 +13,24 @@ export class MovieDetailsComponent implements OnInit {
   movie: MovieDetails;
   movieGenres: string;
 
-  constructor(
-    private moviesService: MoviesService,
-    private route: ActivatedRoute 
-  ) { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.id = this.route.snapshot.params['id'];
-    this.route.params
-      .subscribe((params: Params) => {
-        this.id = params['id'];
-      });
+    this.movie = this.route.snapshot.data['singleMovie'];
+    this.movieGenres = this.movie.genres
+      .map(el => el['name'])
+      .join(' ');
+    
+    // this.id = this.route.snapshot.params['id'];
+    // this.route.params
+    //   .subscribe((params: Params) => {
+    //     this.id = params['id'];
+    //   });
 
-    this.moviesService.getMovieById(this.id)
-      .subscribe((data) => {
-        this.movie = data;
-        this.movieGenres = this.movie.genres
-          .map(el => el['name'])
-          .join(' ');
-      });
+    // this.moviesService.getMovieById(this.id)
+    //   .subscribe((data) => {
+    //     this.movie = data;
+    //   });
   }
 
 }
