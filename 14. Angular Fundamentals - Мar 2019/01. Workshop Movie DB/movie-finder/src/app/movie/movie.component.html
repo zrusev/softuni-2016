@@ -5,6 +5,6 @@
   </div>
   <h6>{{movie.release_date}}</h6>
   <div class="card-footer text-muted">
-    <button class="btn btn-primary" [id]="movie.id" (click)="clickButton()">View details</button>
+    <button class="btn btn-primary" [id]="movie.id" [routerLink]="[ '/movies', movie.id ]">View details</button>
   </div>
 </div>
