@@ -1,0 +1,8 @@
+<ng-template [ngIf]="searchMovies">
+    <h1>Seached Movies: </h1>
+    <div class="row">
+      <div class="col-lg-2" *ngFor="let movie of searchMovies">
+        <app-movie [movie]="movie"></app-movie>
+      </div>
+    </div>
+</ng-template>

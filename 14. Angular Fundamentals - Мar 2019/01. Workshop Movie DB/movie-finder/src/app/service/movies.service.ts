@@ -7,6 +7,7 @@ import MovieDetails from 'src/models/Movie-Details';
 
 const BASE_URL = 'https://api.themoviedb.org/3/movie';
 const IN_THEATER = 'https://api.themoviedb.org/3/discover/movie';
+const SEARCH = 'https://api.themoviedb.org/3/search/movie';
 const API_KEY = '?api_key=0290ab7f95ccdca4514a6a26745d9eb1';
 const KIDS = '&certification_country=US&certification.lte=G&sort_by=popularity.desc';
 const BEST_DRAMA = '&with_genres=18&primary_release_year=2019';
@@ -50,5 +51,9 @@ export class MoviesService {
 
   getMovieById(id: string) {
     return this.http.get<MovieDetails>(BASE_URL + `/${id}` + API_KEY);
+  }
+
+  searchMovie(query: string) {
+    return this.http.get<Movie[]>(SEARCH + API_KEY + `&query=${query}`);
   }
 }
