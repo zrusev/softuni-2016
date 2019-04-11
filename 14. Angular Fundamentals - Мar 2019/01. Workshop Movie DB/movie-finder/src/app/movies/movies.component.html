@@ -14,6 +14,27 @@
         <app-movie [movie]="movie" (clickButtonEmitter)="fromChild($event)"></app-movie>
       </div>
   </div>
+</div>
+
+<div class="container">
+  <h1>Popular Movies</h1>
+  <div class="row">
+      <div class="col-lg-2" *ngFor="let movie of popularKidsMovies">
+        <app-movie [movie]="movie" (clickButtonEmitter)="fromChild($event)"></app-movie>
+      </div>
+  </div>
+</div>
+
+<div class="container">
+  <h1>Best Drama Movies</h1>
+  <div class="row">
+      <div class="col-lg-2" *ngFor="let movie of bestDramaMovies">
+        <app-movie [movie]="movie" (clickButtonEmitter)="fromChild($event)"></app-movie>
+      </div>
+  </div>
+</div>
+
+<div class="container">
   <div class="row" *ngIf="message">
     {{message}}
   </div>
