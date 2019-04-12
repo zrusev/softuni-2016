@@ -4,7 +4,7 @@
     <div class="col-lg-4">
       <h1>Registration Form</h1>
       <form #form="ngForm" (submit)="register(form)">
-        <pre>{{ form.value | json }}</pre>
+        <!-- <pre>{{ form.value | json }}</pre> -->
         <div class="form-group input-group">
           <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-user"></i> </span>
@@ -15,7 +15,7 @@
             This field is required!
         </div>
         <div class="alert alert-danger" *ngIf="form.controls.fullName?.errors?.pattern">
-          Name should follow: e.g. Ivan Ivanov!
+          Name should match: e.g. Ivan Ivanov!
         </div>
         <div class="form-group input-group">
           <div class="input-group-prepend">
@@ -84,8 +84,17 @@
                 Passwords do not match!
             </div>             
         </div>
+        <div class="form-group input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text"><i class="fa fa-image"></i></span>
+          </div>
+          <input name="imageUrl" appImageUrlV type="text" placeholder="Image Url" class="form-control" />
+        </div>
+        <div class="alert alert-danger" *ngIf="form.errors?.image">
+          Image link not valid!
+        </div>
         <div class="form-group">
-          <button type="submit" class="btn btn-primary btn-block" [disabled]="form.invalid"> Create Account </button>
+          <button type="submit" class="btn btn-primary btn-block" disabled="form.invalid"> Create Account </button>
         </div>
         <p class="text-center">Have an account? <a href="">Log In</a></p>
       </form>
