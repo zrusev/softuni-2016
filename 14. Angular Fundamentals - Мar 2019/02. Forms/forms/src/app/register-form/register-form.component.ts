@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-register-form',
@@ -8,12 +9,17 @@ import { Component, OnInit } from '@angular/core';
 export class RegisterFormComponent implements OnInit {
   phoneNumbers: string[] = ['+971', '+359', '+972', '+198', '+701'];
 
+  @ViewChild('form')
+  htmlForm: NgForm;
+
   constructor() { }
 
   ngOnInit() {
   }
 
-  register(value: any) {
-    console.log(value);
+  register(form: NgForm) {
+    if (!this.htmlForm.invalid) {
+      this.htmlForm.reset();
+    }
   }
 }
