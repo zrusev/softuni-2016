@@ -12,6 +12,8 @@ import { DropdownDirective } from './navigation/dropdown.directive';
 import { CollapseDirective } from './navigation/collapse.directive';
 
 import { AppRoutingModule } from './app-routing.module';
+import { ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AuthService } from './authentication/auth.service';
 
 @NgModule({
@@ -26,9 +28,11 @@ import { AuthService } from './authentication/auth.service';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ToastrModule.forRoot()
   ],
   providers: [ 
     AuthService

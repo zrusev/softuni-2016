@@ -79,7 +79,8 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "node_modules/ngx-toastr/toastr.css"
             ]
           }
         },

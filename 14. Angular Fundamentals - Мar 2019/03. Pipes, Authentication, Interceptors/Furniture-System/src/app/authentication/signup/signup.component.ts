@@ -20,7 +20,6 @@ export class SignupComponent implements OnInit {
   ngOnInit() {
   }
 
-
   signUp() {
     this.authService
       .register(this.registerForm.value)

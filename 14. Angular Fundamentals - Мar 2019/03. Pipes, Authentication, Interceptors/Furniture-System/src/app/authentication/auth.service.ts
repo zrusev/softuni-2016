@@ -7,7 +7,7 @@ export class AuthService {
   private readonly registerUrl = 'http://localhost:5000/auth/register';
 
   constructor(
-    private http : HttpClient
+    private http: HttpClient
   ) {  }
 
   register(body) {
@@ -25,4 +25,5 @@ export class AuthService {
   isAuthenticated() {
     return localStorage.getItem('token') !== null;
   }
+
 }
