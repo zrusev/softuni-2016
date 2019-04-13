@@ -5,6 +5,9 @@ import { Observable } from 'rxjs';
 
 const CREATE_URL = 'http://localhost:5000/furniture/create';
 const ALL_URL = 'http://localhost:5000/furniture/all';
+const DETAILS_URL = 'http://localhost:5000/furniture/details/';
+const USER_URL = 'http://localhost:5000/furniture/user';
+const DELETE_URL = 'http://localhost:5000/furniture/delete/';
 
 @Injectable({
   providedIn: 'root'
@@ -19,6 +22,18 @@ export class FurnitureService {
 
   getAllFurnitures(): Observable<Furniture[]> {
     return this.http.get<Furniture[]>(ALL_URL);
+  }
+
+  getFurniture(id: string): Observable<Furniture> {
+    return this.http.get<Furniture>(DETAILS_URL + id);
+  }
+
+  getUserFurniture(): Observable<Furniture[]> {
+    return this.http.get<Furniture[]>(USER_URL);
+  }
+
+  deleteFurniture(id: string) {
+    return this.http.delete(DELETE_URL + id);
   }
 
 }
