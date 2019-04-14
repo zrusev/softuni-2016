@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   {
-    path: 'posts', loadChildren: './components/post/post.module#PostModule', canActivate: [ AuthGuard ]
+    path: 'posts', loadChildren: './components/post/post.module#PostModule', canLoad: [ AuthGuard ]
   }
 ];
 
