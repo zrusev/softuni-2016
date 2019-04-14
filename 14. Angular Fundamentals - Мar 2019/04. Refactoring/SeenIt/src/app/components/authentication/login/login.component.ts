@@ -14,8 +14,7 @@ export class LoginComponent implements OnInit {
 
   constructor(
     private authService: AuthService,
-    private router: Router,
-    private toastr: ToastrService
+    private router: Router
   ) { }
 
   ngOnInit() {
@@ -25,8 +24,6 @@ export class LoginComponent implements OnInit {
     this.authService
       .signIn(this.loginForm.value)
       .subscribe((data) => {
-        this.toastr.success('Logged in successfully', 'Success!');
-        this.authService.saveUserInfo(data);
         this.router.navigate(['/posts']);
       })
   }

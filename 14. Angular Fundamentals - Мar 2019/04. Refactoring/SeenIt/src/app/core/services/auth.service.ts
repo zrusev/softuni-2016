@@ -18,30 +18,15 @@ export class AuthService {
   }
 
   signUp(body: Object) {
-    return this.http.post(this.BASE_URL, body,
-      {
-        headers: new HttpHeaders({
-          'Authorization': `Basic ${btoa(`${APP_KEY}:${APP_SECRET}`)}`,
-          'Content-Type': 'application/json'
-        })
-      });
+    return this.http.post(this.BASE_URL, body);
   }
 
   signIn(body: Object) {
-    return this.http.post(`${this.BASE_URL}/login`, body, {
-      headers: new HttpHeaders({
-        'Authorization': `Basic ${btoa(`${APP_KEY}:${APP_SECRET}`)}`,
-        'Content-Type': 'application/json'
-      })
-    });
+    return this.http.post(`${this.BASE_URL}/login`, body);
   }
 
   logout() {
-    return this.http.post(`${this.BASE_URL}/_logout`, {}, {
-      headers: new HttpHeaders({
-        'Authorization': `Kinvey ${this.token}`
-      })
-    });
+    return this.http.post(`${this.BASE_URL}/_logout`, {});
   }
 
   isAuthenticated() {
