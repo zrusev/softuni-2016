@@ -3,6 +3,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { NgForm } from '@angular/forms';
 import { PostService } from '../../../core/services/post.service';
 import { CommentService } from '../../../core/services/comment.service';
+import { CommentInfo } from '../../models/Comment-Info';
+import { PostInfo } from '../../models/Post-Info';
 
 @Component({
   selector: 'app-post-details',
@@ -11,8 +13,8 @@ import { CommentService } from '../../../core/services/comment.service';
 })
 export class PostDetailsComponent implements OnInit {
   @ViewChild('f') createCommentForm: NgForm;
-  post: Object;
-  comments: Object[];
+  post: PostInfo;
+  comments: CommentInfo[];
 
   constructor(
     private route: ActivatedRoute,
@@ -60,8 +62,8 @@ export class PostDetailsComponent implements OnInit {
       })
   }
 
-  isAuthor() {
-    return this.post['_acl']['creator'] === localStorage.getItem('userId');
+  isAuthor(commentInfo: Object) {
+    return commentInfo['_acl']['creator'] === localStorage.getItem('userId');
   }
 
   deletePost(id: string) {

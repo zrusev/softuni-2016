@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, UrlSegment, Router } from '@angular/router';
 import { PostService } from '../../../core/services/post.service';
+import { PostInfo } from '../../models/Post-Info';
 
 @Component({
   selector: 'app-post-list',
@@ -8,7 +9,7 @@ import { PostService } from '../../../core/services/post.service';
   styleUrls: ['./post-list.component.css']
 })
 export class PostListComponent implements OnInit {
-  allPosts: Object[];
+  allPosts: PostInfo[];
 
   constructor(
     private postService: PostService,

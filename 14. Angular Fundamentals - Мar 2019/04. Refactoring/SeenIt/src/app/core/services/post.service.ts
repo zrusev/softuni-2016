@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { APP_KEY } from '../../kinvey.tokens';
+import { PostInfo } from 'src/app/components/models/Post-Info';
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +16,7 @@ export class PostService {
   ) { }
 
   getAll() {
-    return this.http.get<Object[]>(this.ALL_POSTS, {
+    return this.http.get<PostInfo[]>(this.ALL_POSTS, {
       headers: new HttpHeaders({
         'Authorization': `Kinvey ${localStorage.getItem('token')}`
       })
@@ -31,7 +32,7 @@ export class PostService {
   }
 
   getById(id: string) {
-    return this.http.get<Object>(this.CREATE_POST + `/${id}`, {
+    return this.http.get<PostInfo>(this.CREATE_POST + `/${id}`, {
       headers: new HttpHeaders({
         'Authorization': `Kinvey ${localStorage.getItem('token')}`
       })
@@ -39,7 +40,7 @@ export class PostService {
   }
 
   getDetails(id: string) {
-    return this.http.get<Object>(this.CREATE_POST + `/${id}`, {
+    return this.http.get<PostInfo>(this.CREATE_POST + `/${id}`, {
       headers: new HttpHeaders({
         'Authorization': `Kinvey ${localStorage.getItem('token')}`
       })
@@ -64,7 +65,7 @@ export class PostService {
 
   getUserPosts() {
     return this.http
-      .get<Object[]>(`${this.BASE_URL}/posts?query={"author":"${localStorage.getItem('username')}"}&sort={"_kmd.ect": -1}`, {
+      .get<PostInfo[]>(`${this.BASE_URL}/posts?query={"author":"${localStorage.getItem('username')}"}&sort={"_kmd.ect": -1}`, {
         headers: new HttpHeaders({
           'Authorization': `Kinvey ${localStorage.getItem('token')}`
         })
