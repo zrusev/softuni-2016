@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { APP_KEY } from '../../kinvey.tokens';
-import { PostInfo } from 'src/app/components/models/Post-Info';
-import { CommentInfo } from 'src/app/components/models/Comment-Info';
+import { PostInfo } from 'src/app/components/shared/models/Post-Info';
+import { CommentInfo } from 'src/app/components/shared/models/Comment-Info';
 
 
 @Injectable({

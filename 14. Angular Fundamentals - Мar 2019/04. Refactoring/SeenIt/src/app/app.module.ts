@@ -13,14 +13,12 @@ import { PostListComponent } from './components/post/post-list/post-list.compone
 import { PostCreateComponent } from './components/post/post-create/post-create.component';
 import { PostEditComponent } from './components/post/post-edit/post-edit.component';
 import { PostDetailsComponent } from './components/post/post-details/post-details.component';
-import { HeaderComponent } from './components/shared/header/header.component';
-import { FooterComponent } from './components/shared/footer/footer.component';
-import { ContentComponent } from './components/shared/content/content.component';
 import { PostInfoComponent } from './components/post/post-info/post-info.component';
 import { CommentInfoComponent } from './components/comment/comment-info/comment-info.component';
 import { CommentCreateComponent } from './components/comment/comment-create/comment-create.component';
 import { TokenInterceptor } from './core/interceptors/token.interceptor';
 import { ErrorInterceptor } from './core/interceptors/error.interceptor';
+import { SharedModule } from './components/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -31,9 +29,6 @@ import { ErrorInterceptor } from './core/interceptors/error.interceptor';
     PostCreateComponent,
     PostEditComponent,
     PostDetailsComponent,
-    HeaderComponent,
-    FooterComponent,
-    ContentComponent,
     PostInfoComponent,
     CommentInfoComponent,
     CommentCreateComponent,
@@ -44,7 +39,8 @@ import { ErrorInterceptor } from './core/interceptors/error.interceptor';
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    SharedModule
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS,

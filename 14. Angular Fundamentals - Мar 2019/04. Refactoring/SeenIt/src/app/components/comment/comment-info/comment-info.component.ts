@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { CommentInfo } from '../../models/Comment-Info';
+import { CommentInfo } from '../../shared/models/Comment-Info';
 
 @Component({
   selector: 'app-comment-info',

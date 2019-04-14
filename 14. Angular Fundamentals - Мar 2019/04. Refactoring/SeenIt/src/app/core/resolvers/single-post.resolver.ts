@@ -1,5 +1,5 @@
 import { Resolve, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
-import { PostInfo } from 'src/app/components/models/Post-Info';
+import { PostInfo } from 'src/app/components/shared/models/Post-Info';
 import { Injectable } from '@angular/core';
 import { PostService } from '../services/post.service';
 

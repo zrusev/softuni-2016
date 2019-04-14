@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PostService } from '../../../core/services/post.service';
 import { CommentService } from '../../../core/services/comment.service';
-import { CommentInfo } from '../../models/Comment-Info';
-import { PostInfo } from '../../models/Post-Info';
+import { CommentInfo } from '../../shared/models/Comment-Info';
+import { PostInfo } from '../../shared/models/Post-Info';
 import { Observable } from 'rxjs';
 
 @Component({

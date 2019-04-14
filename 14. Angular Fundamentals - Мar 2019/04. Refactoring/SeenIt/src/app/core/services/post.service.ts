@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { APP_KEY } from '../../kinvey.tokens';
-import { PostInfo } from 'src/app/components/models/Post-Info';
+import { PostInfo } from 'src/app/components/shared/models/Post-Info';
 
 @Injectable({
   providedIn: 'root'

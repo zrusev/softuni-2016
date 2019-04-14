@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, UrlSegment, Router } from '@angular/router';
 import { PostService } from '../../../core/services/post.service';
-import { PostInfo } from '../../models/Post-Info';
+import { PostInfo } from '../../shared/models/Post-Info';
 import { Observable } from 'rxjs';
 
 @Component({
