@@ -5,13 +5,13 @@
           <p>Select furniture from the catalog to view details.</p>
       </div>
   </div>
-      <div class="row space-top">
+      <div class="row space-top" *ngIf="furnitures$; else loading">
           <div class="col-md-4" *ngFor="let f of furnitures$ | async">
               <div class="card text-white bg-primary">
                   <div class="card-body">
                       <blockquote class="card-blockquote">
                           <img src="{{f.image}}" />
-                          <p>{{f.description}}</p>
+                          <p>{{f.description | slice:0:11}}...</p>
                           <footer>Someone famous in
                               <cite title="Source Title">Source Title</cite>
                           </footer>
@@ -23,4 +23,12 @@
               </div>
           </div>
       </div>
+      <ng-template #loading>
+        <div class="row">
+          <div class="col-lg-4"></div>
+          <div class="col-lg-4" text-center>
+            <h1>Loading...</h1>
+          </div>
+        </div>
+      </ng-template>
 </div>

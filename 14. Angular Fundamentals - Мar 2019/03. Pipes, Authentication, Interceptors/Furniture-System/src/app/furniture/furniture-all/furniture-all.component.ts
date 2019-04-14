@@ -13,7 +13,9 @@ export class FurnitureAllComponent implements OnInit {
   constructor(private furnitureService: FurnitureService) { }
 
   ngOnInit() {
-    this.furnitures$ = this.furnitureService.getAllFurnitures();
+    setTimeout(() => {
+      this.furnitures$ = this.furnitureService.getAllFurnitures();
+    }, 2000);
   }
 
 }

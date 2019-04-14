@@ -14,10 +14,10 @@ export class FurnitureDetailsComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.subscribe((data) => {
-      let id = data['id'];
+      const id = data['id'];
 
-      this.furnitureService.getFurniture(id).subscribe((data) => {
-        this.furniture = data;
+      this.furnitureService.getFurniture(id).subscribe((furniture) => {
+        this.furniture = furniture;
       });
     });
   }
