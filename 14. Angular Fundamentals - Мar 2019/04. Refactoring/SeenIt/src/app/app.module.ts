@@ -13,6 +13,9 @@ import { PostListComponent } from './components/post/post-list/post-list.compone
 import { PostCreateComponent } from './components/post/post-create/post-create.component';
 import { PostEditComponent } from './components/post/post-edit/post-edit.component';
 import { PostDetailsComponent } from './components/post/post-details/post-details.component';
+import { HeaderComponent } from './components/shared/header/header.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { ContentComponent } from './components/shared/content/content.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { PostDetailsComponent } from './components/post/post-details/post-detail
     PostCreateComponent,
     PostEditComponent,
     PostDetailsComponent,
+    HeaderComponent,
+    FooterComponent,
+    ContentComponent,
   ],
   imports: [
     BrowserModule,
