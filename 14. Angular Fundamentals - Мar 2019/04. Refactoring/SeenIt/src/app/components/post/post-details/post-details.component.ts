@@ -13,7 +13,7 @@ import { Observable } from 'rxjs';
 })
 export class PostDetailsComponent implements OnInit {
   post$: Observable<PostInfo>;
-  comments: CommentInfo[];
+  comments$: Observable<CommentInfo[]>;
   id: string;
 
   constructor(
@@ -26,28 +26,11 @@ export class PostDetailsComponent implements OnInit {
   ngOnInit() {
     this.id = this.route.snapshot.params['id'];
     this.post$ = this.postService.getDetails(this.id);
-    this.commentService.getAllForPost(this.id)
-      .subscribe((data) => {
-        this.comments = data;
-      });
+    this.comments$ = this.commentService.getAllForPost(this.id);
   }
 
   loadComments() {
-    this.commentService.getAllForPost(this.id)
-      .subscribe((data) => {
-        this.comments = data;
-      });
-  }
-
-  deleteComment(id: string) {
-    this.commentService.deleteComment(id)
-      .subscribe(() => {
-        this.loadComments();
-      })
-  }
-
-  isAuthor(commentInfo: Object) {
-    return commentInfo['_acl']['creator'] === localStorage.getItem('userId');
+    this.comments$ = this.commentService.getAllForPost(this.id);
   }
 
   deletePost(id: string) {
@@ -63,6 +46,12 @@ export class PostDetailsComponent implements OnInit {
       .subscribe((data) => {
         this.loadComments();
       });
+  }
 
+  deleteComment(id: string) {
+    this.commentService.deleteComment(id)
+      .subscribe(() => {
+        this.loadComments();
+      });
   }
 }

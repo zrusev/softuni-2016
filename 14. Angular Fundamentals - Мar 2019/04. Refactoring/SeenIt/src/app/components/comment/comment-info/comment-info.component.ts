@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { CommentService } from 'src/app/core/services/comment.service';
+import { CommentInfo } from '../../models/Comment-Info';
 
 @Component({
   selector: 'app-comment-info',
@@ -6,10 +8,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comment-info.component.css']
 })
 export class CommentInfoComponent implements OnInit {
+  @Input() commentInfo: CommentInfo;
+  @Output() deleteCommentEmitter = new EventEmitter<string>();
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  deleteComment(id: string) {
+    this.deleteCommentEmitter.emit(id);
+  }
+
+  isAuthor(commentInfo: Object) {
+    return commentInfo['_acl']['creator'] === localStorage.getItem('userId');
   }
 
 }
