@@ -1,6 +1,5 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { NgForm } from '@angular/forms';
 import { PostService } from '../../../core/services/post.service';
 import { CommentService } from '../../../core/services/comment.service';
 import { CommentInfo } from '../../models/Comment-Info';
@@ -13,7 +12,6 @@ import { Observable } from 'rxjs';
   styleUrls: ['./post-details.component.css']
 })
 export class PostDetailsComponent implements OnInit {
-  @ViewChild('f') createCommentForm: NgForm;
   post$: Observable<PostInfo>;
   comments: CommentInfo[];
   id: string;
@@ -48,19 +46,6 @@ export class PostDetailsComponent implements OnInit {
       })
   }
 
-  postComment() {
-    const body = this.createCommentForm.value;
-    body['postId'] = this.id;
-    body['author'] = localStorage.getItem('username');
-
-    this.commentService
-      .postComment(this.createCommentForm.value)
-      .subscribe(() => {
-        this.createCommentForm.reset();
-        this.loadComments();
-      })
-  }
-
   isAuthor(commentInfo: Object) {
     return commentInfo['_acl']['creator'] === localStorage.getItem('userId');
   }
@@ -69,6 +54,15 @@ export class PostDetailsComponent implements OnInit {
     this.postService.deletePost(id)
       .subscribe(() => {
         this.router.navigate(['/posts']);
-      })
+      });
+  }
+
+  postComment(body: Object) {
+    this.commentService
+      .postComment(body)
+      .subscribe((data) => {
+        this.loadComments();
+      });
+
   }
 }
