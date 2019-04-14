@@ -369,6 +369,8 @@
 [16. Databases Advanced - Entity Framework - Feb 
 2019](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019)
 
+-   [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/Databases%20Advanced-Entity%20Framework-Feb%202019-Certificate.url)
+
 -   [01. Fetching Resultsets with ADO.NET
 	](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/01.%20Fetching%20Resultsets%20with%20ADO.NET)
 	
