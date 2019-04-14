@@ -28,7 +28,7 @@ export class PostDetailsComponent implements OnInit {
   ngOnInit() {
     this.id = this.route.snapshot.params['id'];
     this.post$ = this.postService.getDetails(this.id);
-    this.commentService.getAllForPost(this.id])
+    this.commentService.getAllForPost(this.id)
       .subscribe((data) => {
         this.comments = data;
       });
