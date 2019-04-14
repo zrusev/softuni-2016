@@ -12,7 +12,7 @@ import { Observable } from 'rxjs';
   styleUrls: ['./post-details.component.css']
 })
 export class PostDetailsComponent implements OnInit {
-  post$: Observable<PostInfo>;
+  post: PostInfo;
   comments$: Observable<CommentInfo[]>;
   id: string;
 
@@ -25,7 +25,7 @@ export class PostDetailsComponent implements OnInit {
 
   ngOnInit() {
     this.id = this.route.snapshot.params['id'];
-    this.post$ = this.postService.getDetails(this.id);
+    this.post = this.route.snapshot.data['post'];
     this.comments$ = this.commentService.getAllForPost(this.id);
   }
 

@@ -1,5 +1,4 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { CommentService } from 'src/app/core/services/comment.service';
 import { CommentInfo } from '../../models/Comment-Info';
 
 @Component({

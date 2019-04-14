@@ -44,9 +44,7 @@ import { CommentCreateComponent } from './components/comment/comment-create/comm
     BrowserAnimationsModule,
     ToastrModule.forRoot()
   ],
-  providers: [
-  
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

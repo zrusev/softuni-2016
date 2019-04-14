@@ -6,16 +6,21 @@ import { PostListComponent } from './components/post/post-list/post-list.compone
 import { PostCreateComponent } from './components/post/post-create/post-create.component';
 import { PostEditComponent } from './components/post/post-edit/post-edit.component';
 import { PostDetailsComponent } from './components/post/post-details/post-details.component';
+import { SinglePostResolver } from './core/resolvers/single-post.resolver';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/login' },
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'posts', component: PostListComponent },
-  { path: 'posts/user', component: PostListComponent },
-  { path: 'posts/create', component: PostCreateComponent },
-  { path: 'posts/edit/:id', component: PostEditComponent },
-  { path: 'posts/details/:id', component: PostDetailsComponent }
+  {
+    path: 'posts', children: [
+      { path: '', component: PostListComponent },
+      { path: 'user', component: PostListComponent },
+      { path: 'create', component: PostCreateComponent },
+      { path: 'edit/:id', component: PostEditComponent },
+      { path: 'details/:id', component: PostDetailsComponent, resolve: { post: SinglePostResolver } }
+    ]
+  }
 ];
 
 @NgModule({

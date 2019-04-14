@@ -1,13 +1,11 @@
 <section id="viewComments">
     <app-post-info
-      *ngIf="(post$ | async) as post" 
       [post]="post"
       [desc]="post.description"
     >
     </app-post-info>
   <div class="post post-content">    
     <app-comment-create
-      *ngIf="(post$ | async) as post"     
       [postId]="post._id"
       (postCommentEmitter)="postComment($event)"
     >
