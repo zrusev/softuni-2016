@@ -20,6 +20,7 @@ import { PostInfoComponent } from './components/post/post-info/post-info.compone
 import { CommentInfoComponent } from './components/comment/comment-info/comment-info.component';
 import { CommentCreateComponent } from './components/comment/comment-create/comment-create.component';
 import { TokenInterceptor } from './core/interceptors/token.interceptor';
+import { ErrorInterceptor } from './core/interceptors/error.interceptor';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,10 @@ import { TokenInterceptor } from './core/interceptors/token.interceptor';
   providers: [{
     provide: HTTP_INTERCEPTORS,
     useClass: TokenInterceptor,
+    multi: true
+  }, {
+    provide: HTTP_INTERCEPTORS,
+    useClass: ErrorInterceptor,
     multi: true
   }],
   bootstrap: [AppComponent]
