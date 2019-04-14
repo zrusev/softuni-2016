@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, UrlSegment, Router } from '@angular/router';
-import { PostService } from '../services/post.service';
+import { PostService } from '../../../core/services/post.service';
 
 @Component({
   selector: 'app-post-list',

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { APP_KEY, APP_SECRET } from '../kinvey.tokens';
+import { APP_KEY, APP_SECRET } from '../../kinvey.tokens';
 
 @Injectable({
   providedIn: 'root'

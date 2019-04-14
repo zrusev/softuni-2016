@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { PostListComponent } from './post-list/post-list.component';
-import { PostCreateComponent } from './post-create/post-create.component';
-import { PostEditComponent } from './post-edit/post-edit.component';
-import { PostDetailsComponent } from './post-details/post-details.component';
+import { LoginComponent } from './components/authentication/login/login.component';
+import { RegisterComponent } from './components/authentication/register/register.component';
+import { PostListComponent } from './components/post/post-list/post-list.component';
+import { PostCreateComponent } from './components/post/post-create/post-create.component';
+import { PostEditComponent } from './components/post/post-edit/post-edit.component';
+import { PostDetailsComponent } from './components/post/post-details/post-details.component';
 
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/login' },

@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { Router } from '@angular/router';
-import { PostService } from '../services/post.service';
+import { PostService } from '../../../core/services/post.service';
 
 @Component({
   selector: 'app-post-create',
