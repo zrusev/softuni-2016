@@ -9,6 +9,7 @@ import { PostInfoComponent } from './post-info/post-info.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { CommentInfoComponent } from '../comment/comment-info/comment-info.component';
 import { CommentCreateComponent } from '../comment/comment-create/comment-create.component';
+import { PostRoutingModule } from './post-routing.module';
 
 @NgModule({
     declarations: [
@@ -23,10 +24,9 @@ import { CommentCreateComponent } from '../comment/comment-create/comment-create
     imports: [
         CommonModule,
         FormsModule,
-        RouterModule
+        PostRoutingModule
     ],
     exports: []
 })
 export class PostModule {
-
 }

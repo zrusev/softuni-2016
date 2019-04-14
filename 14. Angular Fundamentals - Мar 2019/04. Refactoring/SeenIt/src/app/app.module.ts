@@ -27,8 +27,7 @@ import { PostModule } from './components/post/post.module';
     HttpClientModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
-    SharedModule,
-    PostModule
+    SharedModule
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS,
