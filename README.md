@@ -324,7 +324,21 @@
 	
 -   [Defence Project](https://github.com/zrusev/SoftUni_2016/blob/master/13.%20ReactJS%20Fundamentals%20-%20Feb%202019/Defence%20Project.url)
 
+[14. Angular Fundamentals - Мar 
+2019](https://github.com/zrusev/SoftUni_2016/tree/master/14.%20Angular%20Fundamentals%20-%20%D0%9Car%202019)
+
+-   [01. Workshop Movie DB
+	](https://github.com/zrusev/SoftUni_2016/tree/master/14.%20Angular%20Fundamentals%20-%20%D0%9Car%202019/01.%20Workshop%20Movie%20DB)
 	
+-   [02. Forms
+	](https://github.com/zrusev/SoftUni_2016/tree/master/14.%20Angular%20Fundamentals%20-%20%D0%9Car%202019/02.%20Forms)	
+
+-   [03. Pipes, Authentication, Interceptorst
+	](https://github.com/zrusev/SoftUni_2016/tree/master/14.%20Angular%20Fundamentals%20-%20%D0%9Car%202019/03.%20Pipes%2C%20Authentication%2C%20Interceptors)
+	
+-   [04. Refactoring
+	](https://github.com/zrusev/SoftUni_2016/tree/master/14.%20Angular%20Fundamentals%20-%20%D0%9Car%202019/04.%20Refactoring)
+
 [15. Databases Basics - MS SQL Server - Jan 
 2019](https://github.com/zrusev/SoftUni_2016/tree/master/15.%20Databases%20Basics%20-%20MS%20SQL%20Server%20-%20Jan%202019)
 
