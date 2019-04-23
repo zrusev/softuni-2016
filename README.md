@@ -6,7 +6,6 @@
 
 ### Table of contents:
 ---
-<small>
 #### 01. Programming Basics - Sep 2016
   > [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/01.%20Programming%20Basics%20-%20Sep%202016/Programming-Basics-September-2016-Certificate.url)
 
