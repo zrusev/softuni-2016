@@ -1,4 +1,4 @@
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/zrusev/SoftUni_2016.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/zrusev/SoftUni_2016.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/zrusev/SoftUni_2016.svg) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/zrusev/SoftUni_2016.svg)
 
 ![Languages](https://img.shields.io/github/languages/count/zrusev/SoftUni_2016.svg) ![GitHub top language](https://img.shields.io/github/languages/top/zrusev/SoftUni_2016.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/zrusev/SoftUni_2016.svg) 
 
@@ -10,33 +10,21 @@
   > [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/01.%20Programming%20Basics%20-%20Sep%202016/Programming-Basics-September-2016-Certificate.url)
 
 #### 02. Programming Fundamentals - Jan 2017
-  > [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Programming-Fundamentals-January-2017-Certificate.url)
-  
-  > [02. Data Types and Variables](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/02.%20Data%20Types%20and%20Variables)
-  
-  > [03. Methods.Debugging](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/03.%20Methods.%20Debugging)
-  
-  > [04. Arrays](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/04.%20Arrays)
-  
-  > [05. Lists](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/05.%20Lists)
-  
-  > [06. Dictionaries, Lambda and LINQ](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/06.%20Dictionaries%2C%20Lambda%20and%20LINQ)
-  
-  > [07. Objects and Classes](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/07.%20Objects%20and%20Classes)
-  
-  > [09. Strings](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/09.%20Strings)
-  
-  > [10. Regex](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/10.%20Regex)
-  
-  > [Exam Preparation I](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Exam%20Preparation%20I)
-  
-  > [Exam Preparation II](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Exam%20Preparation%20II)
-  
-  > [Exam Preparation III](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Exam%20Preparation%20III)
-  
-  > [Exam Preparation IV](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Exam%20Preparation%20IV)
-  
-  > [Programming Fundamentals Exam - 26 February 2017](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Programming%20Fundamentals%20Exam%20-%2026%20February%202017)
+
+> [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Programming-Fundamentals-January-2017-Certificate.url)
+> [02. Data Types and Variables](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/02.%20Data%20Types%20and%20Variables)
+> [03. Methods.Debugging](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/03.%20Methods.%20Debugging)
+> [04. Arrays](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/04.%20Arrays)
+> [05. Lists](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/05.%20Lists)
+> [06. Dictionaries, Lambda and LINQ](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/06.%20Dictionaries%2C%20Lambda%20and%20LINQ)
+> [07. Objects and Classes](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/07.%20Objects%20and%20Classes)
+> [09. Strings](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/09.%20Strings)
+> [10. Regex](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/10.%20Regex)
+> [Exam Preparation I](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Exam%20Preparation%20I)
+> [Exam Preparation II](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Exam%20Preparation%20II)
+> [Exam Preparation III](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Exam%20Preparation%20III)
+> [Exam Preparation IV](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Exam%20Preparation%20IV)
+> [Programming Fundamentals Exam - 26 February 2017](https://github.com/zrusev/SoftUni_2016/tree/master/02.%20Programming%20Fundamentals%20-%20Jan%202017/Programming%20Fundamentals%20Exam%20-%2026%20February%202017)
 
 #### 03. Software Technologies - Feb 2017
   > [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/03.%20Software%20Technologies%20-%20Feb%202017/Software-Technologies-February-2017-Certificate.url)
