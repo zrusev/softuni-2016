@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nested_loops", "Nested_loops\Nested_loops.csproj", "{D9E8AF3C-4CCB-4F65-BC41-650AC6EAEACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reverse_array", "Reverse_array\Reverse_array.csproj", "{FD1C84F8-6581-4C18-8850-083F4CEE977A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9E8AF3C-4CCB-4F65-BC41-650AC6EAEACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E8AF3C-4CCB-4F65-BC41-650AC6EAEACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E8AF3C-4CCB-4F65-BC41-650AC6EAEACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E8AF3C-4CCB-4F65-BC41-650AC6EAEACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1C84F8-6581-4C18-8850-083F4CEE977A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1C84F8-6581-4C18-8850-083F4CEE977A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1C84F8-6581-4C18-8850-083F4CEE977A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1C84F8-6581-4C18-8850-083F4CEE977A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B530D3C-DBE7-47C7-A0DE-01D32EFE4CF5}
+	EndGlobalSection
+EndGlobal
