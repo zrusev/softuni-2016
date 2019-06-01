@@ -6,6 +6,10 @@
 
 ### Table of contents:
 ---
+#### 00. Diplomas
+  > ![alt text](https://github.com/zrusev/softuni-2016/blob/master/00.%20Diplomas/Diploma%20for%20JavaScript%20Web%20Developer.PNG "Diploma for JavaScript Web Developer")
+  > ![alt text](https://github.com/zrusev/softuni-2016/blob/master/00.%20Diplomas/Diploma%20for%20C%23%20Web%20Developer.PNG "Diploma for C# Web Developer")
+
 #### 01. Programming Basics - Sep 2016
   > [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/01.%20Programming%20Basics%20-%20Sep%202016/Programming-Basics-September-2016-Certificate.url)
 
