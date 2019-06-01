@@ -7,7 +7,10 @@
 ### Table of contents:
 ---
 #### 00. Diplomas
+  > [JavaScript Web Developer](https://softuni.bg/certificates/details/66724/328878e2)
   > ![alt text](https://github.com/zrusev/softuni-2016/blob/master/00.%20Diplomas/Diploma%20for%20JavaScript%20Web%20Developer.PNG "Diploma for JavaScript Web Developer")
+  > 
+  > [C# Web Developer](https://softuni.bg/certificates/details/66757/666b620c)
   > ![alt text](https://github.com/zrusev/softuni-2016/blob/master/00.%20Diplomas/Diploma%20for%20C%23%20Web%20Developer.PNG "Diploma for C# Web Developer")
 
 #### 01. Programming Basics - Sep 2016
