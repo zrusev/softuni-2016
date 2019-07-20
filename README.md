@@ -310,3 +310,11 @@
   > [13. Exam Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/13.%20Exam%20Preparation)
   > 
   > [C# DB Advanced Exam - 07.04.2019](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/C%23%20DB%20Advanced%20Exam%20-%2007.04.2019)
+
+#### 17. Algorithms - Mar 2019
+  > [01. Recursion](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/01.%20Recursion)
+  > 
+  > [02. Sorting](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/02.%20Sorting)
+  
+#### 18. HTML & CSS - May 2019
+  > [01. Custom Ratio Media Container](https://github.com/zrusev/softuni-2016/tree/master/18.%20HTML%20%26%20CSS%20-%20May%202019/01.%20Custom%20Ratio%20Media%20Container)  
