@@ -1,0 +1,9 @@
+p {
+    color: white;
+}
+body {
+    background: url(../images/apple.png) no-repeat;
+    object-fit: cover;
+}
+
+/*# sourceMappingURL=bundle.css.map*/
