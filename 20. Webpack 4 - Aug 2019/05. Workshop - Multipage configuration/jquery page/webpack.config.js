@@ -18,7 +18,7 @@ module.exports = {
         extensions: ['.js'],
     },
     entry: {
-        app: path.resolve(__dirname, 'src/scripts/views/index'),
+        index: path.resolve(__dirname, 'src/scripts/views/index'),
     },
     output: {
         filename: 'scripts/[name].min.js',
