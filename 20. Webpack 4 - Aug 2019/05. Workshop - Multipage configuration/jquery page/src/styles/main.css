@@ -1,0 +1,6 @@
+@import url('./foo.css');
+
+body {
+    background: url('./apple.png') no-repeat;
+    object-fit: cover;
+}
