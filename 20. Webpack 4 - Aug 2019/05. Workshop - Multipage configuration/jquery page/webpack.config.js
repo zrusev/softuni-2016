@@ -18,10 +18,10 @@ module.exports = {
         extensions: ['.js'],
     },
     entry: {
-        app: path.resolve(__dirname, 'src/app.js'),
+        app: path.resolve(__dirname, 'src/scripts/views/index'),
     },
     output: {
-        filename: 'scripts/bundle.min.js',
+        filename: 'scripts/[name].min.js',
         path: path.resolve(__dirname, 'dist'),
     },
     devServer: {
@@ -95,7 +95,7 @@ module.exports = {
                     loader: 'file-loader',
                     options: {
                         name: '[name].[ext]',
-                        context: path.resolve(__dirname, "src/"),
+                        context: path.resolve(__dirname, "src/assets/"),
                         outputPath: 'images',
                         publicPath: '../images',
                         useRelativePaths: true,
@@ -117,7 +117,7 @@ module.exports = {
                         loader: 'file-loader',
                         options: {
                             name: '[name].[ext]',
-                            context: path.resolve(__dirname, "src/"),
+                            context: path.resolve(__dirname, "src/assets/"),
                             outputPath: 'fonts',
                             publishPath: '../fonts',
                             useRelativePaths: true,
@@ -130,10 +130,10 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new PurgecssPlugin({
-            paths: glob.sync(`${path.resolve(__dirname, 'src')}/*`)
+            paths: glob.sync(`${path.resolve(__dirname, 'src')}/**/*`, { nodir: true })
         }),
         new MiniCssExtractPlugin({
-            filename: 'styles/bundle.css'
+            filename: 'styles/[name].min.css'
         }),
         // new CopyPlugin([
         //     {
@@ -142,7 +142,8 @@ module.exports = {
         //     }
         // ]),
         new HtmlWebpackPlugin({
-            template: path.resolve(__dirname, 'src', 'index.html')
+            template: path.resolve(__dirname, 'src/views/index.html'),
+            title: 'Home',
         }),
         // new Critters({
         //     preload: 'swap',
