@@ -1,4 +1,5 @@
 import '../../styles/views/index.scss';
+import '../../styles/views/index.css';
 
 function helloPromise() {
     return new Promise((resolve, reject) => {                
