@@ -1,0 +1,28 @@
+div.container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-items: center;
+}
+
+a {
+    margin-bottom: 1em;
+    transform: translateY(10em);
+    transition: background 1s ease-in-out, 
+        color 1s ease-in-out,
+        transform 0.4s ease-in-out;
+}
+
+a:nth-child(1) { transition-delay: 0.4s; }
+a:nth-child(2) { transition-delay: 0.3s; }
+a:nth-child(3) { transition-delay: 0.2s; }
+a:nth-child(4) { transition-delay: 0.1s; }
+
+h6 {
+    transition: padding 0.5s linear;
+}
+
+h6:hover {
+    /* transform: translateX(5em); */
+    padding-left: 10em;
+}

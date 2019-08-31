@@ -1,0 +1,21 @@
+:root {
+    --font-size-body: 14px;
+    --font-size-body-larger: 16px;
+    --font-size-body-big: 18px;
+    --font-size-body-huge: 20px; 
+
+    --font-size-h1: 2.6em;
+    --font-size-h2: 2.0em;
+    --font-size-h3: 1.8em;
+    --font-size-h4: 1.4em;
+    --font-size-h5: 1.2em;
+    --font-size-h6: 1em;
+
+    --color-body-text: #000;
+    --color-body-bgrd: #EEE;
+    --color-link-default: #A00;    
+
+    --spacing-layout-elements: 2em;
+
+    --link-bgrd: yellow;
+}
