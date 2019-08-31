@@ -315,6 +315,17 @@
   > [01. Recursion](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/01.%20Recursion)
   > 
   > [02. Sorting](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/02.%20Sorting)
+  > 
+  > [04. Greedy Algorithms](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/04.%20Greedy%20Algorithms)
   
 #### 18. HTML & CSS - May 2019
   > [01. Custom Ratio Media Container](https://github.com/zrusev/softuni-2016/tree/master/18.%20HTML%20%26%20CSS%20-%20May%202019/01.%20Custom%20Ratio%20Media%20Container)  
+  >  
+  > [02. Timeline](https://github.com/zrusev/softuni-2016/tree/master/18.%20HTML%20%26%20CSS%20-%20May%202019/02.%20Timeline)  
+
+#### 20. Webpack 4 - Aug 2019
+  > [01. Webpack Introduction](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/01.%20Webpack%20Introduction)
+  > 
+  > [02. Loaders & Plugins, Bundling](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/02.%20Loaders%20%26%20Plugins%2C%20Bundling)  
+  >   
+  > [05. Workshop - Multipage configuration](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/05.%20Workshop%20-%20Multipage%20configuration)
