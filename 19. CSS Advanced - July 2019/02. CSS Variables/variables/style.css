@@ -1,0 +1,17 @@
+@import "./variables.css";
+
+@import "./typography.css";
+
+body {
+    color: var(--color-body-text, black);
+    background: var(--color-body-bgrd, yellow);
+}
+
+a {
+    color: var(--color-link-default, white);
+    text-decoration: none;
+}
+
+h3 {
+    margin-bottom: calc( var(--spacing-layout-elements) / 2 );
+}
