@@ -109,7 +109,9 @@ const defaultStylesPlugins = [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
         template: path.resolve(__dirname, 'src/views/index.html'),
+        filename: 'index.html',
         title: 'Home',
+        chunks: ['index']
     }),
     // new BundleAnalyzerPlugin(),
 ];
@@ -144,6 +146,9 @@ module.exports = (env) => {
             : 'cheap-eval-source-map',
         resolve: {
             extensions: ['.js'],
+            alias: {
+                jquery: 'jquery/src/jquery'
+            }
         },
         entry: {
             index: path.resolve(__dirname, 'src/scripts/views/index'),
