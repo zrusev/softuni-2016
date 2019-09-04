@@ -322,6 +322,8 @@
   > [01. Custom Ratio Media Container](https://github.com/zrusev/softuni-2016/tree/master/18.%20HTML%20%26%20CSS%20-%20May%202019/01.%20Custom%20Ratio%20Media%20Container)  
   >  
   > [02. Timeline](https://github.com/zrusev/softuni-2016/tree/master/18.%20HTML%20%26%20CSS%20-%20May%202019/02.%20Timeline)  
+  >
+  > [04. SASS Introduction](https://github.com/zrusev/softuni-2016/tree/master/19.%20CSS%20Advanced%20-%20July%202019/04.%20SASS%20Introduction)  
 
 #### 20. Webpack 4 - Aug 2019
   > [01. Webpack Introduction](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/01.%20Webpack%20Introduction)
