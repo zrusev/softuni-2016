@@ -1,0 +1,95 @@
+@mixin  bp($point) {
+    @if $point == desktop-large {
+        @media (max-width: 1600px) { @content };
+    }
+    @else if $point == desktop {
+        @media (max-width: 1250px) { @content };
+    }
+    @else if $point == mobile {
+        @media (max-width: 900px) { @content };
+    }
+    @else if $point == phone {
+        @media (max-width: 600px) { @content };
+    }
+}
+
+@mixin fs($size) {
+    font-size: 1rem + $size;
+}
+
+.site {
+
+    @include bp(phone) {
+        font-size: 12px;
+    }
+
+    @include bp(desktop) {
+        font-size: 14px;
+    }
+
+    max-width: 600px;
+    margin: 0 auto;
+
+    &-header {
+        padding-bottom: 1em;
+
+        h1 {
+            padding: 1em;
+        }
+    }
+
+    &-footer {
+        padding-top: 1em;
+    }
+}
+
+ nav.main-nav {
+
+    $this: &;
+
+    .comments & {
+        display: block;
+
+        @at-root .page-gallery #{$this} {
+            display: none;
+        }
+    }
+
+    body.page-gallery & {
+        display: none;
+    }
+
+    @at-root .page-gallery .main-nav {
+        display: block;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        display: block;
+        list-style: none outside;
+        transition: transform 0.3s ease-in;
+    
+        &:hover {
+            transform: translateX(0.5em); 
+
+            & > a {
+                color: #900;
+                @include fs(1rem);
+            }
+        }
+
+        @for $i from 1 through 4 {
+            &:nth-child(#{$i}) {
+                transition-delay: $i * 0.2s;
+            }
+        }
+    }
+
+    a {
+        display: block;
+    }
+}
+
