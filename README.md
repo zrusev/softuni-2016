@@ -333,3 +333,5 @@
   > [02. Loaders & Plugins, Bundling](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/02.%20Loaders%20%26%20Plugins%2C%20Bundling)  
   >   
   > [05. Workshop - Multipage configuration](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/05.%20Workshop%20-%20Multipage%20configuration)
+  > 
+  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/20.%20Webpack%204%20-%20Aug%202019/Defence%20Project.url)
