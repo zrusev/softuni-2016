@@ -335,3 +335,6 @@
   > [05. Workshop - Multipage configuration](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/05.%20Workshop%20-%20Multipage%20configuration)
   > 
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/20.%20Webpack%204%20-%20Aug%202019/Defence%20Project.url)
+
+#### 21. React Web Applications Masterclass - Oct 2019
+  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/21.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/Defence%20Project.url)
