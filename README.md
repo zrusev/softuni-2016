@@ -1,6 +1,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/zrusev/SoftUni_2016.svg) ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/zrusev/SoftUni_2016.svg)
 
-![Languages](https://img.shields.io/github/languages/count/zrusev/SoftUni_2016.svg) ![GitHub top language](https://img.shields.io/github/languages/top/zrusev/SoftUni_2016.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/zrusev/SoftUni_2016.svg) 
+![Languages](https://img.shields.io/github/languages/count/zrusev/SoftUni_2016.svg) ![GitHub top language](https://img.shields.io/github/languages/top/zrusev/SoftUni_2016.svg) ![GitHub count language](https://img.shields.io/github/languages/count/zrusev/SoftUni_2016.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/zrusev/SoftUni_2016.svg) 
 
 ![GitHub](https://img.shields.io/github/license/zrusev/SoftUni_2016.svg) ![GitHub stars](https://img.shields.io/github/stars/zrusev/SoftUni_2016.svg?style=social)
 
