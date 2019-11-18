@@ -326,7 +326,7 @@
   > [04. SASS Introduction](https://github.com/zrusev/softuni-2016/tree/master/19.%20CSS%20Advanced%20-%20July%202019/04.%20SASS%20Introduction)  
 
 #### 20. Webpack 4 - Aug 2019
-  > [Certificate](https://softuni.bg/certificates/details/70772/34ae4e2c)
+  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/20.%20Webpack%204%20-%20Aug%202019/Webpack%204-Aug%202019-Certificate.url)
   > 
   > [01. Webpack Introduction](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/01.%20Webpack%20Introduction)
   > 
@@ -337,4 +337,6 @@
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/20.%20Webpack%204%20-%20Aug%202019/Defence%20Project.url)
 
 #### 21. React Web Applications Masterclass - Oct 2019
+  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/21.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/React%20Web%20Applications%20Masterclass-Oct%202019-Certificate.url)
+  > 
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/21.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/Defence%20Project.url)
