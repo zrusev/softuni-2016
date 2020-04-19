@@ -318,14 +318,26 @@
   > 
   > [04. Greedy Algorithms](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/04.%20Greedy%20Algorithms)
   
-#### 18. HTML & CSS - May 2019
+#### 18. Data structures - Dec 2018
+  > [01. Linear Data Structures - List And DS Complexity](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/01.%20Linear%20Data%20Structures%20-%20List%20And%20DS%20Complexity)
+  >
+  > [02. Linear Data Structures - Stacks and Queues] (https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/02.%20Linear%20Data%20Structures%20-%20Stacks%20and%20Queues)
+  
+#### 19. HTML & CSS - May 2019
   > [01. Custom Ratio Media Container](https://github.com/zrusev/softuni-2016/tree/master/18.%20HTML%20%26%20CSS%20-%20May%202019/01.%20Custom%20Ratio%20Media%20Container)  
   >  
   > [02. Timeline](https://github.com/zrusev/softuni-2016/tree/master/18.%20HTML%20%26%20CSS%20-%20May%202019/02.%20Timeline)  
   >
   > [04. SASS Introduction](https://github.com/zrusev/softuni-2016/tree/master/19.%20CSS%20Advanced%20-%20July%202019/04.%20SASS%20Introduction)  
+  
+#### 20. CSS Advanced - July 2019
+  > [02. CSS Variables](https://github.com/zrusev/softuni-2016/tree/master/20.%20CSS%20Advanced%20-%20July%202019/02.%20CSS%20Variables/variables)
+  >
+  > [03. CSS Transitions and Animations] (https://github.com/zrusev/softuni-2016/tree/master/20.%20CSS%20Advanced%20-%20July%202019/03.%20CSS%20Transitions%20and%20Animations/transitions-animations)
+  >
+  > [04. SASS Introduction] (https://github.com/zrusev/softuni-2016/tree/master/20.%20CSS%20Advanced%20-%20July%202019/04.%20SASS%20Introduction/sass)
 
-#### 20. Webpack 4 - Aug 2019
+#### 21. Webpack 4 - Aug 2019
   > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/20.%20Webpack%204%20-%20Aug%202019/Webpack%204-Aug%202019-Certificate.url)
   > 
   > [01. Webpack Introduction](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/01.%20Webpack%20Introduction)
@@ -336,7 +348,7 @@
   > 
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/20.%20Webpack%204%20-%20Aug%202019/Defence%20Project.url)
 
-#### 21. React Web Applications Masterclass - Oct 2019
+#### 22. React Web Applications Masterclass - Oct 2019
   > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/21.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/React%20Web%20Applications%20Masterclass-Oct%202019-Certificate.url)
   > 
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/21.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/Defence%20Project.url)
