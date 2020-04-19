@@ -1,0 +1,94 @@
+@import "./variables.css";
+
+@import "./typography.css";
+
+@import "./animations.css";
+
+body {
+    color: var(--color-body-text, black);
+    background: var(--color-body-bgrd, yellow);
+}
+
+a {
+    color: var(--color-link-default, white);
+    background: var(--link-bgrd, yellow);
+    text-decoration: none;
+}
+
+.box {
+    width: 5em;
+    height: 5em;
+    background: red;
+    position: absolute;
+    animation: around 4s linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes around {
+    0% {
+        top: 0; 
+        left: 0;
+    }
+
+    25% {
+        top: 0;
+        left: calc(100% - 5em);
+    }
+
+    50% {
+        top: calc(100% - 5em);
+        left: calc(100% - 5em);
+    }
+
+    75% {
+        top: calc(100% - 5em);
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+
+.shaker {
+    width: 20em;
+    height: 15em;
+    border: 2px solid black;
+    margin: 2em auto;
+    background: #EEE;
+}
+
+.shaker:hover {
+    background: red;
+    animation: shake 0.5s ease;
+    animation-fill-mode: both;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-2em);
+    }
+
+    40% {
+        transform: translateX(2em);
+    }
+
+    60% {
+        transform: translateX(-2em);
+    }
+
+    80% {
+        transform: translateX(2em);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

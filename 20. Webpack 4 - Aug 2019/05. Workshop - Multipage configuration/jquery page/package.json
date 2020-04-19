@@ -1,0 +1,43 @@
+{
+  "name": "webpack-course",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "npx webpack-dev-server --open --env=development",
+    "build": "npx webpack --env=production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "critters-webpack-plugin": "^2.4.0",
+    "css-loader": "^3.2.0",
+    "fast-sass-loader": "^1.5.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "purgecss-webpack-plugin": "^1.5.0",
+    "sass-loader": "^7.3.1",
+    "speed-measure-webpack-plugin": "^1.3.1",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.1",
+    "webpack-bundle-analyzer": "^3.4.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "core-js": "^3.2.1",
+    "cssnano": "^4.1.10",
+    "jquery": "^3.4.1",
+    "postcss-preset-env": "^6.7.0"
+  }
+}

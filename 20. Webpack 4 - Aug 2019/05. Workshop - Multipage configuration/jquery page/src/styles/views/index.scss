@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: lightsteelblue;
+}
+
+header {
+    color: white;
+
+    ul {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        justify-items: center;
+
+        li {
+            color: white;
+            text-decoration: none !important;
+        }
+    }
+}

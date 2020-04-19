@@ -310,3 +310,33 @@
   > [13. Exam Preparation](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/13.%20Exam%20Preparation)
   > 
   > [C# DB Advanced Exam - 07.04.2019](https://github.com/zrusev/SoftUni_2016/tree/master/16.%20Databases%20Advanced%20-%20Entity%20Framework%20-%20Feb%202019/C%23%20DB%20Advanced%20Exam%20-%2007.04.2019)
+
+#### 17. Algorithms - Mar 2019
+  > [01. Recursion](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/01.%20Recursion)
+  > 
+  > [02. Sorting](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/02.%20Sorting)
+  > 
+  > [04. Greedy Algorithms](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/04.%20Greedy%20Algorithms)
+  
+#### 18. HTML & CSS - May 2019
+  > [01. Custom Ratio Media Container](https://github.com/zrusev/softuni-2016/tree/master/18.%20HTML%20%26%20CSS%20-%20May%202019/01.%20Custom%20Ratio%20Media%20Container)  
+  >  
+  > [02. Timeline](https://github.com/zrusev/softuni-2016/tree/master/18.%20HTML%20%26%20CSS%20-%20May%202019/02.%20Timeline)  
+  >
+  > [04. SASS Introduction](https://github.com/zrusev/softuni-2016/tree/master/19.%20CSS%20Advanced%20-%20July%202019/04.%20SASS%20Introduction)  
+
+#### 20. Webpack 4 - Aug 2019
+  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/20.%20Webpack%204%20-%20Aug%202019/Webpack%204-Aug%202019-Certificate.url)
+  > 
+  > [01. Webpack Introduction](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/01.%20Webpack%20Introduction)
+  > 
+  > [02. Loaders & Plugins, Bundling](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/02.%20Loaders%20%26%20Plugins%2C%20Bundling)  
+  >   
+  > [05. Workshop - Multipage configuration](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/05.%20Workshop%20-%20Multipage%20configuration)
+  > 
+  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/20.%20Webpack%204%20-%20Aug%202019/Defence%20Project.url)
+
+#### 21. React Web Applications Masterclass - Oct 2019
+  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/21.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/React%20Web%20Applications%20Masterclass-Oct%202019-Certificate.url)
+  > 
+  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/21.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/Defence%20Project.url)

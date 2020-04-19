@@ -1,0 +1,4 @@
+footer{-webkit-text-decoration-line:underline;text-decoration-line:underline}
+*{box-sizing:border-box}body{margin:0;padding:0;background:#b0c4de}header{color:#fff}header ul{display:flex;flex-flow:row nowrap;justify-content:space-around;justify-items:center}header ul li{color:#fff;text-decoration:none!important}
+
+/*# sourceMappingURL=index.min.css.map*/

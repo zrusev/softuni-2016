@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///foo.css","webpack:///main.css"],"names":[],"mappings":"AAAA;IACI,YAAY;AAChB,C;ACAA;IACI,+CAAwC;IACxC,iBAAiB;AACrB,C","file":"styles/bundle.css","sourcesContent":["p {\n    color: white;\n}","@import url('./foo.css');\n\nbody {\n    background: url('./apple.png') no-repeat;\n    object-fit: cover;\n}"],"sourceRoot":""}
