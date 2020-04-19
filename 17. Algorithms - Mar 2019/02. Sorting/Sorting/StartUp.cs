@@ -5,10 +5,12 @@
 
     public class StartUp
     {
-        static int[] collection = new int[10] { 2, 1, 5, 11, 4, 6, 20, 7, 3, 10 };
+        static int[] collection = new int[10] { 2, 1, 5, 11, 4, 6, 20, 7, 3, 10 };  
 
         public static void Main()
         {
+            Console.WriteLine(SelectionSort());
+
             Console.WriteLine(InsertionSort());
 
             Console.WriteLine(BubleSort());
@@ -20,6 +22,33 @@
             Console.WriteLine(QuickSort(collection.Clone() as int[], 0, collection.Length - 1));
 
             Console.WriteLine(BucketSort());
+        }
+
+        public static string SelectionSort()
+        {
+            int[] numbers = new int[collection.Length];
+            collection.CopyTo(numbers, 0);
+
+            int temp, smallest;
+
+            for (int i = 0; i < numbers.Length - 1; i++)
+            {
+                smallest = i;
+
+                for (int j = i + 1; j < numbers.Length; j++)
+                {
+                    if (numbers[j] < numbers[smallest])
+                    {
+                        smallest = j;
+                    }
+                }
+
+                temp = numbers[smallest];
+                numbers[smallest] = numbers[i];
+                numbers[i] = temp;
+            }
+
+            return string.Join(", ", numbers);
         }
 
         public static string BucketSort()
@@ -250,6 +279,7 @@
 
             return string.Join(", ", numbers);
         }
+
         private static string ShellSort()
         {
             int[] numbers = new int[collection.Length];
