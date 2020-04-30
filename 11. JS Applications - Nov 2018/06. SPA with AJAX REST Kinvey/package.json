@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.3.0",
-    "jquery": "^3.4.0"
+    "jquery": "^3.5.0"
   }
 }
