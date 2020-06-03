@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 public class PlayWithTrees
 {
@@ -15,7 +16,7 @@ public class PlayWithTrees
                     new Tree<int>(23),
                     new Tree<int>(6)));
 
-        tree.OrderDFS();
+        Console.WriteLine(string.Join(" ", tree.OrderBFS().ToList()));
         
         Console.WriteLine("Tree (indented):");
 

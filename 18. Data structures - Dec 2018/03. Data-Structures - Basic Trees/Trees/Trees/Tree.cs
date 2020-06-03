@@ -24,13 +24,18 @@ public class Tree<T>
 
         foreach (Tree<T> child in node.Children)
         {
-            child.Print(indent + 1);
+            child.Print(indent + 2);
         }
     }
 
     public void Each(Action<T> action)
     {
-        throw new NotImplementedException();
+        action(this.Value);
+
+        foreach (var child in this.Children)
+        {
+            child.Each(action);
+        }
     }
 
     public IEnumerable<T> OrderDFS()
@@ -54,6 +59,22 @@ public class Tree<T>
 
     public IEnumerable<T> OrderBFS()
     {
-        throw new NotImplementedException();
+        Queue<Tree<T>> queue = new Queue<Tree<T>>();
+        IList<T> result = new List<T>();
+
+        queue.Enqueue(this);
+
+        while (queue.Count > 0)
+        {
+            Tree<T> current = queue.Dequeue();
+            result.Add(current.Value);
+
+            foreach (var child in current.Children)
+            {
+                queue.Enqueue(child);
+            }
+        }
+
+        return result;
     }
 }
