@@ -324,11 +324,9 @@
   > [02. Linear Data Structures - Stacks and Queues](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/02.%20Linear%20Data%20Structures%20-%20Stacks%20and%20Queues)
 
 #### 19. HTML & CSS - May 2019
-  > [01. Custom Ratio Media Container](https://github.com/zrusev/softuni-2016/tree/master/18.%20HTML%20%26%20CSS%20-%20May%202019/01.%20Custom%20Ratio%20Media%20Container)
+  > [01. Custom Ratio Media Container](https://github.com/zrusev/softuni-2016/tree/master/19.%20HTML%20%26%20CSS%20-%20May%202019/01.%20Custom%20Ratio%20Media%20Container)
   >
-  > [02. Timeline](https://github.com/zrusev/softuni-2016/tree/master/18.%20HTML%20%26%20CSS%20-%20May%202019/02.%20Timeline)
-  >
-  > [04. SASS Introduction](https://github.com/zrusev/softuni-2016/tree/master/19.%20CSS%20Advanced%20-%20July%202019/04.%20SASS%20Introduction)
+  > [02. Timeline](https://github.com/zrusev/softuni-2016/tree/master/19.%20HTML%20%26%20CSS%20-%20May%202019/02.%20Timeline)
 
 #### 20. CSS Advanced - July 2019
   > [02. CSS Variables](https://github.com/zrusev/softuni-2016/tree/master/20.%20CSS%20Advanced%20-%20July%202019/02.%20CSS%20Variables/variables)
@@ -338,20 +336,20 @@
   > [04. SASS Introduction](https://github.com/zrusev/softuni-2016/tree/master/20.%20CSS%20Advanced%20-%20July%202019/04.%20SASS%20Introduction/sass)
 
 #### 21. Webpack 4 - Aug 2019
-  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/20.%20Webpack%204%20-%20Aug%202019/Webpack%204-Aug%202019-Certificate.url)
+  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/21.%20Webpack%204%20-%20Aug%202019/Webpack%204-Aug%202019-Certificate.url)
   >
-  > [01. Webpack Introduction](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/01.%20Webpack%20Introduction)
+  > [01. Webpack Introduction](https://github.com/zrusev/softuni-2016/tree/master/21.%20Webpack%204%20-%20Aug%202019/01.%20Webpack%20Introduction)
   >
-  > [02. Loaders & Plugins, Bundling](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/02.%20Loaders%20%26%20Plugins%2C%20Bundling)
+  > [02. Loaders & Plugins, Bundling](https://github.com/zrusev/softuni-2016/tree/master/21.%20Webpack%204%20-%20Aug%202019/02.%20Loaders%20%26%20Plugins%2C%20Bundling)
   >
-  > [05. Workshop - Multipage configuration](https://github.com/zrusev/softuni-2016/tree/master/20.%20Webpack%204%20-%20Aug%202019/05.%20Workshop%20-%20Multipage%20configuration)
+  > [05. Workshop - Multipage configuration](https://github.com/zrusev/softuni-2016/tree/master/21.%20Webpack%204%20-%20Aug%202019/05.%20Workshop%20-%20Multipage%20configuration)
   >
-  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/20.%20Webpack%204%20-%20Aug%202019/Defence%20Project.url)
+  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/21.%20Webpack%204%20-%20Aug%202019/Defence%20Project.url)
 
 #### 22. React Web Applications Masterclass - Oct 2019
-  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/21.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/React%20Web%20Applications%20Masterclass-Oct%202019-Certificate.url)
+  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/22.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/React%20Web%20Applications%20Masterclass-Oct%202019-Certificate.url)
   >
-  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/21.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/Defence%20Project.url)
+  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/22.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/Defence%20Project.url)
 
 #### 23. Architecture of ASP.NET Core Microservices Applications - юни 2020
   > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/23.%20Architecture%20of%20ASP.NET%20Core%20Microservices%20Applications%20-%20%D1%8E%D0%BD%D0%B8%202020/Architecture%20of%20ASP.NET%20Core%20Microservices%20Applications-June%202020-Certificate.url)
