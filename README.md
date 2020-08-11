@@ -354,4 +354,6 @@
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/21.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/Defence%20Project.url)
 
 #### 23. Architecture of ASP.NET Core Microservices Applications - юни 2020
+  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/23.%20Architecture%20of%20ASP.NET%20Core%20Microservices%20Applications%20-%20%D1%8E%D0%BD%D0%B8%202020/Architecture%20of%20ASP.NET%20Core%20Microservices%20Applications-June%202020-Certificate.url)
+  >
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/23.%20Architecture%20of%20ASP.NET%20Core%20Microservices%20Applications%20-%20%D1%8E%D0%BD%D0%B8%202020/Defence%20Project.url)
