@@ -351,18 +351,17 @@
   >
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/22.%20React%20Web%20Applications%20Masterclass%20-%20Oct%202019/Defence%20Project.url)
 
-#### 23. Architecture of ASP.NET Core Microservices Applications - юни 2020
+#### 23. Architecture of ASP.NET Core Microservices Applications - June 2020
   > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/23.%20Architecture%20of%20ASP.NET%20Core%20Microservices%20Applications%20-%20%D1%8E%D0%BD%D0%B8%202020/Architecture%20of%20ASP.NET%20Core%20Microservices%20Applications-June%202020-Certificate.url)
   >
-  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/23.%20Architecture%20of%20ASP.NET%20Core%20Microservices%20Applications%20-%20%D1%8E%D0%BD%D0%B8%202020/Defence%20Project.url)
+  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/23.%20Architecture%20of%20ASP.NET%20Core%20Microservices%20Applications%20-%20June%202020/Defence%20Project.url)
 
-#### 24. Domain-Driven Design with ASP.NET Core Microservices - август 2020
-  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/24.%20Domain-Driven%20Design%20with%20ASP.NET%20Core%20Microservices%20-%20%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82%202020/Domain-Driven%20Design%20with%20ASP.NET%20Core%20Microservices%20-%20August%202020-Certificate.url)
+#### 24. AWS Essentials - July 2020
+
+#### 25. Domain-Driven Design with ASP.NET Core Microservices - Aug 2020
+  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/25.%20Domain-Driven%20Design%20with%20ASP.NET%20Core%20Microservices%20-%20Aug%202020/Domain-Driven%20Design%20with%20ASP.NET%20Core%20Microservices%20-%20August%202020-Certificate.url)
   >
-  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/24.%20Domain-Driven%20Design%20with%20ASP.NET%20Core%20Microservices%20-%20%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82%202020/Defence%20Project.url)
+  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/25.%20Domain-Driven%20Design%20with%20ASP.NET%20Core%20Microservices%20-%20%Aug%202020/Defence%20Project.url)0
 
-#### 25. Domain-Driven Design with ASP.NET Core Microservices - август 2020
-  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/25.%20Domain-Driven%20Design%20with%20ASP.NET%20Core%20Microservices%20-%20%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82%202020/Defence%20Project.url)
-
-#### 26. Process Automation with ASP.NET Core Microservices - октомври 2020
-  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/23.%20Architecture%20of%20ASP.NET%20Core%20Microservices%20Applications%20-%20%D1%8E%D0%BD%D0%B8%202020/Defence%20Project.url)
+#### 26. Process Automation with ASP.NET Core Microservices - Oct 2020
+  > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/23.%20Architecture%20of%20ASP.NET%20Core%20Microservices%20Applications%20-%20Oct%202020/Defence%20Project.url)
