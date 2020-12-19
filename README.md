@@ -365,3 +365,5 @@
 
 #### 26. Process Automation with ASP.NET Core Microservices - Oct 2020
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/26.%20Process%20Automation%20with%20ASP.NET%20Core%20Microservices%20-%20Oct%202020/Defence%20Project.url)
+  >
+  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/26.%20Process%20Automation%20with%20ASP.NET%20Core%20Microservices%20-%20Oct%202020/Process%20Automation%20with%20ASP.NET%20Core%20Microservices%20-%20Oct%202020-Certificate.url)
