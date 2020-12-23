@@ -7,13 +7,9 @@
 ### Table of contents:
 ---
 #### 00. Diplomas
-  > [JavaScript Web Developer](https://softuni.bg/certificates/details/66724/328878e2)
-  >
-  > ![alt text](https://github.com/zrusev/softuni-2016/blob/master/00.%20Diplomas/Diploma%20for%20JavaScript%20Web%20Developer.PNG "Diploma for JavaScript Web Developer")
-  >
-  > [C# Web Developer](https://softuni.bg/certificates/details/66757/666b620c)
-  >
-  > ![alt text](https://github.com/zrusev/softuni-2016/blob/master/00.%20Diplomas/Diploma%20for%20C%23%20Web%20Developer.PNG "Diploma for C# Web Developer")
+  [C# Full-Stack Developer](https://softuni.bg/certificates/details/95576/90eeccac) | [C# Web Developer](https://softuni.bg/certificates/details/66757/666b620c) | [JavaScript Web Developer](https://softuni.bg/certificates/details/66724/328878e2)
+  --- | --- | ---
+  ![alt text](https://github.com/zrusev/softuni-2016/blob/master/00.%20Diplomas/Diploma%20for%20C%23%20Full-Stack%20Developer.PNG "Diploma for C# Full-Stack Developer") | ![alt text](https://github.com/zrusev/softuni-2016/blob/master/00.%20Diplomas/Diploma%20for%20C%23%20Web%20Developer.PNG "Diploma for C# Web Developer") | ![alt text](https://github.com/zrusev/softuni-2016/blob/master/00.%20Diplomas/Diploma%20for%20JavaScript%20Web%20Developer.PNG "Diploma for JavaScript Web Developer")
 
 #### 01. Programming Basics - Sep 2016
   > [Certificate](https://github.com/zrusev/SoftUni_2016/blob/master/01.%20Programming%20Basics%20-%20Sep%202016/Programming-Basics-September-2016-Certificate.url)
