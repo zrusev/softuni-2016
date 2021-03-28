@@ -312,12 +312,24 @@
   >
   > [02. Sorting](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/02.%20Sorting)
   >
+  > [03. Permutations, Variations, Combinations](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/03.%20Permutations%2C%20Variations%2C%20Combinations/Permutations)
+  >
   > [04. Greedy Algorithms](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/04.%20Greedy%20Algorithms)
 
 #### 18. Data structures - Dec 2018
   > [01. Linear Data Structures - List And DS Complexity](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/01.%20Linear%20Data%20Structures%20-%20List%20And%20DS%20Complexity)
   >
   > [02. Linear Data Structures - Stacks and Queues](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/02.%20Linear%20Data%20Structures%20-%20Stacks%20and%20Queues)
+  >
+  > [03. Data-Structures - Basic Trees](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/03.%20Data-Structures%20-%20Basic%20Trees)
+  >
+  > [05. Trees - Representation and Traversal - (BFS-DFS)](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/05.%20Trees%20-%20Representation%20and%20Traversal%20-%20(BFS-DFS))
+  >
+  > [06. Heaps BST](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/06.%20Heaps%20BST)
+  >
+  > [07. Heaps BST](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/07.%20Heaps%20BST)
+  >
+  > [08. Exam Preparation](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/08.%20Exam%20Preparation)
 
 #### 19. HTML & CSS - May 2019
   > [01. Custom Ratio Media Container](https://github.com/zrusev/softuni-2016/tree/master/19.%20HTML%20%26%20CSS%20-%20May%202019/01.%20Custom%20Ratio%20Media%20Container)
