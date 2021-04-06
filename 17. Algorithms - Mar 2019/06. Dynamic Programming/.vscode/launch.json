@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Fib",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Fibonacci Sequence/bin/Debug/netcoreapp3.1/Fibonacci Sequence.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Fibonacci Sequence",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+    ]
+}
