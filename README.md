@@ -5,7 +5,16 @@
 ![GitHub](https://img.shields.io/github/license/zrusev/SoftUni_2016.svg) ![GitHub stars](https://img.shields.io/github/stars/zrusev/SoftUni_2016.svg?style=social)
 
 ### Table of contents:
+[00. Diplomas](#00-diplomas)
+[01. Programming Basics - Sep 2016](#01-programming-basics---sep-2016)
+[02. Programming Fundamentals - Jan 2017](#02-programming-fundamentals---jan-2017)
+[03. Software Technologies - Feb 2017](#03-software-technologies---feb-2017)
+[04. C# Advanced - May 2017](#04-c-advanced---may-2017)
+[05. C# OOP Basics - June 2017](#05-c-oop-basics---june-2017)
+
 ---
+
+### Courses:
 #### 00. Diplomas
   [JS Web Developer](https://softuni.bg/certificates/details/66724/328878e2) | [C# Web Developer](https://softuni.bg/certificates/details/66757/666b620c)
   :---: | :---: 
