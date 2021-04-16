@@ -375,3 +375,5 @@
   > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/26.%20Process%20Automation%20with%20ASP.NET%20Core%20Microservices%20-%20Oct%202020/Process%20Automation%20with%20ASP.NET%20Core%20Microservices%20-%20Oct%202020-Certificate.url)
   >
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/26.%20Process%20Automation%20with%20ASP.NET%20Core%20Microservices%20-%20Oct%202020/Defence%20Project.url)
+  
+#### 27. C# Masterclass - March 2021
