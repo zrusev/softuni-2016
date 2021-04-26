@@ -1,0 +1,60 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Abstract-Factory",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Abstract-Factory/bin/Debug/netcoreapp3.1/Abstract-Factory.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Abstract-Factory",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Launch Builder",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Builder/bin/Debug/netcoreapp3.1/Builder.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Builder",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Launch Factory-Method",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Factory-Method/bin/Debug/netcoreapp3.1/Factory-Method.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Factory-Method",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Launch Prototype",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Prototype/bin/Debug/netcoreapp3.1/Prototype.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Prototype",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Launch Singleton",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/SingleTon/bin/Debug/netcoreapp3.1/Singleton.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Singleton",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+    ]
+}
