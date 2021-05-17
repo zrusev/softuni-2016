@@ -32,7 +32,7 @@
 [24. AWS Essentials - July 2020](#24-aws-essentials---july-2020)  
 [25. Domain-Driven Design with ASP.NET Core Microservices - Aug 2020](#25-domain-driven-design-with-aspnet-core-microservices---aug-2020)  
 [26. Process Automation with ASP.NET Core Microservices - Oct 2020](#26-process-automation-with-aspnet-core-microservices---oct-2020)  
-[27. C# Masterclass - Mar 2021](#27-c-masterclass---march-2021)  
+[27. C# Masterclass - Mar 2021](#27-c-masterclass---mar-2021)
 
 ---
 
