@@ -43,6 +43,11 @@
                 return mappings[type];
             }
 
+            if (!mappings.Values.Contains(type))
+            {
+                return default(Type);
+            }
+
             return type;
         }
 
