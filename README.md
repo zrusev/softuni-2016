@@ -408,6 +408,8 @@
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/26.%20Process%20Automation%20with%20ASP.NET%20Core%20Microservices%20-%20Oct%202020/Defence%20Project.url)
   
 #### 27. C# Masterclass - Mar 2021
+  > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/27.%20C%23%20Masterclass%20-%20Mar%202021/27.%20C%23%20Masterclass%20-%20Mar%202021%20-%20Certificate.url)
+  >
   > [00. Design-Patterns](https://github.com/zrusev/softuni-2016/tree/master/27.%20C%23%20Masterclass%20-%20Mar%202021/00.%20Design-Patterns)
   >
   > [02. TipsAndTricks](https://github.com/zrusev/softuni-2016/tree/master/27.%20C%23%20Masterclass%20-%20Mar%202021/02.%20TipsAndTricks)
