@@ -5,11 +5,15 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph Traversal", "Graph Traversal\Graph Traversal.csproj", "{B966BB2A-4D82-49DA-AD8F-A44714A1AD01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topological Sorting", "Topological Sorting\Topological Sorting.csproj", "{B089EA18-6BC2-40D6-8037-BEF2729F8EB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topological Sorting", "Topological Sorting\Topological Sorting.csproj", "{B089EA18-6BC2-40D6-8037-BEF2729F8EB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kruskals Algorithm", "Kruskals Algorithm\Kruskals Algorithm.csproj", "{FAEF83A3-338C-423C-8826-1AAD1AD2CF75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kruskals Algorithm", "Kruskals Algorithm\Kruskals Algorithm.csproj", "{FAEF83A3-338C-423C-8826-1AAD1AD2CF75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prims Algorithm", "Prims Algorithm\Prims Algorithm.csproj", "{AF6D5B16-3A44-4BB8-9703-44435E6BFF06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prims Algorithm", "Prims Algorithm\Prims Algorithm.csproj", "{AF6D5B16-3A44-4BB8-9703-44435E6BFF06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connected Components", "Connected Components\Connected Components.csproj", "{8998C93B-22DD-4F34-9886-809A53612A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstras Algorithm", "Dijkstras Algorithm\Dijkstras Algorithm.csproj", "{E18752C0-EA4C-45F7-9162-3FE993E8EB90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{AF6D5B16-3A44-4BB8-9703-44435E6BFF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF6D5B16-3A44-4BB8-9703-44435E6BFF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF6D5B16-3A44-4BB8-9703-44435E6BFF06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8998C93B-22DD-4F34-9886-809A53612A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8998C93B-22DD-4F34-9886-809A53612A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8998C93B-22DD-4F34-9886-809A53612A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8998C93B-22DD-4F34-9886-809A53612A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18752C0-EA4C-45F7-9162-3FE993E8EB90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18752C0-EA4C-45F7-9162-3FE993E8EB90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18752C0-EA4C-45F7-9162-3FE993E8EB90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18752C0-EA4C-45F7-9162-3FE993E8EB90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

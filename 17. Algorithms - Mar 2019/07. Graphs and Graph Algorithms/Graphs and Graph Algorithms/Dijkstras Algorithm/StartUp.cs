@@ -1,9 +1,7 @@
-﻿namespace Prims_Algorithm
+﻿namespace Dijkstras_Algorithm
 {
-    using System;
     using System.Collections.Generic;
     using System.Linq;
-    using Wintellect.PowerCollections;
 
     public class Edge
     {
@@ -18,52 +16,6 @@
     {
         static List<Edge> graph = new List<Edge>();
         static Dictionary<int, List<Edge>> nodeToEdges = new Dictionary<int, List<Edge>>();
-        static HashSet<int> spanningTree = new HashSet<int>();
-
-        private static void Prim(int startingNode)
-        {
-            spanningTree.Add(startingNode);
-
-            var priorityQueue = new OrderedBag<Edge>(
-                Comparer<Edge>.Create((f, s) => f.Weight - s.Weight));
-
-            priorityQueue.AddMany(nodeToEdges[startingNode]);
-
-            while (priorityQueue.Count != 0)
-            {
-                var minEdge = priorityQueue.GetFirst();
-                priorityQueue.Remove(minEdge);
-
-                var firstNode = minEdge.First;
-                var secondNode = minEdge.Second;
-
-                var nonTreeNode = -1;
-
-                if (spanningTree.Contains(firstNode) &&
-                    !spanningTree.Contains(secondNode))
-                {
-                    nonTreeNode = secondNode;
-                }
-
-
-                if (spanningTree.Contains(secondNode) &&
-                    !spanningTree.Contains(firstNode))
-                {
-                    nonTreeNode = firstNode;
-                }
-
-                if (nonTreeNode == -1)
-                {
-                    continue;
-                }
-
-                spanningTree.Add(nonTreeNode);
-
-                Console.WriteLine($"{minEdge.First} - {minEdge.Second}");
-
-                priorityQueue.AddMany(nodeToEdges[nonTreeNode]);
-            }
-        }
 
         public static void Main()
         {
@@ -104,11 +56,44 @@
                 nodeToEdges[edge.Second].Add(edge);
             }
 
-            foreach (var node in nodes)
+            var distances = new int[nodes.Max() + 1];
+
+            for (int i = 0; i < distances.Length; i++)
             {
-                if (!spanningTree.Contains(node))
+                distances[i] = int.MaxValue;
+            }
+
+            distances[nodes.First()] = 0;
+
+            var queue = new SortedSet<int>(
+                Comparer<int>.Create((f, s) => distances[f] - distances[s]));
+
+            queue.Add(nodes.First());
+
+            while (queue.Count != 0)
+            {
+                var min = queue.Min();
+                queue.Remove(min);
+
+                foreach (var edge in nodeToEdges[min])
                 {
-                    Prim(node);
+                    var otherNode = edge.First == min
+                        ? edge.Second
+                        : edge.First;
+
+                    if (distances[otherNode] == int.MaxValue)
+                    {
+                        queue.Add(otherNode);
+                    }
+
+                    var newDistance = distances[min] + edge.Weight;
+
+                    if (newDistance < distances[otherNode])
+                    {
+                        distances[otherNode] = newDistance;
+                        queue.Remove(otherNode);
+                        queue.Add(otherNode);
+                    }
                 }
             }
         }
