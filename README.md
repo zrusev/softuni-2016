@@ -346,6 +346,12 @@
   > [03. Permutations, Variations, Combinations](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/03.%20Permutations%2C%20Variations%2C%20Combinations/Permutations)
   >
   > [04. Greedy Algorithms](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/04.%20Greedy%20Algorithms)
+  >
+  > [05. Combinatorial and Greedy Algorithms](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/05.%20Combinatorial%20and%20Greedy%20Algorithms)
+  >
+  > [06. Dynamic Programming](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/06.%20Dynamic%20Programming)
+  >
+  > [07. Graphs and Graph Algorithms](https://github.com/zrusev/softuni-2016/tree/master/17.%20Algorithms%20-%20Mar%202019/07.%20Graphs%20and%20Graph%20Algorithms)
 
 #### 18. Data structures - Dec 2018
   > [01. Linear Data Structures - List And DS Complexity](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/01.%20Linear%20Data%20Structures%20-%20List%20And%20DS%20Complexity)
