@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StronglyConnectedComponents", "StronglyConnectedComponents\StronglyConnectedComponents.csproj", "{7ABCD255-DDE1-4CD0-A711-4F033F180112}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxFlowEdmondsKarp", "MaxFlowEdmondsKarp\MaxFlowEdmondsKarp.csproj", "{CBAC970E-B57F-4D2E-8A29-049120082E48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxFlowEdmondsKarp.Tests", "MaxFlowEdmondsKarp.Tests\MaxFlowEdmondsKarp.Tests.csproj", "{AC712D51-5FE0-4B7B-AFEC-59AA5EA58F1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaking Cycles", "Breaking Cycles\Breaking Cycles.csproj", "{B447CE01-6AF7-4980-BCB4-6DFB921B0666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cable Network", "Cable Network\Cable Network.csproj", "{1BF8A785-9B22-4079-B2EB-9E4265FBBAD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,8 +49,19 @@ Global
 		{AC712D51-5FE0-4B7B-AFEC-59AA5EA58F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC712D51-5FE0-4B7B-AFEC-59AA5EA58F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC712D51-5FE0-4B7B-AFEC-59AA5EA58F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B447CE01-6AF7-4980-BCB4-6DFB921B0666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B447CE01-6AF7-4980-BCB4-6DFB921B0666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B447CE01-6AF7-4980-BCB4-6DFB921B0666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B447CE01-6AF7-4980-BCB4-6DFB921B0666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF8A785-9B22-4079-B2EB-9E4265FBBAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF8A785-9B22-4079-B2EB-9E4265FBBAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF8A785-9B22-4079-B2EB-9E4265FBBAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF8A785-9B22-4079-B2EB-9E4265FBBAD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF644A0B-0B8E-4210-A782-51399F6D8AC9}
 	EndGlobalSection
 EndGlobal
