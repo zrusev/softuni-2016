@@ -36,7 +36,6 @@
 
 ---
 
-### Courses:
 #### 00. Diplomas
   [JS Web Developer](https://softuni.bg/certificates/details/66724/328878e2) | [C# Web Developer](https://softuni.bg/certificates/details/66757/666b620c)
   :---: | :---:
