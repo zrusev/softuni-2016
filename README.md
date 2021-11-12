@@ -5,33 +5,33 @@
 ![GitHub](https://img.shields.io/github/license/zrusev/SoftUni_2016.svg) ![GitHub stars](https://img.shields.io/github/stars/zrusev/SoftUni_2016.svg?style=social)
 
 ### Table of contents:
-[00. Diplomas](#00-diplomas)  
-[01. Programming Basics - Sep 2016](#01-programming-basics---sep-2016)  
-[02. Programming Fundamentals - Jan 2017](#02-programming-fundamentals---jan-2017)  
-[03. Software Technologies - Feb 2017](#03-software-technologies---feb-2017)  
-[04. C# Advanced - May 2017](#04-c-advanced---may-2017)  
-[05. C# OOP Basics - June 2017](#05-c-oop-basics---june-2017)  
-[06. C# OOP Advanced - July 2017](#06-c-oop-advanced---july-2017)  
-[07. C# Web Basics - May 2018](#07-c-web-basics---may-2018)  
-[08. C# MVC Frameworks - July 2018](#08-c-mvc-frameworks---july-2018)  
-[09. JS Fundamentals - Sep 2018](#09-js-fundamentals---sep-2018)  
-[10. JS Advanced - Oct 2018](#10-js-advanced---oct-2018)  
-[11. JS Applications - Nov 2018](#11-js-applications---nov-2018)  
-[12. ExpressJS Fundamentals - Jan 2019](#12-expressjs-fundamentals---jan-2019)  
-[13. ReactJS Fundamentals - Feb 2019](#13-reactjs-fundamentals---feb-2019)  
-[14. Angular Fundamentals - Мar 2019](#14-angular-fundamentals---%D0%BCar-2019)  
-[15. Databases Basics - MS SQL Server - Jan 2019](#15-databases-basics---ms-sql-server---jan-2019)  
-[16. Databases Advanced - Entity Framework - Feb 2019](#16-databases-advanced---entity-framework---feb-2019)  
-[17. Algorithms - Mar 2019](#17-algorithms---mar-2019)  
-[18. Data structures - Dec 2018](#18-data-structures---dec-2018)  
-[19. HTML & CSS - May 2019](#19-html--css---may-2019)  
-[20. CSS Advanced - July 2019](#20-css-advanced---july-2019)  
-[21. Webpack 4 - Aug 2019](#21-webpack-4---aug-2019)  
-[22. React Web Applications Masterclass - Oct 2019](#22-react-web-applications-masterclass---oct-2019)  
-[23. Architecture of ASP.NET Core Microservices Applications - June 2020](#23-architecture-of-aspnet-core-microservices-applications---june-2020)  
-[24. AWS Essentials - July 2020](#24-aws-essentials---july-2020)  
-[25. Domain-Driven Design with ASP.NET Core Microservices - Aug 2020](#25-domain-driven-design-with-aspnet-core-microservices---aug-2020)  
-[26. Process Automation with ASP.NET Core Microservices - Oct 2020](#26-process-automation-with-aspnet-core-microservices---oct-2020)  
+[00. Diplomas](#00-diplomas)
+[01. Programming Basics - Sep 2016](#01-programming-basics---sep-2016)
+[02. Programming Fundamentals - Jan 2017](#02-programming-fundamentals---jan-2017)
+[03. Software Technologies - Feb 2017](#03-software-technologies---feb-2017)
+[04. C# Advanced - May 2017](#04-c-advanced---may-2017)
+[05. C# OOP Basics - June 2017](#05-c-oop-basics---june-2017)
+[06. C# OOP Advanced - July 2017](#06-c-oop-advanced---july-2017)
+[07. C# Web Basics - May 2018](#07-c-web-basics---may-2018)
+[08. C# MVC Frameworks - July 2018](#08-c-mvc-frameworks---july-2018)
+[09. JS Fundamentals - Sep 2018](#09-js-fundamentals---sep-2018)
+[10. JS Advanced - Oct 2018](#10-js-advanced---oct-2018)
+[11. JS Applications - Nov 2018](#11-js-applications---nov-2018)
+[12. ExpressJS Fundamentals - Jan 2019](#12-expressjs-fundamentals---jan-2019)
+[13. ReactJS Fundamentals - Feb 2019](#13-reactjs-fundamentals---feb-2019)
+[14. Angular Fundamentals - Мar 2019](#14-angular-fundamentals---%D0%BCar-2019)
+[15. Databases Basics - MS SQL Server - Jan 2019](#15-databases-basics---ms-sql-server---jan-2019)
+[16. Databases Advanced - Entity Framework - Feb 2019](#16-databases-advanced---entity-framework---feb-2019)
+[17. Algorithms - Mar 2019](#17-algorithms---mar-2019)
+[18. Data structures - Dec 2018](#18-data-structures---dec-2018)
+[19. HTML & CSS - May 2019](#19-html--css---may-2019)
+[20. CSS Advanced - July 2019](#20-css-advanced---july-2019)
+[21. Webpack 4 - Aug 2019](#21-webpack-4---aug-2019)
+[22. React Web Applications Masterclass - Oct 2019](#22-react-web-applications-masterclass---oct-2019)
+[23. Architecture of ASP.NET Core Microservices Applications - June 2020](#23-architecture-of-aspnet-core-microservices-applications---june-2020)
+[24. AWS Essentials - July 2020](#24-aws-essentials---july-2020)
+[25. Domain-Driven Design with ASP.NET Core Microservices - Aug 2020](#25-domain-driven-design-with-aspnet-core-microservices---aug-2020)
+[26. Process Automation with ASP.NET Core Microservices - Oct 2020](#26-process-automation-with-aspnet-core-microservices---oct-2020)
 [27. C# Masterclass - Mar 2021](#27-c-masterclass---mar-2021)
 
 ---
@@ -39,7 +39,7 @@
 ### Courses:
 #### 00. Diplomas
   [JS Web Developer](https://softuni.bg/certificates/details/66724/328878e2) | [C# Web Developer](https://softuni.bg/certificates/details/66757/666b620c)
-  :---: | :---: 
+  :---: | :---:
   ![alt text](https://github.com/zrusev/softuni-2016/blob/master/00.%20Diplomas/Diploma%20for%20JavaScript%20Web%20Developer.PNG "Diploma for JavaScript Web Developer") | ![alt text](https://github.com/zrusev/softuni-2016/blob/master/00.%20Diplomas/Diploma%20for%20C%23%20Web%20Developer.PNG "Diploma for C# Web Developer")
 
 #### 01. Programming Basics - Sep 2016
@@ -367,6 +367,14 @@
   > [07. Heaps BST](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/07.%20Heaps%20BST)
   >
   > [08. Exam Preparation](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/08.%20Exam%20Preparation)
+  >
+  > [09. B-Trees and Red-Black Trees](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/09.%20B-Trees%20and%20Red-Black%20Trees)
+  >
+  > [10. AA-Trees and AVL Trees](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/10.%20AA-Trees%20and%20AVL%20Trees)
+  >
+  > [11. Quad Trees, K-d Trees, Interval Trees](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/11.%20Quad%20Trees%2C%20K-d%20Trees%2C%20Interval%20Trees)
+  >
+  > [12. Hash Tables - Sets and Dictionaries](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/12.%20Hash%20Tables%20-%20Sets%20and%20Dictionaries)
 
 #### 19. HTML & CSS - May 2019
   > [01. Custom Ratio Media Container](https://github.com/zrusev/softuni-2016/tree/master/19.%20HTML%20%26%20CSS%20-%20May%202019/01.%20Custom%20Ratio%20Media%20Container)
@@ -412,7 +420,7 @@
   > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/26.%20Process%20Automation%20with%20ASP.NET%20Core%20Microservices%20-%20Oct%202020/Process%20Automation%20with%20ASP.NET%20Core%20Microservices%20-%20Oct%202020-Certificate.url)
   >
   > [Defence Project](https://github.com/zrusev/softuni-2016/blob/master/26.%20Process%20Automation%20with%20ASP.NET%20Core%20Microservices%20-%20Oct%202020/Defence%20Project.url)
-  
+
 #### 27. C# Masterclass - Mar 2021
   > [Certificate](https://github.com/zrusev/softuni-2016/blob/master/27.%20C%23%20Masterclass%20-%20Mar%202021/27.%20C%23%20Masterclass%20-%20Mar%202021%20-%20Certificate.url)
   >
