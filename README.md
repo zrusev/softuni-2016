@@ -375,6 +375,10 @@
   > [11. Quad Trees, K-d Trees, Interval Trees](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/11.%20Quad%20Trees%2C%20K-d%20Trees%2C%20Interval%20Trees)
   >
   > [12. Hash Tables - Sets and Dictionaries](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/12.%20Hash%20Tables%20-%20Sets%20and%20Dictionaries)
+  >
+  > [13. Combining Data Structures](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/13.%20Combining%20Data%20Structures)
+  >
+  > [14. Data Structures Retake Exam 09 Sep 2017](https://github.com/zrusev/softuni-2016/tree/master/18.%20Data%20structures%20-%20Dec%202018/14.%20Data%20Structures%20Retake%20Exam%2009%20Sep%202017)
 
 #### 19. HTML & CSS - May 2019
   > [01. Custom Ratio Media Container](https://github.com/zrusev/softuni-2016/tree/master/19.%20HTML%20%26%20CSS%20-%20May%202019/01.%20Custom%20Ratio%20Media%20Container)
