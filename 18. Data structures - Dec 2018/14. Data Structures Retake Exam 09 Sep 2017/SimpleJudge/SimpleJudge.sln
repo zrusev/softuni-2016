@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleJudge.Tests", "..\SimpleJudge.Tests\SimpleJudge.Tests.csproj", "{50705858-7163-4677-A284-E32EAE4BF26C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleJudge", "SimpleJudge.csproj", "{EE515E36-F3CD-48A9-A41E-724442F9906D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50705858-7163-4677-A284-E32EAE4BF26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50705858-7163-4677-A284-E32EAE4BF26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50705858-7163-4677-A284-E32EAE4BF26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50705858-7163-4677-A284-E32EAE4BF26C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE515E36-F3CD-48A9-A41E-724442F9906D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE515E36-F3CD-48A9-A41E-724442F9906D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE515E36-F3CD-48A9-A41E-724442F9906D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE515E36-F3CD-48A9-A41E-724442F9906D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19ECA958-0906-4F4E-A633-CD5F011DE368}
+	EndGlobalSection
+EndGlobal
