@@ -1,0 +1,7 @@
+C# Multithreading
+Mandatory Task Descriptions
+1. You are given a big text file (at least 100MB), and you need to find how many times a word exists in it. Do it as optimally as possible on your machine. The task is crucial to you, and you do not care how much system resources you are going to need, as long the results are calculated fast.
+2. Merge and quick sorts are usually fast enough. But can you improve these famous algorithms by executing them in parallel? Easier said than done, especially with the merge sort!
+3. You need to implement your own cache in an asynchronous, multithreaded server environment. Can you do it?
+4. You must download multiple large files in the background. You do not need them as fast as possible, but you still do not want to download each file one by one. Additionally, you want to show the downloading progress of all the files in total and for every file individually. Hardcore, I know!
+5. You have two folders, and you want to keep the folders in one-way sync. Every change in the source folder should reflect in the destination one. This background task should run until manually stopped, and it should not interfere with the computer’s normal usage. You also want to log every single sync operation.
