@@ -34,6 +34,7 @@
 - [x] [25. Domain-Driven Design with ASP.NET Core Microservices - Aug 2020](#25-domain-driven-design-with-aspnet-core-microservices---aug-2020)
 - [x] [26. Process Automation with ASP.NET Core Microservices - Oct 2020](#26-process-automation-with-aspnet-core-microservices---oct-2020)
 - [x] [27. C# Masterclass - Mar 2021](#27-c-masterclass---mar-2021)
+- [x] [28. Multithreading](#27-c-masterclass---mar-2021)
 
 ---
 
@@ -439,3 +440,7 @@
   > [C# Masterclass Exam - 01 December 2019](https://github.com/zrusev/softuni-2016/tree/master/27.%20C%23%20Masterclass%20-%20Mar%202021/C%23%20Masterclass%20Exam%20-%2001%20December%202019)
   >
   > [C# Masterclass Exam - 16 May 2021](https://github.com/zrusev/softuni-2016/tree/master/27.%20C%23%20Masterclass%20-%20Mar%202021/C%23%20Masterclass%20Exam%20-%2016%20May%202021)
+  
+#### 28. Multithreading
+  > [Multithreading](https://github.com/zrusev/softuni-2016/tree/master/28.%20Multithreading/Multithreading)
+  >
